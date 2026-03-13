@@ -1,0 +1,182 @@
+---
+title: "Private K–12 Enrollment Share Estimates: 2011 vs. 2021"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    theme: flatly
+---
+
+## Overview
+
+This document estimates private K–12 enrollment shares for the United States and North Carolina, comparing the 2011–12 and 2021–22 school years. It walks through data loading, weighted enrollment calculations, and the derivation of private enrollment share and percentage change statistics.
+
+Private enrollment counts come from the NCES Private School Universe Survey (PSS) microdata. Public enrollment denominators come from NCES Digest of Education Statistics Table 203.40. Pre-kindergarten enrollment is excluded from all figures to ensure comparability across sectors.
+
+------------------------------------------------------------------------
+
+## Setup
+
+```{r}
+#| label: setup
+#| message: false
+#| warning: false
+
+library(readr)
+library(dplyr)
+library(knitr)
+```
+
+------------------------------------------------------------------------
+
+## 1. Load PSS Microdata
+
+The PSS microdata files differ in format across waves: the 2011–12 file is tab-delimited, while the 2021–22 file is a CSV.
+
+```{r}
+#| label: load-data
+#| message: false
+
+# 2011–12: tab-delimited
+pss_1112 <- read_tsv("pss1112_pu.txt", show_col_types = FALSE)
+
+# 2021–22: CSV
+pss_2122 <- read_csv("pss2122_pu.csv", show_col_types = FALSE)
+```
+
+------------------------------------------------------------------------
+
+## 2. Weighted Private K–12 Totals
+
+PSS enrollment figures are weighted using each school's final survey weight (`PFNLWT`) to produce nationally and state-representative estimates. The variable `NUMSTUDS` captures K–12 enrollment only — pre-kindergarten is excluded from this count.
+
+Weighted totals are computed for the US overall and for North Carolina separately, then bound into a single tibble.
+
+```{r}
+#| label: weighted-totals
+
+priv_k12_2011 <- pss_1112 |>
+  transmute(state = pstabb, k12 = numstuds, w = pfnlwt) |>
+  summarise(
+    year = 2011,
+    us_priv_k12 = sum(k12 * w, na.rm = TRUE),
+    nc_priv_k12 = sum(k12[state == "NC"] * w[state == "NC"], na.rm = TRUE)
+  )
+
+priv_k12_2021 <- pss_2122 |>
+  transmute(state = PSTABB, k12 = NUMSTUDS, w = PFNLWT) |>
+  summarise(
+    year = 2021,
+    us_priv_k12 = sum(k12 * w, na.rm = TRUE),
+    nc_priv_k12 = sum(k12[state == "NC"] * w[state == "NC"], na.rm = TRUE)
+  )
+```
+
+------------------------------------------------------------------------
+
+## 3. Public K–12 Denominators
+
+Public K–12 enrollment denominators are drawn from NCES Digest of Education Statistics Table 203.40 for fall 2011 and fall 2021. Public pre-kindergarten enrollment is subtracted from each public total to ensure comparability with the private figures.
+
+-   Fall 2011 — [Table 203.40](https://nces.ed.gov/programs/digest/d13/tables/dt13_203.40.asp)
+-   Fall 2021 — [Table 203.40](https://nces.ed.gov/programs/digest/d22/tables/dt22_203.40.asp)
+
+```{r}
+#| label: public-denominators
+
+pub_k12 <- tibble(
+  year = c(2011, 2021),
+  us_pub_k12 = c(49521669 - 1290977, 49433092 - 1410554),
+  nc_pub_k12 = c(1507864 - 33603, 1525223 - 21304)
+)
+```
+
+------------------------------------------------------------------------
+
+## 4. Summary Statistics
+
+### Helper Functions
+
+Two helper functions handle the core calculations:
+
+-   **`pct_change()`** computes the percentage change in private enrollment between 2011 and 2021.
+-   **`priv_share()`** computes the private enrollment share as a percentage of total (public + private) K–12 enrollment.
+
+$$\text{Private share (\%)} = \frac{\text{Private K–12}}{\text{Private K–12} + \text{Public K–12}} \times 100$$
+
+$$\text{\% change} = \frac{\text{Private}_{2021} - \text{Private}_{2011}}{\text{Private}_{2011}} \times 100$$
+
+Change in private share is reported in percentage points (pp) as the simple difference between the 2021 and 2011 private share values.
+
+```{r}
+#| label: helper-functions
+
+pct_change <- function(a, b) (b - a) / a * 100
+priv_share <- function(priv, pub) priv / (priv + pub) * 100
+```
+
+### Combine and Compute
+
+```{r}
+#| label: compute-output
+
+out <- bind_rows(priv_k12_2011, priv_k12_2021) |>
+  left_join(pub_k12, by = "year") |>
+  reframe(
+    geography = c("US", "NC"),
+    priv_k12_2011 = c(us_priv_k12[year == 2011], nc_priv_k12[year == 2011]),
+    priv_k12_2021 = c(us_priv_k12[year == 2021], nc_priv_k12[year == 2021]),
+    priv_k12_growth_pct = pct_change(priv_k12_2011, priv_k12_2021),
+    priv_k12_share_2011 = priv_share(
+      priv_k12_2011,
+      c(us_pub_k12[year == 2011], nc_pub_k12[year == 2011])
+    ),
+    priv_k12_share_2021 = priv_share(
+      priv_k12_2021,
+      c(us_pub_k12[year == 2021], nc_pub_k12[year == 2021])
+    ),
+    share_change_pp = priv_k12_share_2021 - priv_k12_share_2011
+  )
+```
+
+------------------------------------------------------------------------
+
+## 5. Results
+
+```{r}
+#| label: results-table
+
+out |>
+  kable(
+    digits = 2,
+    caption = "Private K–12 Enrollment Share Estimates: US and NC, 2011 vs. 2021",
+    col.names = c(
+      "Geography",
+      "Private K–12 (2011)",
+      "Private K–12 (2021)",
+      "Growth (%)",
+      "Private Share 2011 (%)",
+      "Private Share 2021 (%)",
+      "Change (pp)"
+    )
+  )
+```
+
+------------------------------------------------------------------------
+
+## Methods Note
+
+Private K–12 enrollment counts were drawn from the National Center for Education Statistics (NCES) Private School Universe Survey (PSS) microdata for the 2011–12 and 2021–22 school years. PSS enrollment figures were weighted using each school's final survey weight (`PFNLWT`) to produce nationally and state-representative estimates. Pre-kindergarten enrollment is excluded from all counts; the PSS variable `NUMSTUDS` captures grades K–12 only.
+
+Public K–12 enrollment denominators were drawn from NCES Digest of Education Statistics Table 203.40 for fall 2011 and fall 2021. Public pre-kindergarten enrollment was subtracted from each public total to ensure comparability with the private figures.
+
+**Private enrollment share** for a given year is defined as:
+
+$$\text{Private share (\%)} = \frac{\text{Private K–12}}{\text{Private K–12} + \text{Public K–12}} \times 100$$
+
+**Percentage change in private enrollment** between 2011 and 2021 is defined as:
+
+$$\text{\% change} = \frac{\text{Private}_{2021} - \text{Private}_{2011}}{\text{Private}_{2011}} \times 100$$
+
+**Change in private share** is reported in percentage points (pp) as the simple difference between the 2021 and 2011 private shares. All estimates are reported separately for the United States overall and for North Carolina.
