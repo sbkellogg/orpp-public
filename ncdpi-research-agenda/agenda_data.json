@@ -777,7 +777,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "Title I/II/III/IV investments",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Explore which federal spending patterns and funded activities are associated with stronger student outcomes, including achievement gap reduction, and under what conditions.",
       "section": "",
       "source_paragraph": 29,
       "topics": [
@@ -800,7 +800,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "Early Literacy Specialists",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Identify credible measures and feasible evaluation approaches to understand how Early Literacy Specialists contribute to student learning, teacher practice, and school capacity.",
       "section": "",
       "source_paragraph": 30,
       "topics": [
@@ -823,7 +823,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "FINCH kindergarten readiness implementation",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Examine FINCH’s usability and feasibility for Read to Achieve purposes, and how its use could affect kindergarten assessment decisions and growth measurement.",
       "section": "",
       "source_paragraph": 31,
       "topics": [
@@ -836,6 +836,14 @@
       ],
       "links": [
         {
+          "title": "FINCH assessment overview",
+          "url": "https://teachingstrategies.com/product/game-based-assessment-solution/"
+        },
+        {
+          "title": "NCDPI early learning assessment resources",
+          "url": "https://www.dpi.nc.gov/districts-schools/classroom-resources/office-early-learning/preschool"
+        },
+        {
           "title": "Office of Early Learning",
           "url": "https://www.dpi.nc.gov/districts-schools/classroom-resources/office-early-learning-oel"
         }
@@ -847,7 +855,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "National Board certification and bonus programs",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Investigate the longer-term effects of National Board certification and bonus programs, including the linked workforce and funding data needed for credible evaluation.",
       "section": "",
       "source_paragraph": 32,
       "topics": [
@@ -858,6 +866,10 @@
         "SBS"
       ],
       "links": [
+        {
+          "title": "National Board Certification",
+          "url": "https://www.dpi.nc.gov/educators/national-board-certification"
+        },
         {
           "title": "ORPP research and reports",
           "url": "https://www.dpi.nc.gov/districts-schools/office-research-promising-practices"
@@ -870,7 +882,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "Cell phone policies",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Explore outcomes associated with changes in school and district cell phone policies, where available data and evaluation conditions support meaningful comparisons.",
       "section": "",
       "source_paragraph": 33,
       "topics": [
@@ -893,7 +905,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "Mathematics interventions and Foundations courses",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Examine how mathematics interventions and Foundations courses support student learning and readiness for subsequent coursework, and how results vary across students and implementation approaches.",
       "section": "",
       "source_paragraph": 34,
       "topics": [
@@ -918,7 +930,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "Scheduling and delivery models",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Explore how school schedules and instructional delivery models relate to learning opportunities, student outcomes, and staffing needs, and which approaches work best in different settings.",
       "section": "",
       "source_paragraph": 35,
       "topics": [
@@ -941,7 +953,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "Family engagement strategies",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Examine how family engagement strategies support participation in schooling, attendance, and student learning, including which approaches reach families facing barriers to engagement.",
       "section": "",
       "source_paragraph": 36,
       "topics": [
@@ -965,7 +977,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "School safety practices",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Explore how school safety practices are implemented and how they relate to student and staff perceptions of safety, school climate, and learning conditions.",
       "section": "",
       "source_paragraph": 37,
       "topics": [
@@ -990,7 +1002,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "School health and behavioral health initiatives",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Examine how school health and behavioral health initiatives affect access to services, student well-being, attendance, and learning, including differences across schools and student groups.",
       "section": "",
       "source_paragraph": 38,
       "topics": [
@@ -1014,7 +1026,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "School-based Medicaid expansion",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Explore how expanded school-based Medicaid services affect access to student supports, district service capacity, and financing, including the costs and challenges of implementation.",
       "section": "",
       "source_paragraph": 39,
       "topics": [
@@ -1038,7 +1050,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "Disaster-recovery supports",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Examine how disaster-recovery supports help schools restore services and support student attendance, well-being, and learning, and how needs and recovery vary across communities.",
       "section": "",
       "source_paragraph": 40,
       "topics": [
@@ -1062,7 +1074,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "Charter transportation and nutrition models",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Compare charter school transportation and nutrition service models, their costs, and promising approaches to meeting student needs, including lessons from other states.",
       "section": "",
       "source_paragraph": 41,
       "topics": [
@@ -1090,7 +1102,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "Educator preparation and workforce pipeline initiatives, including teacher apprenticeships and principal development supports",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Examine how educator preparation, teacher apprenticeships, and principal development supports contribute to workforce entry, readiness, and retention, and how outcomes vary across programs and settings.",
       "section": "",
       "source_paragraph": 42,
       "topics": [
@@ -1114,7 +1126,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "Extended learning, integrated student supports, and attendance early-intervention programs",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Explore how extended learning, integrated student supports, and early attendance interventions relate to student engagement, attendance, and academic progress, including implementation conditions and costs.",
       "section": "",
       "source_paragraph": 43,
       "topics": [
@@ -1140,7 +1152,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "AI-supported instruction, digital learning platforms, and curriculum modernization",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Examine how AI-supported instruction, digital platforms, and curriculum changes affect teaching and learning, including implementation demands, access, and differences in outcomes across students.",
       "section": "",
       "source_paragraph": 44,
       "topics": [
@@ -1165,7 +1177,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "Career and postsecondary pathways, including CTE modernization and innovative learning models",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Explore how career and postsecondary pathway models expand access to learning opportunities and support transitions beyond high school, including differences in participation and outcomes.",
       "section": "",
       "source_paragraph": 45,
       "topics": [
@@ -1191,7 +1203,7 @@
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
       "kind": "Area of Interest",
       "title": "School nutrition and other policies designed to reduce barriers to learning",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Examine how school nutrition and other supports reduce barriers to participation and learning, including their reach, implementation costs, and relationships with attendance and student outcomes.",
       "section": "",
       "source_paragraph": 46,
       "topics": [
@@ -1810,7 +1822,7 @@
       "priority_name": "Policy Design, Resource Allocation, and Governance",
       "kind": "Area of Interest",
       "title": "Weighted-student funding and alternative state school finance models",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Compare how weighted-student funding and alternative school finance models distribute resources across districts and student needs, including implications for equity, adequacy, and local planning.",
       "section": "",
       "source_paragraph": 75,
       "topics": [
@@ -1837,7 +1849,7 @@
       "priority_name": "Policy Design, Resource Allocation, and Governance",
       "kind": "Area of Interest",
       "title": "Low-wealth supplemental funding and resource distribution",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Examine how low-wealth supplemental funding reaches districts and students with greater resource needs, and how allocation patterns relate to educational opportunities and local capacity.",
       "section": "",
       "source_paragraph": 76,
       "topics": [
@@ -1865,7 +1877,7 @@
       "priority_name": "Policy Design, Resource Allocation, and Governance",
       "kind": "Area of Interest",
       "title": "School assignment, open enrollment, and educational choice policies",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Explore how assignment, open enrollment, and school choice policies shape access, enrollment patterns, and student outcomes, including implications for transportation and district planning.",
       "section": "",
       "source_paragraph": 77,
       "topics": [
@@ -1889,7 +1901,7 @@
       "priority_name": "Policy Design, Resource Allocation, and Governance",
       "kind": "Area of Interest",
       "title": "Automatic enrollment in advanced coursework",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Examine how automatic enrollment policies affect access to advanced coursework, participation, and subsequent performance, including whether opportunity gaps narrow across schools and student groups.",
       "section": "",
       "source_paragraph": 78,
       "topics": [
@@ -1914,7 +1926,7 @@
       "priority_name": "Policy Design, Resource Allocation, and Governance",
       "kind": "Area of Interest",
       "title": "Educator licensure and alternative staffing arrangements",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Explore how licensure requirements and alternative staffing arrangements affect workforce supply, qualifications, stability, and student outcomes, including differences across school contexts.",
       "section": "",
       "source_paragraph": 79,
       "topics": [
@@ -1939,7 +1951,7 @@
       "priority_name": "Policy Design, Resource Allocation, and Governance",
       "kind": "Area of Interest",
       "title": "Innovative school models and operational flexibility",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Examine how innovative school models use operational flexibility and how those choices relate to educational opportunities, organizational capacity, and student outcomes.",
       "section": "",
       "source_paragraph": 80,
       "topics": [
@@ -1963,7 +1975,7 @@
       "priority_name": "Policy Design, Resource Allocation, and Governance",
       "kind": "Area of Interest",
       "title": "School nutrition and student access policies",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Explore how school nutrition eligibility, access, and service policies affect participation and barriers to learning, including differences across schools, communities, and student groups.",
       "section": "",
       "source_paragraph": 81,
       "topics": [
@@ -1987,7 +1999,7 @@
       "priority_name": "Policy Design, Resource Allocation, and Governance",
       "kind": "Area of Interest",
       "title": "Statewide policy implementation and administrative requirements",
-      "description": "A specific NCDPI area of interest within the research agenda.",
+      "description": "Examine how statewide policy requirements are interpreted and implemented locally, including administrative burden, consistency across districts, and opportunities to simplify processes while preserving accountability.",
       "section": "",
       "source_paragraph": 82,
       "topics": [

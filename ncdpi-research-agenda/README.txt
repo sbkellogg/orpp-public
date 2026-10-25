@@ -3,7 +3,12 @@ NCDPI Research & Policy Priorities — Research Directory
 Open index.html in a modern browser. The search and filters work without internet access. Keep orpp-logo.png alongside index.html to display the office logo. External NCDPI and legislative links require internet access.
 
 Contents:
-- index.html: complete standalone webpage with built-in data and search.
+- index.html: main research agenda with search and filters.
+- offices.html: office directory and sponsorship guidance.
+- agenda-development.html: agenda background, development process, and sources.
+- directory-data.js: shared research and office information used by the research and office pages; keep aligned with agenda_data.json.
+- styles.css: shared styles for all pages.
+- offices.js: office directory rendering.
 - agenda_crosswalk.csv: all entries with suggested collaborating offices and links; edit in Excel.
 - agenda_data.json: structured source data (developer-friendly).
 - orpp-logo.png: office logo used in the header.
