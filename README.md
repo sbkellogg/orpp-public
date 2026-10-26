@@ -11,4 +11,5 @@ Public repository for charts, data, and reports for the NCDPI Office of Research
 | [bright-spots-app](bright-spots-app/) | Shiny app for exploring attendance bright spots |
 | [enrollments](enrollments/) | National and private school enrollment data, scripts, and report |
 | [ncdpi-research-agenda](ncdpi-research-agenda/) | NCDPI research and policy priorities directory: searchable agenda, office directory, agenda development background, data, and crosswalk |
+| [research-compendium](research-compendium/) | Draft NC Education Research Compendium: question syntheses, study records, researcher directory, coverage map, and review exports |
 | [working-conditions](working-conditions/) | Teacher working conditions maps and summary tables |

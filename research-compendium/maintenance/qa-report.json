@@ -1,0 +1,75 @@
+{
+  "checked": "2026-10-26",
+  "status": "Passed initial build checks",
+  "static_checks": {
+    "generated_html_pages": 141,
+    "internal_references": 4511,
+    "broken_internal_links": 0,
+    "single_h1_and_language": true,
+    "unique_element_ids": true,
+    "csv_row_counts": true,
+    "javascript_syntax": true,
+    "git_diff_whitespace": true
+  },
+  "browser_checks": [
+    {
+      "check": "Initial question directory",
+      "result": "35 entries with linked records"
+    },
+    {
+      "check": "Include questions awaiting review",
+      "result": "62 total standing agenda entries"
+    },
+    {
+      "check": "Substantial classification filter",
+      "result": "RA-041 only"
+    },
+    {
+      "check": "Studies view",
+      "result": "31 records; question-only controls hidden"
+    },
+    {
+      "check": "Preliminary findings filter",
+      "result": "6 records"
+    },
+    {
+      "check": "Project record filter",
+      "result": "2 records; no findings counted"
+    },
+    {
+      "check": "Priority 4 plus Attendance topic",
+      "result": "6 study records, correct IDs; restored after reload"
+    },
+    {
+      "check": "No-match search",
+      "result": "0 results with a clear reset action"
+    },
+    {
+      "check": "Researcher directory",
+      "result": "21 profiles"
+    },
+    {
+      "check": "UNC Charlotte institution filter",
+      "result": "Anne Cash and Paola Pilonieta"
+    },
+    {
+      "check": "UNC Charlotte plus Literacy",
+      "result": "Paola Pilonieta only"
+    },
+    {
+      "check": "Filtered researcher CSV download",
+      "result": "Downloaded and parsed; exactly one row for Paola Pilonieta"
+    }
+  ],
+  "visual_checks": [
+    "Desktop homepage at 1280 px",
+    "Homepage, attendance question, and researcher directory at 390 px in narrow preview frames"
+  ],
+  "limits": [
+    "External source links were reviewed during research, not subjected to a universal automated availability audit.",
+    "This is not a full assistive-technology or WCAG conformance audit.",
+    "Affiliations and availability remain source-reported; no researcher confirmation was requested.",
+    "All editorial evidence summaries and classifications remain draft."
+  ],
+  "deployment": "Local preview only; no public push or deployment."
+}

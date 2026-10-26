@@ -1,0 +1,1718 @@
+{
+  "meta": {
+    "title": "NC Education Research Compendium",
+    "version": "0.1",
+    "updated": "2026-10-26",
+    "windowStart": "2016-10-26",
+    "windowEnd": "2026-10-26",
+    "steward": "North Carolina Learning Research Network",
+    "reviewStatus": "Draft for content review",
+    "scope": "NC data or NC education; connected early learning and postsecondary work included.",
+    "searchType": "Structured initial search, not a systematic review."
+  },
+  "studies": [
+    {
+      "id": "NC-001",
+      "title": "The Relationship Between Student Attendance and Achievement, Pre- and Post-COVID",
+      "year": 2025,
+      "status": "Journal article",
+      "authors": "Tom Swiderski; Sarah Crittenden Fuller; Kevin C. Bastian",
+      "researchers": [
+        "tom-swiderski",
+        "sarah-fuller",
+        "kevin-bastian"
+      ],
+      "questions": [
+        "RA-041",
+        "RA-046"
+      ],
+      "topics": [
+        "Attendance",
+        "Mathematics"
+      ],
+      "design": "Longitudinal observational analysis",
+      "setting": "North Carolina public elementary and middle school students; comparisons through 2023–24.",
+      "findings": "More days absent were associated with lower mathematics achievement. The published analysis estimates that restoring pre-pandemic attendance could account for 13–19% of the academic recovery needed in 2023–24.",
+      "implications": "Pair attendance recovery with instructional supports; improved attendance alone is unlikely to close learning gaps.",
+      "limitations": "First-differences estimates depend on modeling assumptions. The recovery scenario is a modeled projection, not an evaluated attendance intervention.",
+      "gap": "Which attendance supports improve learning, for which students?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://journals.sagepub.com/doi/full/10.1177/23328584251371041",
+          "basis": "Published abstract and article",
+          "locator": "Abstract; methods; recovery simulations"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "versionNote": "Uses the 2025 article rather than the different estimates in the November 2024 working paper."
+    },
+    {
+      "id": "NC-002",
+      "title": "In School, Engaged, on Track? The Effect of the Pandemic on Student Attendance, Course Grades, and Grade Retention in North Carolina",
+      "year": 2025,
+      "status": "Journal article",
+      "authors": "Sarah Crittenden Fuller; Tom Swiderski; Camille Mikkelsen; Kevin C. Bastian",
+      "researchers": [
+        "sarah-fuller",
+        "tom-swiderski",
+        "kevin-bastian"
+      ],
+      "questions": [
+        "RA-041",
+        "RA-046"
+      ],
+      "topics": [
+        "Attendance",
+        "Student supports"
+      ],
+      "design": "Descriptive and regression analysis",
+      "setting": "North Carolina public school administrative records before and during the pandemic.",
+      "findings": "Attendance, course grades, and grade progression worsened during the pandemic. Disruptions were uneven, with larger difficulties for some middle-grade and historically marginalized student groups.",
+      "implications": "Monitor engagement and course progress alongside test scores when targeting recovery supports.",
+      "limitations": "Administrative measures and attendance recording changed during disrupted schooling. The study does not identify the effectiveness of a particular recovery program.",
+      "gap": "Which combinations of academic and engagement supports sustain recovery?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://journals.sagepub.com/doi/10.3102/0013189X241299397",
+          "basis": "Published article and earlier author abstract",
+          "locator": "Article; earlier working-paper abstract"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "versionNote": "2025 journal article; earlier version: EdWorkingPaper 23-747."
+    },
+    {
+      "id": "NC-003",
+      "title": "Student-Level Attendance Patterns Across Three Post-Pandemic Years",
+      "year": 2025,
+      "status": "Journal article",
+      "authors": "Tom Swiderski; Sarah Crittenden Fuller; Kevin C. Bastian",
+      "researchers": [
+        "tom-swiderski",
+        "sarah-fuller",
+        "kevin-bastian"
+      ],
+      "questions": [
+        "RA-041"
+      ],
+      "topics": [
+        "Attendance",
+        "Data systems"
+      ],
+      "design": "Longitudinal descriptive analysis",
+      "setting": "NC students in grades K–6 at baseline, followed for three years; 2016–19 versus 2021–24.",
+      "findings": "The share chronically absent at least once over three years rose from 17% to 38%; persistent chronic absence across all three years rose from 2.4% to 9.6%.",
+      "implications": "Distinguish occasional absence from repeated, intensive needs using student histories across years.",
+      "limitations": "The sample excludes high school students and requires observation across three years. Descriptive changes do not establish causes.",
+      "gap": "How should support intensity vary with the persistence of absence?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://journals.sagepub.com/doi/10.3102/01623737251315715",
+          "basis": "Full article",
+          "locator": "Abstract; Data and Method"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "versionNote": "First published online February 24, 2025; assigned to a 2026 journal issue."
+    },
+    {
+      "id": "NC-004",
+      "title": "The Causal Effect of Student Absences Post Pandemic: Evidence from Three School Systems",
+      "year": 2026,
+      "status": "Working paper",
+      "authors": "Yu Hung Yaow; Seth Gershenson; David Blazar; Ethan Hutt",
+      "researchers": [],
+      "questions": [
+        "RA-041"
+      ],
+      "topics": [
+        "Attendance",
+        "Mathematics"
+      ],
+      "design": "Administrative-data effect estimation",
+      "setting": "North Carolina, Maryland, and one large urban district; pre- and post-pandemic comparisons.",
+      "findings": "Across the study settings, absences remained harmful to test performance after the pandemic, although estimated effects were modestly smaller than before.",
+      "implications": "Treat attendance as a continuing learning concern while checking how effects vary by setting.",
+      "limitations": "This is a working-paper abstract. Pooled findings are not NC-only estimates; the attainment results described for Maryland should not be transferred to NC.",
+      "gap": "Do NC effects differ by grade, subject, or type of absence?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://edworkingpapers.com/ai26-1490",
+          "basis": "Author abstract",
+          "locator": "May 2026 abstract"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true
+    },
+    {
+      "id": "NC-005",
+      "title": "School-Based Healthcare and Absenteeism: Evidence from Telemedicine",
+      "year": 2024,
+      "status": "Journal article",
+      "authors": "Sarah Komisarow; Steven W. Hemelt",
+      "researchers": [
+        "sarah-komisarow",
+        "steven-hemelt"
+      ],
+      "questions": [
+        "RA-043",
+        "RA-041",
+        "RA-031"
+      ],
+      "topics": [
+        "Student supports",
+        "Attendance",
+        "Safety & well-being"
+      ],
+      "design": "Quasi-experimental analysis",
+      "setting": "School telemedicine openings in three rural North Carolina districts.",
+      "findings": "Access to school telemedicine was associated with a 2.5 percentage-point reduction in chronic absence and about 0.8 fewer days absent; effects were concentrated among male students.",
+      "implications": "Consider healthcare access when investigating local attendance barriers.",
+      "limitations": "Three rural districts do not represent every NC context. Clinic access is not the same as an individual student receiving care.",
+      "gap": "What staffing, costs, and local partnerships support replication?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://www.iza.org/publications/dp/15858/school-based-healthcare-and-absenteeism-evidence-from-telemedicine",
+          "basis": "Author abstract and publication record",
+          "locator": "Abstract; publication notice"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "versionNote": "Published in Education Finance and Policy 19(2), 252–282 (2024); linked open working paper dates to 2023."
+    },
+    {
+      "id": "NC-006",
+      "title": "Ending Early Grade Suspensions",
+      "year": 2024,
+      "status": "Working paper",
+      "authors": "Ezra Karger; Sarah Komisarow",
+      "researchers": [
+        "sarah-komisarow"
+      ],
+      "questions": [
+        "RA-042",
+        "RA-030"
+      ],
+      "topics": [
+        "Safety & well-being",
+        "Student supports"
+      ],
+      "design": "Quasi-experimental policy evaluation",
+      "setting": "Charlotte-Mecklenburg Schools; a policy limiting out-of-school suspensions in grades K–2.",
+      "findings": "The reform reduced suspension probability by 1.4 percentage points and narrowed the Black–White suspension gap. Average test scores and disciplinary infractions did not worsen.",
+      "implications": "Examine alternatives to exclusion alongside classroom outcomes and disciplinary disparities.",
+      "limitations": "Findings concern one district and early grades. The working-paper version does not establish effects of every suspension policy or of high-school reforms.",
+      "gap": "Which implementation supports sustain equitable discipline over time?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://edworkingpapers.com/ai24-950",
+          "basis": "Author abstract",
+          "locator": "May 2024 abstract"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true
+    },
+    {
+      "id": "NC-007",
+      "title": "Equal Time for Equal Crime? Racial Bias in School Discipline",
+      "year": 2022,
+      "status": "Journal article",
+      "authors": "Ying Shi; Maria Zhu",
+      "researchers": [],
+      "questions": [
+        "RA-042"
+      ],
+      "topics": [
+        "Safety & well-being"
+      ],
+      "design": "Within-incident and student fixed-effects analysis",
+      "setting": "Statewide North Carolina administrative discipline records.",
+      "findings": "Comparisons within incidents and across incidents involving the same students found Black students faced higher suspension probabilities or longer suspensions than comparison students, consistent with racial bias.",
+      "implications": "Review disciplinary decisions for comparable incidents, rather than interpreting raw group rates alone.",
+      "limitations": "Administrative data cannot observe every behavioral or contextual difference. The study examines disciplinary decisions, not an evaluated remedy.",
+      "gap": "Which changes to decision routines reduce disparities?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://www.maxwell.syr.edu/academics/public-administration-international-affairs-department/equal-time-for-equal-crime-racial-bias-in-school-discipline",
+          "basis": "Author institutional summary",
+          "locator": "Research abstract"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true
+    },
+    {
+      "id": "NC-008",
+      "title": "The Effect of Immigration Enforcement on School Engagement: Evidence from 287(g) Programs in North Carolina",
+      "year": 2021,
+      "status": "Working paper",
+      "authors": "Laura Bellows",
+      "researchers": [],
+      "questions": [
+        "RA-041",
+        "RA-059"
+      ],
+      "topics": [
+        "Attendance",
+        "Family engagement"
+      ],
+      "design": "Triple-difference policy analysis",
+      "setting": "NC counties approved for 287(g) partnerships compared with counties that applied but were not approved.",
+      "findings": "The analysis found lower attendance after program activation, with increases in chronic absence, but no detected achievement effect.",
+      "implications": "Investigate community and family barriers when interpreting changes in attendance.",
+      "limitations": "The historical policy setting differs from current enforcement contexts. Chronic absence used a 15-day threshold, so rates are not directly comparable with today’s 10% measure.",
+      "gap": "Which locally appropriate family supports protect school engagement?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://edworkingpapers.com/ai21-366",
+          "basis": "Author abstract",
+          "locator": "March 2021 abstract"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true
+    },
+    {
+      "id": "NC-009",
+      "title": "What Happens When You Combine High School and College? The Impact of Early Colleges on Postsecondary Performance and Completion",
+      "year": 2020,
+      "status": "Research report",
+      "authors": "SERVE Center research team",
+      "researchers": [
+        "julie-edmunds"
+      ],
+      "questions": [
+        "RA-005",
+        "RA-038"
+      ],
+      "topics": [
+        "Postsecondary & CTE",
+        "Advanced learning"
+      ],
+      "design": "Randomized lottery study",
+      "setting": "1,687 applicants to 12 North Carolina early colleges; follow-up through six years after grade 12.",
+      "findings": "Lottery-offered students more often earned a postsecondary credential (44.3% versus 33.0%), particularly an associate degree. The overall bachelor’s completion difference at six years was not statistically significant.",
+      "implications": "Consider the complete early-college model, including academic and student supports.",
+      "limitations": "Results apply to applicants and participating lottery schools. They do not isolate dual-credit coursework from other features of the model.",
+      "gap": "How do effects transfer to other schools and current student cohorts?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://serve.uncg.edu/wp-content/uploads/2020/08/SER20001_PolicyBrief_FINAL.pdf",
+          "basis": "Full research brief",
+          "locator": "Summary pp. 2–5; study sample and methods"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true
+    },
+    {
+      "id": "NC-010",
+      "title": "CTE-Focused Dual Enrollment: Participation and Outcomes",
+      "year": 2022,
+      "status": "Working paper",
+      "authors": "Julie A. Edmunds; Fatih Unlu; Brian Phillips; Bryan C. Hutchins; Christine Mulhern",
+      "researchers": [
+        "julie-edmunds"
+      ],
+      "questions": [
+        "RA-005",
+        "RA-004",
+        "RA-038"
+      ],
+      "topics": [
+        "Postsecondary & CTE",
+        "Advanced learning"
+      ],
+      "design": "Quasi-experimental analysis",
+      "setting": "North Carolina students participating in CTE dual enrollment in grades 11–12.",
+      "findings": "About 9% participated. Participation was positively associated with college credits, high-school graduation, and college enrollment; participation disparities were smaller than in college-transfer dual enrollment.",
+      "implications": "Examine CTE dual enrollment as one pathway to broaden college access.",
+      "limitations": "Participation was not randomly assigned. The abstract supports associations and does not show that every CTE pathway produces the same benefits.",
+      "gap": "Which credentials and programs lead to sustained completion and employment?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://edworkingpapers.com/ai22-692",
+          "basis": "Author abstract",
+          "locator": "December 2022 abstract"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true
+    },
+    {
+      "id": "NC-011",
+      "title": "The Long-Term Effect of North Carolina’s Pre-Kindergarten Program Is Larger in School Districts with Lower Rates of Growth in Academic Achievement",
+      "year": 2022,
+      "status": "Working paper",
+      "authors": "Robert C. Carr; Tyler W. Watts; Jade M. Jenkins; Yu Bai; Ellen S. Peisner-Feinberg; Clara G. Muschkin; Helen F. Ladd; Kenneth A. Dodge",
+      "researchers": [
+        "ellen-peisner-feinberg",
+        "helen-ladd"
+      ],
+      "questions": [
+        "RA-002",
+        "RA-016"
+      ],
+      "topics": [
+        "Early learning",
+        "Literacy",
+        "Mathematics"
+      ],
+      "design": "Longitudinal funding-variation analysis",
+      "setting": "NC birth and education records; pre-K funding exposure and achievement through grade 8.",
+      "findings": "Estimated benefits of NC Pre-K funding were larger in districts with slower subsequent achievement growth. Funding benefits also added to the advantages of higher average district achievement.",
+      "implications": "Consider early learning and later school environments together.",
+      "limitations": "Funding exposure is not individual program attendance. Estimates reflect historical cohorts and rely on the funding-variation design.",
+      "gap": "How do current pre-K and elementary supports interact?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://files.eric.ed.gov/fulltext/ED616815.pdf",
+          "basis": "Author manuscript abstract",
+          "locator": "August 2022 version; abstract"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "versionNote": "EdWorkingPaper 21-494, revised August 2022."
+    },
+    {
+      "id": "NC-012",
+      "title": "Effects of North Carolina’s Pre-Kindergarten Program at the End of Kindergarten: Contributions of School-Wide Quality",
+      "year": 2021,
+      "status": "Journal article",
+      "authors": "Robert C. Carr; Ellen S. Peisner-Feinberg; Rachel Kaplan; Irina L. Mokrova",
+      "researchers": [
+        "ellen-peisner-feinberg"
+      ],
+      "questions": [
+        "RA-002",
+        "RA-016"
+      ],
+      "topics": [
+        "Early learning",
+        "Literacy",
+        "Mathematics"
+      ],
+      "design": "Matched observational analysis",
+      "setting": "NC Pre-K participants and comparison children followed to the end of kindergarten.",
+      "findings": "Average-quality elementary schools showed no reliable overall NC Pre-K effect in this analysis. Language or working-memory benefits were evident under some higher-quality school conditions; literacy and mathematics moderation was not detected.",
+      "implications": "Follow several developmental outcomes and the quality of children’s subsequent school environments.",
+      "limitations": "Observational comparisons cannot rule out all selection differences. These short-term outcomes and participation measures differ from long-term funding studies.",
+      "gap": "Which transitions sustain early gains for different children?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8577519/",
+          "basis": "Full author manuscript",
+          "locator": "Abstract; design and discussion"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true
+    },
+    {
+      "id": "NC-013",
+      "title": "Math Acceleration in Elementary School: Access and Effects on Student Outcomes",
+      "year": 2020,
+      "status": "Journal article",
+      "authors": "Steven W. Hemelt; Matthew A. Lenard",
+      "researchers": [
+        "steven-hemelt"
+      ],
+      "questions": [
+        "RA-004",
+        "RA-016"
+      ],
+      "topics": [
+        "Mathematics",
+        "Advanced learning"
+      ],
+      "design": "Threshold-based acceleration analysis",
+      "setting": "Wake County elementary students, 2013–14 through 2017–18.",
+      "findings": "Girls were less likely to be nominated and qualify than similarly performing boys. Acceleration effects differed by gender, including evidence of short-term mathematics knowledge decay for girls.",
+      "implications": "Review nomination, qualification, and continued participation separately when expanding access.",
+      "limitations": "One district’s elementary single-subject acceleration policy is distinct from statewide middle-grade automatic enrollment. The findings should not be treated as universal acceleration effects.",
+      "gap": "What supports help students remain successful after acceleration?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0272775718305910",
+          "basis": "Published abstract and methods preview",
+          "locator": "Abstract; NC setting; analytic sample"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true
+    },
+    {
+      "id": "NC-014",
+      "title": "Objective Course Placement and College Readiness: Evidence from Targeted Middle School Math Acceleration",
+      "year": 2017,
+      "status": "Journal article",
+      "authors": "Shaun M. Dougherty; Joshua S. Goodman; Darryl V. Hill; Erica G. Litke; Lindsay C. Page",
+      "researchers": [],
+      "questions": [
+        "RA-003",
+        "RA-064",
+        "RA-056"
+      ],
+      "topics": [
+        "Mathematics",
+        "Advanced learning"
+      ],
+      "design": "Regression discontinuity",
+      "setting": "Wake County middle-school mathematics placement based on prior test scores.",
+      "findings": "Using an objective eligibility threshold increased later advanced mathematics participation for students near the placement cutoff, including students whom discretionary placement could overlook.",
+      "implications": "Combine systematic identification with support after students enter accelerated courses.",
+      "limitations": "Effects near one district’s threshold may differ for other students and policies. This is not an evaluation of NC’s later statewide automatic-enrollment law.",
+      "gap": "How do statewide implementation and student supports affect longer-term success?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0272775716305465",
+          "basis": "Published abstract; revised author abstract",
+          "locator": "Abstract; Wake County policy context"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "versionNote": "Published June 2017; earlier working paper first circulated in 2015."
+    },
+    {
+      "id": "NC-015",
+      "title": "The Importance of Teaching and Learning Conditions: Influences on Teacher Retention and School Performance in North Carolina",
+      "year": 2021,
+      "status": "Research brief",
+      "authors": "Barnett Berry; Kevin C. Bastian; Linda Darling-Hammond; Tara Kini",
+      "researchers": [
+        "kevin-bastian"
+      ],
+      "questions": [
+        "RA-009",
+        "RA-044"
+      ],
+      "topics": [
+        "Working Conditions",
+        "Educator workforce"
+      ],
+      "design": "Mixed methods; observational regression",
+      "setting": "2016 NC Teacher Working Conditions survey, administrative records, and 2018–19 teacher interviews and school visits.",
+      "findings": "Leadership, collaboration, planning time, community support, collective practice, and student conduct were positively associated with retention. Associations were often stronger in high-poverty schools.",
+      "implications": "Use working-conditions results to structure local conversations and improvement plans.",
+      "limitations": "Associations do not establish that changing a survey score causes retention. The study uses an earlier survey and predates the pandemic.",
+      "gap": "Do these relationships persist across current survey administrations?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://learningpolicyinstitute.org/product/leandro-teaching-and-learning-conditions-brief",
+          "basis": "Research brief and methods summary",
+          "locator": "Exploring Working Conditions; Influences on Teacher Retention"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "versionNote": "2021 brief summarizes a 2019 study; counted as one study family."
+    },
+    {
+      "id": "NC-016",
+      "title": "2026 Advanced Teaching Roles Evaluation Report",
+      "year": 2026,
+      "status": "Evaluation report",
+      "authors": "Friday Institute evaluation team; authors and contributors listed in the report",
+      "researchers": [
+        "callie-edwards",
+        "lam-pham"
+      ],
+      "questions": [
+        "RA-011",
+        "RA-014",
+        "RA-057"
+      ],
+      "topics": [
+        "Educator workforce",
+        "Working Conditions",
+        "Instructional improvement"
+      ],
+      "design": "Mixed methods; school comparison and teacher associations",
+      "setting": "NC Advanced Teaching Roles schools; impact analysis through 2024–25 and implementation evidence from 2025–26.",
+      "findings": "The evaluation reports positive schoolwide achievement estimates, strongest in mathematics, but no significant schoolwide turnover effect. Supported-teacher results and release-time patterns were less consistent.",
+      "implications": "Specify coaching responsibilities and monitor implementation alongside several outcomes.",
+      "limitations": "School comparisons are nonrandomized. The report explicitly describes its two-year teacher-level analyses as correlational, not causal.",
+      "gap": "Which staffing and coaching arrangements explain variation across cohorts?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://fi.ncsu.edu/resource-library/2026-advanced-teaching-roles-evaluation-report/",
+          "basis": "Full executive summary",
+          "locator": "Program Impact; Teacher-Level Impacts; Recommendations"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "versionNote": "October 1, 2026 report. Prior annual evaluations are related versions, not independent replications."
+    },
+    {
+      "id": "NC-017",
+      "title": "2024–25 State of the Teaching Profession and School Administrator Report: NCDPI Findings Summary",
+      "year": 2026,
+      "status": "Agency summary",
+      "authors": "North Carolina Department of Public Instruction",
+      "researchers": [],
+      "questions": [
+        "RA-008",
+        "RA-060"
+      ],
+      "topics": [
+        "Educator workforce",
+        "Data systems"
+      ],
+      "design": "Descriptive administrative reporting",
+      "setting": "NC’s 115 public school districts; employment between March 2024 and March 2025.",
+      "findings": "NCDPI reports teacher attrition of 10.11%, compared with 9.88% the previous year. The statutory vacancy measure includes some positions filled by temporarily licensed teachers or rehired retirees.",
+      "implications": "Separate departures, movement within the system, and unstaffed positions when planning workforce responses.",
+      "limitations": "This record reviews the agency’s public summary, not the full report. Definitions limit comparisons across years and with other states.",
+      "gap": "Where do persistent local shortages and early-career departures concentrate?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://content.govdelivery.com/accounts/NCSBE/bulletins/40ca7b3",
+          "basis": "Agency summary",
+          "locator": "March 4, 2026 release; attrition and vacancy definitions"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true
+    },
+    {
+      "id": "NC-018",
+      "title": "Beyond Prescriptive Reforms: An Examination of North Carolina’s Flexible School Restart Program",
+      "year": 2025,
+      "status": "Journal article",
+      "authors": "Lam D. Pham; Gage F. Matthews; Timothy A. Drake",
+      "researchers": [
+        "lam-pham",
+        "timothy-drake"
+      ],
+      "questions": [
+        "RA-014",
+        "RA-057",
+        "RA-066"
+      ],
+      "topics": [
+        "Instructional improvement",
+        "School finance"
+      ],
+      "design": "Comparative interrupted time series",
+      "setting": "North Carolina schools participating in the Restart model.",
+      "findings": "Restart showed positive mathematics effects, but no detected English language arts or non-test outcome effects. Lower teacher and principal turnover accounted for part of the mathematics estimate.",
+      "implications": "Examine how schools use flexibility and retain staff, rather than assuming autonomy alone produces improvement.",
+      "limitations": "The comparison design depends on counterfactual assumptions. Results vary across outcomes and do not isolate every component of Restart.",
+      "gap": "Which local uses of flexibility are most productive?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://journals.sagepub.com/doi/10.3102/01623737231218735",
+          "basis": "Published abstract",
+          "locator": "Abstract; author biographies"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "versionNote": "First online January 2024; June 2025 issue."
+    },
+    {
+      "id": "NC-019",
+      "title": "ESSER III Investments in North Carolina: A Preliminary Analysis of PRC 181 and PRC 182",
+      "year": 2023,
+      "status": "Working paper",
+      "authors": "Erin W. Manuel; Camille N. Mikkelsen",
+      "researchers": [],
+      "questions": [
+        "RA-055",
+        "RA-060"
+      ],
+      "topics": [
+        "School finance",
+        "AI & technology"
+      ],
+      "design": "Mixed-methods document analysis",
+      "setting": "ESSER III applications from 112 traditional LEAs and 177 charter public school units submitted before November 2021.",
+      "findings": "Spending plans emphasized technology, personnel, academic recovery, and health and safety. Quantitative and qualitative analyses described differences in planned priorities.",
+      "implications": "Use plans to identify investments that need follow-up implementation and outcome evaluation.",
+      "limitations": "Plans are not verified expenditures or impacts. This study does not establish returns on ESSER spending or provide evidence about AI tools.",
+      "gap": "How did actual spending and implementation compare with plans?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://edworkingpapers.com/ai23-762",
+          "basis": "Author abstract",
+          "locator": "April 2023 abstract"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true
+    },
+    {
+      "id": "NC-020",
+      "title": "Recommendations for North Carolina’s Opportunity Scholarship Program, Pursuant to S.L. 2024-57",
+      "year": 2025,
+      "status": "Policy analysis",
+      "authors": "Matthew Pepper; Anna Egalite; Matthew G. Springer",
+      "researchers": [
+        "anna-egalite",
+        "matthew-springer"
+      ],
+      "questions": [
+        "RA-048",
+        "RA-052"
+      ],
+      "topics": [
+        "Assessment & accountability",
+        "School choice & charter"
+      ],
+      "design": "Technical and policy review; stakeholder consultation",
+      "setting": "NC assessment options for third- and eighth-grade Opportunity Scholarship recipients; more than 75 stakeholders consulted.",
+      "findings": "The report identifies tradeoffs among comparability, testing burden, and autonomy. Scores from different tests should not be treated as directly comparable across sectors.",
+      "implications": "Check test comparability and alignment before making cross-sector performance claims.",
+      "limitations": "This is an assessment-design study, not an estimate of the scholarship program’s effect on learning. Recommendations are those of the authors.",
+      "gap": "What assessment information can be reported validly and feasibly?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://collaboratory.unc.edu/wp-content/uploads/sites/476/2026/04/assessing-student-achievement-nc-opportunity-scholarship-program-executive-summary.pdf",
+          "basis": "Full executive summary",
+          "locator": "December 2025 executive summary, pp. 1–3"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "versionNote": "Report dated December 2025; hosted on the Collaboratory site in April 2026."
+    },
+    {
+      "id": "NC-021",
+      "title": "Project READS NC: Understanding LETRS Implementation",
+      "year": null,
+      "status": "Preliminary findings",
+      "authors": "Paola Pilonieta and Project READS NC team",
+      "researchers": [
+        "paola-pilonieta"
+      ],
+      "questions": [
+        "RA-015",
+        "RA-011"
+      ],
+      "topics": [
+        "Literacy",
+        "Instructional improvement",
+        "Working Conditions"
+      ],
+      "design": "Surveys and implementation research",
+      "setting": "North Carolina teachers and administrators participating in LETRS professional learning.",
+      "findings": "The project summary reports knowledge and implementation challenges, including limited preparation time and perceived gaps in administrative support.",
+      "implications": "Pair professional learning with protected planning time and support for classroom application.",
+      "limitations": "The source presents preliminary survey findings. Perceptions do not establish LETRS effects on student achievement; a final analysis was not reviewed.",
+      "gap": "How do coaching and implementation supports change instruction and learning?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://nclrn.unc.edu/home/research/research-area-learning-loss-recovery/understanding-the-impact-of-letrs-training-on-effective-literacy-instruction/",
+          "basis": "Public project summary",
+          "locator": "Summary; preliminary pilot findings"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "dateNote": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
+      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2"
+    },
+    {
+      "id": "NC-022",
+      "title": "High-Dosage Tutoring for Learning Recovery in Union County",
+      "year": null,
+      "status": "Preliminary findings",
+      "authors": "Douglas Lauen and research team",
+      "researchers": [
+        "douglas-lauen"
+      ],
+      "questions": [
+        "RA-036",
+        "RA-015",
+        "RA-017",
+        "RA-046"
+      ],
+      "topics": [
+        "Mathematics",
+        "Student supports",
+        "Instructional improvement"
+      ],
+      "design": "Pilot evaluation; comparison cohorts",
+      "setting": "Fourth-grade mathematics tutoring in nine Union County elementary schools; whole-grade and targeted models.",
+      "findings": "The public summary reports preliminary proficiency gains of 8–10 percentage points relative to comparison cohorts, with positive participant feedback.",
+      "implications": "Examine scheduling, tutor staffing, participation, and whole-grade versus targeted delivery.",
+      "limitations": "The project page does not provide a full technical analysis or uncertainty estimates. Preliminary gains should not be read as a confirmed causal effect or proven return on investment.",
+      "gap": "Which model is effective and affordable across NC contexts?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://nclrn.unc.edu/home/research/research-area-learning-loss-recovery/high-dosage-tutoring-to-support-learning-recovery-and-school-improvement-in-union-county/",
+          "basis": "Public project summary",
+          "locator": "Summary; preliminary pilot findings"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "dateNote": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
+      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2"
+    },
+    {
+      "id": "NC-023",
+      "title": "Leading Workforce Effectiveness: Inhibiting and Supporting Factors",
+      "year": null,
+      "status": "Preliminary findings",
+      "authors": "Laura Lunsford and research team",
+      "researchers": [
+        "laura-lunsford"
+      ],
+      "questions": [
+        "RA-008",
+        "RA-009"
+      ],
+      "topics": [
+        "Educator workforce",
+        "Working Conditions"
+      ],
+      "design": "Qualitative interviews",
+      "setting": "Eight rural NC LEAs selected from areas with relatively high or low teacher attrition.",
+      "findings": "Interviewees described student behavior, leadership turnover, support-service shortages, and local incentives as relevant to teacher retention.",
+      "implications": "Explore local organizational conditions and support capacity in retention planning.",
+      "limitations": "Purposeful selection and interview accounts do not establish statewide prevalence or causal effects. Findings remain preliminary in the reviewed summary.",
+      "gap": "Which locally feasible changes improve retention over time?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://nclrn.unc.edu/home/research/research-area-educator-labor-markets/investigating-how-covid-19-influenced-the-education-workforce-in-rural-counties/",
+          "basis": "Public project summary",
+          "locator": "Summary; preliminary pilot findings"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "dateNote": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
+      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2"
+    },
+    {
+      "id": "NC-024",
+      "title": "Mitigating Educator Workforce Impacts Through Coaching",
+      "year": null,
+      "status": "Preliminary findings",
+      "authors": "Anne Cash and research team",
+      "researchers": [
+        "anne-cash"
+      ],
+      "questions": [
+        "RA-011"
+      ],
+      "topics": [
+        "Educator workforce",
+        "Instructional improvement"
+      ],
+      "design": "Coaching and retention analysis",
+      "setting": "NC New Teacher Support Program participants and coaches during and after pandemic disruption.",
+      "findings": "The summary reports a positive relationship between program participation and retention, together with shifts in coaching time and topics.",
+      "implications": "Document the content and intensity of beginning-teacher coaching, not participation alone.",
+      "limitations": "Participation may reflect teacher or district differences. The preliminary project page does not supply a full identification strategy or isolate effective coaching components.",
+      "gap": "Which coaching practices support teachers in different school contexts?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://nclrn.unc.edu/home/research/research-area-educator-labor-markets/mitigating-educator-workforce-impacts-of-the-covid-19-pandemic-through-coaching/",
+          "basis": "Public project summary",
+          "locator": "Summary; preliminary pilot findings"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "dateNote": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
+      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2"
+    },
+    {
+      "id": "NC-025",
+      "title": "Implementing a Community School Framework in Rural Schools",
+      "year": null,
+      "status": "Preliminary findings",
+      "authors": "Amy Swain and research team",
+      "researchers": [
+        "amy-swain"
+      ],
+      "questions": [
+        "RA-045",
+        "RA-044",
+        "RA-029"
+      ],
+      "topics": [
+        "Family engagement",
+        "Student supports",
+        "Safety & well-being"
+      ],
+      "design": "Local implementation pilot",
+      "setting": "University-assisted community school work at PW Moore Elementary in Elizabeth City–Pasquotank.",
+      "findings": "The project reports increased family engagement, event participation, and staff morale during its initial pilot.",
+      "implications": "Use family listening sessions and community partnerships to identify locally relevant supports.",
+      "limitations": "The public account is a local preliminary summary without a comparison design. Reported improvements cannot be attributed solely to the community school framework.",
+      "gap": "Which components transfer to other rural communities?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://nclrn.unc.edu/home/research/research-area-student-community-well-being/examining-the-community-school-framework-in-rural-areas-of-north-carolina/",
+          "basis": "Public project summary",
+          "locator": "Summary; preliminary pilot findings"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "dateNote": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
+      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2"
+    },
+    {
+      "id": "NC-026",
+      "title": "Keeping Students Safe in the Digital World: School Monitoring Technologies",
+      "year": null,
+      "status": "Preliminary findings",
+      "authors": "Florence Martin and research team",
+      "researchers": [
+        "florence-martin"
+      ],
+      "questions": [
+        "RA-030"
+      ],
+      "topics": [
+        "AI & technology",
+        "Safety & well-being"
+      ],
+      "design": "Surveys, interviews, and data-practice review",
+      "setting": "North Carolina K–12 school monitoring technologies and stakeholder experiences.",
+      "findings": "Participants perceived content filtering more favorably than protection against cyberbullying or self-harm. The summary also reports substantial unmet teacher training needs.",
+      "implications": "Evaluate purpose, staff preparation, privacy, and response processes when reviewing monitoring tools.",
+      "limitations": "Perceived effectiveness is not demonstrated prevention. The summary does not establish effects of AI-supported instruction or the accuracy of individual monitoring products.",
+      "gap": "What independent outcome and privacy evidence supports specific uses?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://nclrn.unc.edu/home/research/research-area-student-community-well-being/investigating-digital-monitoring-technologies-used-by-k-12-schools-during-the-pandemic/",
+          "basis": "Public project summary",
+          "locator": "Summary; preliminary pilot findings"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "dateNote": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
+      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2"
+    },
+    {
+      "id": "NC-027",
+      "title": "A Study of Cost Adequacy, Distribution, and Alignment of Funding for North Carolina’s K–12 Public Education System",
+      "year": 2019,
+      "status": "Policy analysis",
+      "authors": "Jason Willis; Kelsey Krausen; Alex B. Jacobson; Lori Taylor; Ruthie Caparas; Ryan W. Lewis; Karina Jaquet",
+      "researchers": [],
+      "questions": [
+        "RA-055",
+        "RA-059",
+        "RA-061"
+      ],
+      "topics": [
+        "School finance"
+      ],
+      "design": "Finance and resource-allocation study",
+      "setting": "North Carolina’s school funding system as analyzed in 2019.",
+      "findings": "The study treats funding adequacy, distribution, and alignment to student needs as connected issues. Authors recommend greater attention to higher-need students, flexibility, and predictable investment.",
+      "implications": "Evaluate allocation designs against student needs and local capacity as well as total dollars.",
+      "limitations": "The reviewed publisher summary describes an older policy analysis. It is not a current budget estimate, a current legal finding, or a causal evaluation of a proposed formula.",
+      "gap": "How would current funding options redistribute resources and support outcomes?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://www.wested.org/resource/cost-adequacy-distribution-and-alignment-of-funding-for-north-carolinas-k-12-public-education-system/",
+          "basis": "Publisher summary",
+          "locator": "Study scope; recommendations"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true
+    },
+    {
+      "id": "NC-028",
+      "title": "The Growing Segmentation of the Charter School Sector in North Carolina",
+      "year": 2017,
+      "status": "Journal article",
+      "authors": "Helen F. Ladd; Charles T. Clotfelter; John B. Holbein",
+      "researchers": [
+        "helen-ladd"
+      ],
+      "questions": [
+        "RA-006",
+        "RA-056"
+      ],
+      "topics": [
+        "School choice & charter"
+      ],
+      "design": "Longitudinal sector analysis; student fixed effects",
+      "setting": "North Carolina charter and traditional public schools, 1999–2012.",
+      "findings": "The study documented increasing sector segmentation and racial imbalance. For the historical period studied, charter schools were not more effective on average than traditional public schools.",
+      "implications": "Consider enrollment composition, access, and school variation when interpreting sector averages.",
+      "limitations": "Although published within the search window, the data are much older. These findings should not be presented as a current estimate of charter-school performance.",
+      "gap": "How have access and outcomes changed under more recent policies?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://scholars.duke.edu/publication/1072907",
+          "basis": "Institutional publication abstract",
+          "locator": "Abstract; October 2017 publication record"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true
+    },
+    {
+      "id": "NC-029",
+      "title": "Do Teacher Assistants Improve Student Outcomes? Evidence From School Funding Cutbacks in North Carolina",
+      "year": 2021,
+      "status": "Journal article",
+      "authors": "Steven W. Hemelt; Helen F. Ladd; Calen R. Clifton",
+      "researchers": [
+        "steven-hemelt",
+        "helen-ladd"
+      ],
+      "questions": [
+        "RA-010",
+        "RA-017",
+        "RA-055"
+      ],
+      "topics": [
+        "Educator workforce",
+        "School finance",
+        "Literacy"
+      ],
+      "design": "Quasi-experimental staffing analysis",
+      "setting": "NC elementary-school staffing and student records, 2001–2012.",
+      "findings": "The analysis finds positive teacher-assistant effects on reading and mathematics, with larger benefits for students of color and students in high-poverty schools.",
+      "implications": "Include teacher assistants when considering the mix of staffing investments.",
+      "limitations": "Historical funding and staffing variation differs from a modern randomized staffing trial. Current costs, duties, and implementation may change the value of an investment.",
+      "gap": "Which present-day staffing models produce benefits relative to their costs?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://journals.sagepub.com/doi/10.3102/0162373721990361",
+          "basis": "Full article",
+          "locator": "Abstract; NC context; study period"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": true
+    },
+    {
+      "id": "NC-030",
+      "title": "Improving Teacher Retention in Pender County Schools Through a Tiered Model of Support",
+      "year": 2025,
+      "status": "Project record",
+      "authors": "Travis E. Lewis; Kevin Taylor; Karen D. Jones",
+      "researchers": [
+        "travis-lewis"
+      ],
+      "questions": [
+        "RA-019",
+        "RA-011"
+      ],
+      "topics": [
+        "Educator workforce",
+        "Working Conditions"
+      ],
+      "design": "Research–practice partnership; planned surveys and focus groups",
+      "setting": "Pender County Schools and East Carolina University; June 2024–June 2026 project period.",
+      "findings": "The September 2025 update reports partnership development, professional-learning design, and piloted instruments. Outcome analysis was forthcoming in that source.",
+      "implications": "Connect with the team for updated results and implementation materials.",
+      "limitations": "No retention impact findings were reviewed. The stated project period has ended; current completion and publication status need confirmation.",
+      "gap": "What do the completed analyses show about beginning-teacher retention?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://education.ecu.edu/2025/09/16/teacher-retention/",
+          "basis": "Dated project update",
+          "locator": "Significant Results & Impact; project period"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": false
+    },
+    {
+      "id": "NC-031",
+      "title": "The COVID-19 Pandemic and Patterns of Postsecondary Enrollment in North Carolina",
+      "year": null,
+      "status": "Project record",
+      "authors": "Daniel Klasik; Matthew G. Springer; Steven W. Hemelt; Sarah Crittenden Fuller",
+      "researchers": [
+        "daniel-klasik",
+        "matthew-springer",
+        "steven-hemelt",
+        "sarah-fuller"
+      ],
+      "questions": [
+        "RA-005"
+      ],
+      "topics": [
+        "Postsecondary & CTE"
+      ],
+      "design": "Planned longitudinal administrative-data analysis",
+      "setting": "NC ninth-grade entry cohorts from 2013–2018 linked with UNC System records.",
+      "findings": "The reviewed project page describes questions about applications, financial aid, and college enrollment. It does not report project-specific findings.",
+      "implications": "Request the team’s latest brief before drawing conclusions about postsecondary changes.",
+      "limitations": "A project description is not evidence of impact. Broad background statements on the page were not treated as results of this project.",
+      "gap": "Which final findings are available, and for which student groups?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://nclrn.unc.edu/home/research/research-area-higher-education/the-covid-19-pandemic-and-patterns-of-postsecondary-enrollment-in-north-carolina/",
+          "basis": "Public project description",
+          "locator": "Summary; planned deliverables"
+        }
+      ],
+      "checked": "2026-10-26",
+      "reviewStatus": "Draft",
+      "hasFindings": false,
+      "dateNote": "2022 award; undated project description. Final publication status requires confirmation.",
+      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2"
+    }
+  ],
+  "researchers": [
+    {
+      "id": "kevin-bastian",
+      "name": "Kevin C. Bastian",
+      "institution": "UNC–Chapel Hill",
+      "focus": "Educator workforce, working conditions, and administrative-data research.",
+      "url": "https://journals.sagepub.com/doi/10.3102/0013189X231187890",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "sarah-fuller",
+      "name": "Sarah Crittenden Fuller",
+      "institution": "UNC–Chapel Hill",
+      "focus": "Student engagement, pandemic recovery, and postsecondary transitions.",
+      "url": "https://journals.sagepub.com/doi/10.3102/0013189X231187890",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "tom-swiderski",
+      "name": "Tom Swiderski",
+      "institution": "UNC–Chapel Hill",
+      "focus": "Attendance patterns, student achievement, and learning recovery.",
+      "url": "https://journals.sagepub.com/doi/full/10.1177/23328584251371041",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "steven-hemelt",
+      "name": "Steven W. Hemelt",
+      "institution": "UNC–Chapel Hill",
+      "focus": "Education policy, staffing, and pathways to college and work.",
+      "url": "https://caldercenter.org/experts/steven-hemelt",
+      "linkLabel": "Public profile & contact",
+      "email": "hemelt@email.unc.edu",
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "sarah-komisarow",
+      "name": "Sarah Komisarow",
+      "institution": "Duke University",
+      "focus": "Student supports, attendance, and school discipline.",
+      "url": "https://childandfamilypolicy.duke.edu/person/sarah-komisarow/",
+      "linkLabel": "Public profile & contact",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "julie-edmunds",
+      "name": "Julie A. Edmunds",
+      "institution": "UNC Greensboro / SERVE",
+      "focus": "Early colleges, dual enrollment, and school improvement.",
+      "url": "https://serve.uncg.edu/edmunds-j/",
+      "linkLabel": "Public profile & contact",
+      "email": "jedmunds@serve.org",
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "helen-ladd",
+      "name": "Helen F. Ladd",
+      "institution": "Duke University",
+      "focus": "School finance, staffing, school choice, and early learning.",
+      "url": "https://scholars.duke.edu/person/hladd",
+      "linkLabel": "Public profile & contact",
+      "email": "hladd@duke.edu",
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "ellen-peisner-feinberg",
+      "name": "Ellen S. Peisner-Feinberg",
+      "institution": "UNC–Chapel Hill",
+      "focus": "Early childhood program evaluation and children’s learning pathways.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8577519/",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "paola-pilonieta",
+      "name": "Paola Pilonieta",
+      "institution": "UNC Charlotte",
+      "focus": "Literacy instruction and implementation of LETRS professional learning.",
+      "url": "https://nclrn.unc.edu/home/research/research-area-learning-loss-recovery/understanding-the-impact-of-letrs-training-on-effective-literacy-instruction/",
+      "linkLabel": "Public project & profile link",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "douglas-lauen",
+      "name": "Douglas L. Lauen",
+      "institution": "UNC–Chapel Hill",
+      "focus": "Tutoring, program evaluation, and educational opportunity.",
+      "url": "https://nclrn.unc.edu/home/research/research-area-learning-loss-recovery/high-dosage-tutoring-to-support-learning-recovery-and-school-improvement-in-union-county/",
+      "linkLabel": "Public project & profile link",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "laura-lunsford",
+      "name": "Laura Lunsford",
+      "institution": "Campbell University",
+      "focus": "Rural educator retention, leadership, and mentoring.",
+      "url": "https://nclrn.unc.edu/home/research/research-area-educator-labor-markets/investigating-how-covid-19-influenced-the-education-workforce-in-rural-counties/",
+      "linkLabel": "Public project & profile link",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "anne-cash",
+      "name": "Anne Cash",
+      "institution": "UNC Charlotte",
+      "focus": "Teacher coaching, instructional support, and educator retention.",
+      "url": "https://nclrn.unc.edu/home/research/research-area-educator-labor-markets/mitigating-educator-workforce-impacts-of-the-covid-19-pandemic-through-coaching/",
+      "linkLabel": "Public project & profile link",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "amy-swain",
+      "name": "Amy Swain",
+      "institution": "East Carolina University",
+      "focus": "Rural community schools and family–school partnerships.",
+      "url": "https://nclrn.unc.edu/home/research/research-area-student-community-well-being/examining-the-community-school-framework-in-rural-areas-of-north-carolina/",
+      "linkLabel": "Public project & profile link",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "florence-martin",
+      "name": "Florence Martin",
+      "institution": "NC State University",
+      "focus": "Digital learning, school monitoring technologies, and student privacy.",
+      "url": "https://nclrn.unc.edu/home/research/research-area-student-community-well-being/investigating-digital-monitoring-technologies-used-by-k-12-schools-during-the-pandemic/",
+      "linkLabel": "Public project & profile link",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "callie-edwards",
+      "name": "Callie Womble Edwards",
+      "institution": "NC State University / Friday Institute",
+      "focus": "Program evaluation, Advanced Teaching Roles, and research–practice partnerships.",
+      "url": "https://fi.ncsu.edu/news/friday-institutes-callie-edwards-elected-ncare-president-elect/",
+      "linkLabel": "Public institutional profile",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "lam-pham",
+      "name": "Lam D. Pham",
+      "institution": "NC State University",
+      "focus": "School improvement, staffing, and educational leadership.",
+      "url": "https://journals.sagepub.com/doi/10.3102/01623737231218735",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "timothy-drake",
+      "name": "Timothy A. Drake",
+      "institution": "NC State University",
+      "focus": "School leadership and improvement policy.",
+      "url": "https://journals.sagepub.com/doi/10.3102/01623737231218735",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "anna-egalite",
+      "name": "Anna Egalite",
+      "institution": "NC State University",
+      "focus": "School choice, accountability, and program evaluation.",
+      "url": "https://collaboratory.unc.edu/wp-content/uploads/sites/476/2026/04/assessing-student-achievement-nc-opportunity-scholarship-program-executive-summary.pdf",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "matthew-springer",
+      "name": "Matthew G. Springer",
+      "institution": "Basis Policy Research",
+      "focus": "Assessment, educator policy, and NC education evaluation.",
+      "url": "https://collaboratory.unc.edu/wp-content/uploads/sites/476/2026/04/assessing-student-achievement-nc-opportunity-scholarship-program-executive-summary.pdf",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "daniel-klasik",
+      "name": "Daniel Klasik",
+      "institution": "UNC–Chapel Hill",
+      "focus": "College access and postsecondary enrollment pathways.",
+      "url": "https://nclrn.unc.edu/home/research/research-area-higher-education/the-covid-19-pandemic-and-patterns-of-postsecondary-enrollment-in-north-carolina/",
+      "linkLabel": "Public project & profile link",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "travis-lewis",
+      "name": "Travis E. Lewis",
+      "institution": "East Carolina University",
+      "focus": "School leadership and beginning-teacher support.",
+      "url": "https://education.ecu.edu/2025/09/16/teacher-retention/",
+      "linkLabel": "Public project source",
+      "email": null,
+      "checked": "2026-10-26",
+      "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    }
+  ],
+  "syntheses": {
+    "RA-002": {
+      "headline": "Early learning benefits depend on the outcome and later environment.",
+      "summary": "NC pre-K studies examine different exposures and follow-up periods. They support looking beyond a single readiness score; results differ across developmental domains and subsequent school contexts.",
+      "practice": "Connect early-learning and elementary-school information.",
+      "gap": "Current cohorts and transitions need further study.",
+      "consistency": "Mixed / context-dependent",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-003": {
+      "headline": "Systematic placement can open later mathematics pathways.",
+      "summary": "Wake County’s targeted middle-school acceleration study offers evidence about students near a test-score cutoff. It does not answer every question about grade 8 placement statewide.",
+      "practice": "Review identification and continued course success together.",
+      "gap": "What happens under current statewide rules?",
+      "consistency": "Limited comparison",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-004": {
+      "headline": "Access and success require attention at several stages.",
+      "summary": "The indexed work separates eligibility, nomination, participation, and persistence. Findings differ between elementary acceleration and CTE dual enrollment.",
+      "practice": "Check who is identified, who enrolls, and who remains engaged.",
+      "gap": "Comparable statewide evidence across advanced-learning pathways is still needed.",
+      "consistency": "Mixed / context-dependent",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-005": {
+      "headline": "Early-college and CTE pathways offer distinct evidence.",
+      "summary": "Early-college lottery evidence supports credential attainment. CTE dual-enrollment work reports favorable associations. These designs and models should not be treated as interchangeable.",
+      "practice": "Match the decision to the pathway and outcome studied.",
+      "gap": "Longer-term completion, workforce outcomes, and recent cohorts require more evidence.",
+      "consistency": "Mixed / context-dependent",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-006": {
+      "headline": "Historical sector averages need careful updating.",
+      "summary": "The indexed charter-sector study documents earlier enrollment segmentation and effectiveness. Its older data limit what it can say about current school choices.",
+      "practice": "Interpret sector averages alongside access and school variation.",
+      "gap": "Update outcomes and mobility using recent NC cohorts.",
+      "consistency": "Limited comparison",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-008": {
+      "headline": "Statewide indicators and rural accounts answer different workforce questions.",
+      "summary": "The agency summary provides recent attrition measures; rural interviews add local perspectives on why retention can be difficult. Together they identify issues for follow-up rather than proving a retention strategy works.",
+      "practice": "Pair local staffing data with structured staff conversations.",
+      "gap": "Identify persistent shortages and evaluate responses.",
+      "consistency": "Not assessed",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-009": {
+      "headline": "Workplace conditions are connected to retention.",
+      "summary": "An NC survey-and-interview study links organizational conditions to retention; rural project accounts add context. Neither establishes that a specific improvement will cause teachers to stay.",
+      "practice": "Use working-conditions evidence to identify and investigate local priorities.",
+      "gap": "Validate relationships using current measures and outcomes.",
+      "consistency": "Aligned within indexed evidence",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-010": {
+      "headline": "Support roles can contribute to student outcomes.",
+      "summary": "The teacher-assistant analysis provides NC evidence on one staffing category. It does not establish the effects of every ratio, caseload, credential, or staffing arrangement.",
+      "practice": "Examine responsibilities as well as headcounts.",
+      "gap": "Compare modern staffing models and implementation.",
+      "consistency": "Limited comparison",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-011": {
+      "headline": "Professional support shows promise, with uneven outcome evidence.",
+      "summary": "The indexed ATR evaluation and coaching summary address different forms of support. Achievement, retention, and implementation findings vary; a project description without results is also indexed separately.",
+      "practice": "Document how support is delivered and which outcomes it targets.",
+      "gap": "Which coaching and role features explain sustained benefits?",
+      "consistency": "Mixed / context-dependent",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-014": {
+      "headline": "Effects vary across programs and outcomes.",
+      "summary": "The initial collection includes evaluations of ATR and Restart. These are separate models with different outcome patterns, not a head-to-head comparison of investment choices.",
+      "practice": "Specify the outcome and local conditions before applying findings.",
+      "gap": "Add comparable cost and implementation evidence.",
+      "consistency": "Mixed / context-dependent",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-015": {
+      "headline": "Implementation evidence helps explain what to examine next.",
+      "summary": "Preliminary LETRS and tutoring records identify delivery and support issues. They should guide questions for local implementation, while stronger outcome evaluation continues.",
+      "practice": "Track time, staffing, participation, and instructional use.",
+      "gap": "Link implementation measures to credible outcome estimates.",
+      "consistency": "Not assessed",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-016": {
+      "headline": "Average results can conceal differences across students and settings.",
+      "summary": "The indexed early-learning and mathematics studies illustrate variation by context, outcome, or student group. Subgroup findings require careful attention to the underlying design.",
+      "practice": "Check whose experience a study actually represents.",
+      "gap": "Which supports explain differences rather than merely describe them?",
+      "consistency": "Mixed / context-dependent",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-017": {
+      "headline": "Effectiveness and affordability need to be examined together.",
+      "summary": "Teacher-assistant research offers historical staffing evidence. The tutoring project is investigating delivery models, but a complete cost comparison was not reviewed here.",
+      "practice": "Request current cost and staffing assumptions before scaling.",
+      "gap": "Comparable contemporary cost-per-outcome estimates remain a search priority.",
+      "consistency": "Not assessed",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-029": {
+      "headline": "Local engagement practices warrant further evaluation.",
+      "summary": "The community-school pilot describes family engagement during local implementation. It offers ideas to examine rather than a comparative effectiveness ranking.",
+      "practice": "Start with family listening and locally identified barriers.",
+      "gap": "Which approaches work in different communities?",
+      "consistency": "Limited comparison",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-030": {
+      "headline": "Different safety practices require different outcome measures.",
+      "summary": "Discipline reform and digital monitoring address different risks. The indexed evidence distinguishes observed disciplinary outcomes from perceived technology effectiveness.",
+      "practice": "Define the intended safety outcome before selecting a practice.",
+      "gap": "Which approaches improve safety while preserving inclusion and privacy?",
+      "consistency": "Mixed / context-dependent",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-031": {
+      "headline": "Healthcare access may be one route to stronger attendance.",
+      "summary": "A rural telemedicine study offers evidence about school-based healthcare access. It does not establish the effectiveness of all behavioral-health initiatives.",
+      "practice": "Assess local service barriers and partnerships.",
+      "gap": "Examine costs and effects across additional NC settings.",
+      "consistency": "Limited comparison",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-036": {
+      "headline": "Tutoring evidence is promising but preliminary here.",
+      "summary": "The Union County summary reports favorable early outcomes. Its public project page does not provide the full analysis needed for a confident transfer or scaling decision.",
+      "practice": "Ask about tutor preparation, dosage, and delivery conditions.",
+      "gap": "Review final methods, uncertainty, and cost results.",
+      "consistency": "Limited comparison",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-038": {
+      "headline": "Pathway evidence should distinguish school models from course participation.",
+      "summary": "Early colleges and CTE dual enrollment each offer relevant NC evidence, with different designs and student experiences.",
+      "practice": "Consider both access and the supports surrounding coursework.",
+      "gap": "Track credentials and transitions beyond initial enrollment.",
+      "consistency": "Mixed / context-dependent",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-041": {
+      "headline": "Attendance matters, and its causes and remedies differ.",
+      "summary": "Several NC studies document persistent absence and its relationship to learning. Rural healthcare and community-policy studies examine particular pathways; they do not establish one universal attendance intervention.",
+      "practice": "Combine longitudinal monitoring with investigation of local barriers.",
+      "gap": "Evaluate which supports work for persistent absence in different settings.",
+      "consistency": "Aligned within indexed evidence",
+      "maturity": "Substantial",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-042": {
+      "headline": "Discipline decisions can change without worsening average outcomes.",
+      "summary": "The early-grade reform and statewide disparity studies address different questions about exclusion. One evaluates a local policy; the other examines differences in disciplinary decisions.",
+      "practice": "Monitor both outcomes and fairness when reviewing discipline.",
+      "gap": "Replication, older grades, and implementation supports need attention.",
+      "consistency": "Aligned within indexed evidence",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-043": {
+      "headline": "Student-service access can support engagement.",
+      "summary": "The indexed rural telemedicine study connects healthcare access to attendance. It leaves broader questions about counselors, psychologists, nurses, and social workers unresolved.",
+      "practice": "Map service access against locally observed needs.",
+      "gap": "Compare staffing, access, and outcomes across service models.",
+      "consistency": "Limited comparison",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-044": {
+      "headline": "Climate evidence spans measured associations and local accounts.",
+      "summary": "Working-conditions research and the community-school pilot provide different views of organizational and relational conditions. Neither establishes a universal climate intervention.",
+      "practice": "Use multiple perspectives when interpreting local climate.",
+      "gap": "Link student and staff measures to subsequent outcomes.",
+      "consistency": "Not assessed",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-045": {
+      "headline": "Family engagement evidence in this collection is local and preliminary.",
+      "summary": "The rural community-school pilot offers an implementation example. Comparative evidence across family-engagement approaches has not yet been assembled here.",
+      "practice": "Adapt ideas with families and community partners.",
+      "gap": "Broaden evidence across rural contexts and caregiver groups.",
+      "consistency": "Limited comparison",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-046": {
+      "headline": "Recovery needs extend beyond test performance.",
+      "summary": "The indexed attendance and engagement work points to persistent barriers; tutoring offers a preliminary local intervention example. These sources cover selected pandemic-recovery questions.",
+      "practice": "Coordinate engagement and instructional responses.",
+      "gap": "Evidence on disaster recovery and long-term resilience needs expansion.",
+      "consistency": "Mixed / context-dependent",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-048": {
+      "headline": "Assessment selection requires explicit tradeoffs.",
+      "summary": "The Opportunity Scholarship assessment review addresses comparability, burden, and alignment. Its conclusions do not establish the best screening or assessment approach for every NC use.",
+      "practice": "State the intended interpretation before choosing a measure.",
+      "gap": "Evaluate alignment and feasibility for each proposed use.",
+      "consistency": "Limited comparison",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-052": {
+      "headline": "Useful reporting starts with valid comparisons.",
+      "summary": "The indexed assessment review provides a cross-sector comparability caution. Wider questions about reporting growth, climate, and workforce indicators remain largely unaddressed in this collection.",
+      "practice": "Avoid treating different tests as interchangeable.",
+      "gap": "Develop reporting that preserves relevant differences.",
+      "consistency": "Limited comparison",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-055": {
+      "headline": "Allocation evidence should connect resources, needs, and outcomes.",
+      "summary": "The initial sources cover historical finance analysis, teacher-assistant staffing, and planned ESSER priorities. These measures do not provide a current causal comparison of funding formulas.",
+      "practice": "Distinguish planned spending, actual staffing, and outcomes.",
+      "gap": "Add recent distribution analyses and evaluated policy changes.",
+      "consistency": "Not assessed",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-056": {
+      "headline": "Access policies can shape who enters an opportunity.",
+      "summary": "Indexed mathematics and charter-sector work highlights different entry and participation processes. Findings are specific to the policy and period studied.",
+      "practice": "Review eligibility rules alongside enrollment composition.",
+      "gap": "Update policy effects using recent cohorts.",
+      "consistency": "Mixed / context-dependent",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-057": {
+      "headline": "Flexibility is a means whose implementation matters.",
+      "summary": "Restart and ATR findings suggest that outcome patterns depend on the model and conditions. These evaluations do not support a blanket conclusion about operational flexibility.",
+      "practice": "Document staffing and instructional decisions made possible by flexibility.",
+      "gap": "Identify mechanisms and effects across current contexts.",
+      "consistency": "Mixed / context-dependent",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-059": {
+      "headline": "Policy tradeoffs include access, resources, and community effects.",
+      "summary": "The indexed finance review and immigration-enforcement study examine distinct distributional issues. They inform selected dimensions rather than a comprehensive ranking of policies.",
+      "practice": "Specify which students and communities a decision may affect.",
+      "gap": "Add current NC evidence about alternative policies.",
+      "consistency": "Not assessed",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-060": {
+      "headline": "Monitoring requires consistent definitions and follow-through.",
+      "summary": "Agency workforce reporting and ESSER-plan analysis illustrate useful descriptive monitoring. Descriptive trends and plans alone cannot determine whether a policy caused improvement.",
+      "practice": "Link plans, implementation, and subsequent outcomes.",
+      "gap": "Which monitoring systems support credible continuation decisions?",
+      "consistency": "Not assessed",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-061": {
+      "headline": "Funding design needs a current distributional analysis.",
+      "summary": "The indexed 2019 finance study offers a framework for considering adequacy and alignment. It does not simulate a current weighted-student formula.",
+      "practice": "Check the assumptions behind each allocation scenario.",
+      "gap": "Model present-day student needs and local fiscal capacity.",
+      "consistency": "Limited comparison",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-064": {
+      "headline": "Targeted placement evidence is relevant but not a statewide evaluation.",
+      "summary": "Wake County’s earlier threshold-based approach offers a related NC example. It should not be described as an evaluation of the later statewide policy.",
+      "practice": "Review eligibility, opt-outs, and course persistence.",
+      "gap": "Evaluate the present statewide automatic-enrollment policy.",
+      "consistency": "Limited comparison",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-066": {
+      "headline": "Restart provides one NC example of operational flexibility.",
+      "summary": "Its outcome pattern varies across subjects and measures. The model should be studied as implemented, rather than equated with every innovative-school approach.",
+      "practice": "Document how flexibility changes instruction and staffing.",
+      "gap": "Which implementation choices explain differences across schools?",
+      "consistency": "Mixed / context-dependent",
+      "maturity": "Emerging",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    },
+    "RA-019": {
+      "headline": "A partnership is building a model for beginning-teacher support.",
+      "summary": "The Pender County project update documents design and preparation. No retention impact findings were reviewed.",
+      "practice": "Contact the team for completed analyses.",
+      "gap": "Obtain final results before classifying effectiveness.",
+      "consistency": "Not assessed",
+      "maturity": "Project only",
+      "reviewStatus": "Draft",
+      "checked": "2026-10-26"
+    }
+  }
+}

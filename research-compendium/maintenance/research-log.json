@@ -1,0 +1,596 @@
+{
+  "date": "2026-10-26",
+  "search_window": {
+    "start": "2016-10-26",
+    "end": "2026-10-26",
+    "basis": "Publication or reviewed-version date; older data periods are retained and explicitly reported."
+  },
+  "search_type": "Structured initial discovery and targeted screening; not a systematic review.",
+  "entry_points": [
+    "https://nclrn.unc.edu/",
+    "https://collaboratory.unc.edu/highlighted-projects/office-of-learning-research-olr/"
+  ],
+  "additional_sources": [
+    "SERVE / UNC Greensboro",
+    "NC State Friday Institute",
+    "Duke Scholars and Center for Child & Family Policy",
+    "UNC Charlotte and East Carolina University project pages",
+    "EdWorkingPapers / Annenberg Institute",
+    "ERIC",
+    "IES",
+    "CALDER and IZA author repositories",
+    "Journal publishers",
+    "NCDPI public releases",
+    "WestEd and Learning Policy Institute"
+  ],
+  "query_families": [
+    "North Carolina Learning Recovery/Research Network projects findings",
+    "North Carolina attendance achievement student-level patterns",
+    "North Carolina teacher working conditions retention coaching",
+    "North Carolina Advanced Teaching Roles evaluation 2026",
+    "North Carolina pre-kindergarten long-term and kindergarten outcomes",
+    "North Carolina early college lottery postsecondary completion",
+    "North Carolina CTE dual enrollment participation outcomes",
+    "Wake County mathematics acceleration objective placement",
+    "North Carolina suspension reform and discipline disparities",
+    "North Carolina school-based healthcare telemedicine absenteeism",
+    "North Carolina ESSER spending plans",
+    "North Carolina school finance allocation adequacy",
+    "North Carolina charter sector segmentation",
+    "North Carolina Opportunity Scholarship assessment comparability"
+  ],
+  "screening_rules": [
+    "Include research using NC data or directly examining NC education; include connected early learning and postsecondary pathways.",
+    "Use primary research, author, funder, institutional, or agency sources for included claims.",
+    "Keep publication dates separate from data periods and source-check dates.",
+    "Use the newer published attendance analyses where located; do not double-count earlier working-paper versions.",
+    "Describe abstracts and public project summaries as such; do not imply a full technical review.",
+    "Keep undated preliminary summaries undated and cite the known 2022 project-cohort source.",
+    "Project descriptions with no reviewed findings are project records and do not count as evidence findings.",
+    "Copy exact agenda IDs and wording; distinguish direct question relevance from shared topic vocabulary.",
+    "Affiliations are source-reported, not personally confirmed current positions or offers to collaborate."
+  ],
+  "access_notes": [
+    "NCLRN pages could not be retrieved by the text web tool. They were read directly in the browser, including project summaries for LETRS, tutoring, coaching, rural workforce, community schools, digital monitoring, and postsecondary enrollment.",
+    "The source basis and locator on each included record identify what was read.",
+    "Neither the full literature nor every linked report was comprehensively reviewed. Some records are based on author abstracts or institutional summaries.",
+    "2022–25 project pages may be stale. The initial catalog does not infer current ongoing status from undated future-tense wording."
+  ],
+  "not_included_or_deferred": [
+    {
+      "item": "Tennessee statewide pre-K trial",
+      "reason": "Search result examined a different state; not NC-specific evidence."
+    },
+    {
+      "item": "General national LEARN/RESTART network descriptions",
+      "reason": "Used for discovery; not treated as NC program findings."
+    },
+    {
+      "item": "School-based support staff / Child and Family Support Team 2026 study",
+      "reason": "Located a later journal listing and a July working-paper reference; direct working-paper version and NC estimates require further review."
+    },
+    {
+      "item": "2023 NC pre-K heterogeneity monograph",
+      "reason": "Located, but its full findings were not synthesized in this initial version; avoid adding a large related source without further review."
+    },
+    {
+      "item": "Newer NC Promise and informal discipline research",
+      "reason": "Located during search; detailed scope, version, and mapping review deferred."
+    },
+    {
+      "item": "Current LETRS three-brief series",
+      "reason": "Located secondary discussion; prioritize primary briefs and compare with the undated NCLRN preliminary summary."
+    }
+  ],
+  "editorial_mapping_corrections": [
+    "ESSER plans were not mapped to the distinct Title I/II/III/IV agenda entry.",
+    "ATR was not mapped to National Board certification.",
+    "Digital monitoring was not mapped as evidence of AI-supported instruction.",
+    "Earlier Wake County mathematics placement was labeled related evidence, not an evaluation of the later statewide automatic-enrollment policy."
+  ],
+  "counts": {
+    "records": 31,
+    "with_findings": 29,
+    "project_only": 2,
+    "researcher_profiles": 21,
+    "draft_question_syntheses": 35
+  },
+  "source_register": [
+    {
+      "id": "NC-001",
+      "title": "The Relationship Between Student Attendance and Achievement, Pre- and Post-COVID",
+      "year": 2025,
+      "status": "Journal article",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://journals.sagepub.com/doi/full/10.1177/23328584251371041",
+          "basis": "Published abstract and article",
+          "locator": "Abstract; methods; recovery simulations"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-002",
+      "title": "In School, Engaged, on Track? The Effect of the Pandemic on Student Attendance, Course Grades, and Grade Retention in North Carolina",
+      "year": 2025,
+      "status": "Journal article",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://journals.sagepub.com/doi/10.3102/0013189X241299397",
+          "basis": "Published article and earlier author abstract",
+          "locator": "Article; earlier working-paper abstract"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-003",
+      "title": "Student-Level Attendance Patterns Across Three Post-Pandemic Years",
+      "year": 2025,
+      "status": "Journal article",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://journals.sagepub.com/doi/10.3102/01623737251315715",
+          "basis": "Full article",
+          "locator": "Abstract; Data and Method"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-004",
+      "title": "The Causal Effect of Student Absences Post Pandemic: Evidence from Three School Systems",
+      "year": 2026,
+      "status": "Working paper",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://edworkingpapers.com/ai26-1490",
+          "basis": "Author abstract",
+          "locator": "May 2026 abstract"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-005",
+      "title": "School-Based Healthcare and Absenteeism: Evidence from Telemedicine",
+      "year": 2024,
+      "status": "Journal article",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://www.iza.org/publications/dp/15858/school-based-healthcare-and-absenteeism-evidence-from-telemedicine",
+          "basis": "Author abstract and publication record",
+          "locator": "Abstract; publication notice"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-006",
+      "title": "Ending Early Grade Suspensions",
+      "year": 2024,
+      "status": "Working paper",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://edworkingpapers.com/ai24-950",
+          "basis": "Author abstract",
+          "locator": "May 2024 abstract"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-007",
+      "title": "Equal Time for Equal Crime? Racial Bias in School Discipline",
+      "year": 2022,
+      "status": "Journal article",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://www.maxwell.syr.edu/academics/public-administration-international-affairs-department/equal-time-for-equal-crime-racial-bias-in-school-discipline",
+          "basis": "Author institutional summary",
+          "locator": "Research abstract"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-008",
+      "title": "The Effect of Immigration Enforcement on School Engagement: Evidence from 287(g) Programs in North Carolina",
+      "year": 2021,
+      "status": "Working paper",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://edworkingpapers.com/ai21-366",
+          "basis": "Author abstract",
+          "locator": "March 2021 abstract"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-009",
+      "title": "What Happens When You Combine High School and College? The Impact of Early Colleges on Postsecondary Performance and Completion",
+      "year": 2020,
+      "status": "Research report",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://serve.uncg.edu/wp-content/uploads/2020/08/SER20001_PolicyBrief_FINAL.pdf",
+          "basis": "Full research brief",
+          "locator": "Summary pp. 2–5; study sample and methods"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-010",
+      "title": "CTE-Focused Dual Enrollment: Participation and Outcomes",
+      "year": 2022,
+      "status": "Working paper",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://edworkingpapers.com/ai22-692",
+          "basis": "Author abstract",
+          "locator": "December 2022 abstract"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-011",
+      "title": "The Long-Term Effect of North Carolina’s Pre-Kindergarten Program Is Larger in School Districts with Lower Rates of Growth in Academic Achievement",
+      "year": 2022,
+      "status": "Working paper",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://files.eric.ed.gov/fulltext/ED616815.pdf",
+          "basis": "Author manuscript abstract",
+          "locator": "August 2022 version; abstract"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-012",
+      "title": "Effects of North Carolina’s Pre-Kindergarten Program at the End of Kindergarten: Contributions of School-Wide Quality",
+      "year": 2021,
+      "status": "Journal article",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8577519/",
+          "basis": "Full author manuscript",
+          "locator": "Abstract; design and discussion"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-013",
+      "title": "Math Acceleration in Elementary School: Access and Effects on Student Outcomes",
+      "year": 2020,
+      "status": "Journal article",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0272775718305910",
+          "basis": "Published abstract and methods preview",
+          "locator": "Abstract; NC setting; analytic sample"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-014",
+      "title": "Objective Course Placement and College Readiness: Evidence from Targeted Middle School Math Acceleration",
+      "year": 2017,
+      "status": "Journal article",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0272775716305465",
+          "basis": "Published abstract; revised author abstract",
+          "locator": "Abstract; Wake County policy context"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-015",
+      "title": "The Importance of Teaching and Learning Conditions: Influences on Teacher Retention and School Performance in North Carolina",
+      "year": 2021,
+      "status": "Research brief",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://learningpolicyinstitute.org/product/leandro-teaching-and-learning-conditions-brief",
+          "basis": "Research brief and methods summary",
+          "locator": "Exploring Working Conditions; Influences on Teacher Retention"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-016",
+      "title": "2026 Advanced Teaching Roles Evaluation Report",
+      "year": 2026,
+      "status": "Evaluation report",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://fi.ncsu.edu/resource-library/2026-advanced-teaching-roles-evaluation-report/",
+          "basis": "Full executive summary",
+          "locator": "Program Impact; Teacher-Level Impacts; Recommendations"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-017",
+      "title": "2024–25 State of the Teaching Profession and School Administrator Report: NCDPI Findings Summary",
+      "year": 2026,
+      "status": "Agency summary",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://content.govdelivery.com/accounts/NCSBE/bulletins/40ca7b3",
+          "basis": "Agency summary",
+          "locator": "March 4, 2026 release; attrition and vacancy definitions"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-018",
+      "title": "Beyond Prescriptive Reforms: An Examination of North Carolina’s Flexible School Restart Program",
+      "year": 2025,
+      "status": "Journal article",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://journals.sagepub.com/doi/10.3102/01623737231218735",
+          "basis": "Published abstract",
+          "locator": "Abstract; author biographies"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-019",
+      "title": "ESSER III Investments in North Carolina: A Preliminary Analysis of PRC 181 and PRC 182",
+      "year": 2023,
+      "status": "Working paper",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://edworkingpapers.com/ai23-762",
+          "basis": "Author abstract",
+          "locator": "April 2023 abstract"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-020",
+      "title": "Recommendations for North Carolina’s Opportunity Scholarship Program, Pursuant to S.L. 2024-57",
+      "year": 2025,
+      "status": "Policy analysis",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://collaboratory.unc.edu/wp-content/uploads/sites/476/2026/04/assessing-student-achievement-nc-opportunity-scholarship-program-executive-summary.pdf",
+          "basis": "Full executive summary",
+          "locator": "December 2025 executive summary, pp. 1–3"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-021",
+      "title": "Project READS NC: Understanding LETRS Implementation",
+      "year": null,
+      "status": "Preliminary findings",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://nclrn.unc.edu/home/research/research-area-learning-loss-recovery/understanding-the-impact-of-letrs-training-on-effective-literacy-instruction/",
+          "basis": "Public project summary",
+          "locator": "Summary; preliminary pilot findings"
+        }
+      ],
+      "date_note": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-022",
+      "title": "High-Dosage Tutoring for Learning Recovery in Union County",
+      "year": null,
+      "status": "Preliminary findings",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://nclrn.unc.edu/home/research/research-area-learning-loss-recovery/high-dosage-tutoring-to-support-learning-recovery-and-school-improvement-in-union-county/",
+          "basis": "Public project summary",
+          "locator": "Summary; preliminary pilot findings"
+        }
+      ],
+      "date_note": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-023",
+      "title": "Leading Workforce Effectiveness: Inhibiting and Supporting Factors",
+      "year": null,
+      "status": "Preliminary findings",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://nclrn.unc.edu/home/research/research-area-educator-labor-markets/investigating-how-covid-19-influenced-the-education-workforce-in-rural-counties/",
+          "basis": "Public project summary",
+          "locator": "Summary; preliminary pilot findings"
+        }
+      ],
+      "date_note": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-024",
+      "title": "Mitigating Educator Workforce Impacts Through Coaching",
+      "year": null,
+      "status": "Preliminary findings",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://nclrn.unc.edu/home/research/research-area-educator-labor-markets/mitigating-educator-workforce-impacts-of-the-covid-19-pandemic-through-coaching/",
+          "basis": "Public project summary",
+          "locator": "Summary; preliminary pilot findings"
+        }
+      ],
+      "date_note": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-025",
+      "title": "Implementing a Community School Framework in Rural Schools",
+      "year": null,
+      "status": "Preliminary findings",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://nclrn.unc.edu/home/research/research-area-student-community-well-being/examining-the-community-school-framework-in-rural-areas-of-north-carolina/",
+          "basis": "Public project summary",
+          "locator": "Summary; preliminary pilot findings"
+        }
+      ],
+      "date_note": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-026",
+      "title": "Keeping Students Safe in the Digital World: School Monitoring Technologies",
+      "year": null,
+      "status": "Preliminary findings",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://nclrn.unc.edu/home/research/research-area-student-community-well-being/investigating-digital-monitoring-technologies-used-by-k-12-schools-during-the-pandemic/",
+          "basis": "Public project summary",
+          "locator": "Summary; preliminary pilot findings"
+        }
+      ],
+      "date_note": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-027",
+      "title": "A Study of Cost Adequacy, Distribution, and Alignment of Funding for North Carolina’s K–12 Public Education System",
+      "year": 2019,
+      "status": "Policy analysis",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://www.wested.org/resource/cost-adequacy-distribution-and-alignment-of-funding-for-north-carolinas-k-12-public-education-system/",
+          "basis": "Publisher summary",
+          "locator": "Study scope; recommendations"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-028",
+      "title": "The Growing Segmentation of the Charter School Sector in North Carolina",
+      "year": 2017,
+      "status": "Journal article",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://scholars.duke.edu/publication/1072907",
+          "basis": "Institutional publication abstract",
+          "locator": "Abstract; October 2017 publication record"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-029",
+      "title": "Do Teacher Assistants Improve Student Outcomes? Evidence From School Funding Cutbacks in North Carolina",
+      "year": 2021,
+      "status": "Journal article",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://journals.sagepub.com/doi/10.3102/0162373721990361",
+          "basis": "Full article",
+          "locator": "Abstract; NC context; study period"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-030",
+      "title": "Improving Teacher Retention in Pender County Schools Through a Tiered Model of Support",
+      "year": 2025,
+      "status": "Project record",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://education.ecu.edu/2025/09/16/teacher-retention/",
+          "basis": "Dated project update",
+          "locator": "Significant Results & Impact; project period"
+        }
+      ],
+      "date_note": "",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "NC-031",
+      "title": "The COVID-19 Pandemic and Patterns of Postsecondary Enrollment in North Carolina",
+      "year": null,
+      "status": "Project record",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://nclrn.unc.edu/home/research/research-area-higher-education/the-covid-19-pandemic-and-patterns-of-postsecondary-enrollment-in-north-carolina/",
+          "basis": "Public project description",
+          "locator": "Summary; planned deliverables"
+        }
+      ],
+      "date_note": "2022 award; undated project description. Final publication status requires confirmation.",
+      "checked": "2026-10-26"
+    }
+  ]
+}
