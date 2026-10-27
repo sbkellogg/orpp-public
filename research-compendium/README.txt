@@ -1,15 +1,15 @@
 NC Education Research Compendium
 Companion to the NCDPI Research & Policy Priorities directory
 
-Status: working draft for content review, October 26, 2026.
+Status: working collection; latest addition October 27, 2026.
 
 Open index.html or serve the parent orpp-public folder with a local web server.
 The site uses static HTML, CSS, and JavaScript and can run on GitHub Pages.
 There is no build-time package install, account system, remote API, or database.
 
-Initial collection:
-- 31 study/project records: 29 with findings and 2 project-only records.
-- 21 researcher profiles, using public, source-reported affiliations.
+Current collection:
+- 33 study/project records: 31 with findings and 2 project-only records.
+- 34 researcher profiles, using public, source-reported affiliations.
 - Six priorities and all 17 topics from the current agenda.
 - A coverage map for all 62 supporting questions and areas of interest.
 - Search, combined filters, shareable filtered links, and filtered CSV exports.
@@ -45,8 +45,8 @@ The source agenda is ../ncdpi-research-agenda/agenda_data.json. The companion
 imports the existing agenda stylesheet and logo so that the two sites stay
 visually related. Keep the sibling agenda folder available when moving the site.
 
-No public deployment has been made by this build. Publishing on GitHub Pages
-would use the same repository and a new /research-compendium/ path.
+Public site: https://sbkellogg.github.io/orpp-public/research-compendium/
+New local additions require the repository’s normal publication process.
 
 Before treating this as an official NCDPI or NCLRN publication, complete the
 owners' content and accessibility review and applicable agency web process.

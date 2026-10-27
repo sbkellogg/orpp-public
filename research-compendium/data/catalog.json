@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "NC Education Research Compendium",
-    "version": "0.1",
-    "updated": "2026-10-26",
+    "version": "0.2",
+    "updated": "2026-10-27",
     "windowStart": "2016-10-26",
     "windowEnd": "2026-10-26",
     "steward": "North Carolina Learning Research Network",
@@ -1128,6 +1128,112 @@
       "hasFindings": false,
       "dateNote": "2022 award; undated project description. Final publication status requires confirmation.",
       "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2"
+    },
+    {
+      "id": "NC-032",
+      "title": "2026 North Carolina Teacher Working Conditions Survey: Preliminary Statewide Findings and Implications for School, District, and State Leaders",
+      "year": 2026,
+      "status": "Agency report",
+      "authors": "Shaun Kellogg",
+      "publisher": "NCDPI Office of Research and Promising Practices",
+      "researchers": [
+        "shaun-kellogg"
+      ],
+      "questions": [
+        "RA-009",
+        "RA-044",
+        "RA-052"
+      ],
+      "topics": [
+        "Working Conditions",
+        "Educator workforce",
+        "Safety & well-being",
+        "Instructional improvement",
+        "Assessment & accountability"
+      ],
+      "design": "Descriptive survey analysis; exploratory comment topic modeling",
+      "setting": "Statewide licensed school-based educators; 102,640 responses and a 90.5% response rate.",
+      "findings": "Teachers reported strong school commitment, with 84.3% planning to stay at their school. Time, student conduct, and professional support were weaker areas; ratings differed by intended career plans.",
+      "implications": "Use local results and educator feedback to prioritize planning time, leadership, and support needs.",
+      "limitations": "Preliminary, descriptive self-reports do not establish causation or actual retention. Statewide averages mask local variation; charter participation was lower. Comment modeling is exploratory.",
+      "gap": "Do reported conditions and professional plans predict subsequent workforce and student outcomes?",
+      "sources": [
+        {
+          "title": "Report PDF — public EdNC copy",
+          "url": "https://www.ednc.org/wp-content/uploads/2026/05/2026-NC-TWC-Report-FINAL_469800a42mnvvjd0z03zslnoypfjpg.pdf",
+          "basis": "Report text, findings, and methods",
+          "locator": "Printed pp. 2–6, 9–10, 20–25; Table 1; Appendix A"
+        },
+        {
+          "title": "Board-hosted report — author-provided link",
+          "url": "https://simbli.eboardsolutions.com/meetings/TempFolder/Meetings/2026%20NC%20TWC%20Report%20-%20FINAL_469800m1nr43x4dzwl0e1ylovpis5g.pdf",
+          "basis": "Author-provided board-hosted report link",
+          "locator": "Original source link"
+        }
+      ],
+      "checked": "2026-10-27",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "versionNote": "May 2026 report; its findings are explicitly preliminary. This summary uses the EdNC-hosted copy; the author-provided board link is also listed below.",
+      "authorshipNote": "Individual authorship supplied by Shaun Kellogg; the report identifies the Office of Research and Promising Practices as the issuing office."
+    },
+    {
+      "id": "NC-033",
+      "title": "The Selection and Evaluation of Advanced Teachers: Summative Report",
+      "year": 2026,
+      "status": "Research report",
+      "authors": "Sarah Bausell; James Birkett; Duncan Culbreth; Brayan Diaz; Shaun Kellogg; Emily Thrasher; Robin Anderson; Lam Pham; Tamara Young; Kari Colley; Sarah Dyson; Caitlin Kearney; Liv Rau; Matthew G. Springer; David Stuit",
+      "researchers": [
+        "sarah-bausell",
+        "james-birkett",
+        "duncan-culbreth",
+        "brayan-diaz",
+        "shaun-kellogg",
+        "emily-thrasher",
+        "robin-anderson",
+        "lam-pham",
+        "tamara-young",
+        "kari-colley",
+        "sarah-dyson",
+        "caitlin-kearney",
+        "liv-rau",
+        "matthew-springer",
+        "david-stuit"
+      ],
+      "questions": [
+        "RA-010",
+        "RA-011",
+        "RA-057"
+      ],
+      "topics": [
+        "Educator workforce",
+        "Working Conditions",
+        "Instructional improvement"
+      ],
+      "design": "Mixed-methods measurement study; interviews, document review, regression, predictive modeling, and rubric development",
+      "setting": "North Carolina ATR programs; 103 stakeholder interviews, 47 program documents, and 106 leader questionnaires, with administrative analyses using 2023–24 outcomes.",
+      "findings": "Districts used varied, multistage selection processes; evaluation practices were less developed and often missed teacher-leadership responsibilities. No single selection measure consistently predicted both student achievement and supported-teacher retention. The study developed the Adult Leadership Teacher Evaluation Rubric (ALTER).",
+      "implications": "Align selection and evaluation with actual leadership duties, include supported-teacher feedback, and pilot ALTER before wider use. Interpret predictive measures alongside local context and professional judgment.",
+      "limitations": "The predictive analyses use a single-year, nonrepresentative sample with missing data and no independent external validation; associations are not causal effects. ALTER has stakeholder and content review, but its reliability and outcome-related validity still require pilot testing.",
+      "gap": "Does ALTER produce reliable, fair ratings across districts, and do selection measures predict outcomes in new cohorts?",
+      "sources": [
+        {
+          "title": "Full summative report (PDF)",
+          "url": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2026/02/The-Selection-and-Evaluation-of-Advanced-Teachers-11.11.25-2-2.pdf",
+          "basis": "Full report; findings, methods, limitations, and instrument development reviewed",
+          "locator": "Printed pp. 2–5, 12–29, 46–62, 75–83; Appendix L (ALTER)"
+        },
+        {
+          "title": "Project overview and research team",
+          "url": "https://fi.ncsu.edu/projects/the-selection-and-evaluation-of-advanced-teachers/",
+          "basis": "Institutional project page",
+          "locator": "Summative Report; Research Team"
+        }
+      ],
+      "checked": "2026-10-27",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "versionNote": "Reviewed the public PDF posted in February 2026; the title page is undated and the filename includes 11.11.25. This selection-and-measurement study is separate from the annual ATR impact evaluation (NC-016). The studies share program data and should not be counted as independent replications."
     }
   ],
   "researchers": [
@@ -1361,6 +1467,149 @@
       "email": null,
       "checked": "2026-10-26",
       "affiliationNote": "Affiliation listed in the linked public source; confirm current role and availability when making contact."
+    },
+    {
+      "id": "shaun-kellogg",
+      "name": "Shaun Kellogg",
+      "institution": "NCDPI / Office of Research and Promising Practices",
+      "focus": "Teacher working conditions, education research and evaluation, and research–practice connections.",
+      "url": "https://www.dpi.nc.gov/districts-schools/office-research-promising-practices",
+      "linkLabel": "Public office profile & contact",
+      "email": "shaun.kellogg@dpi.nc.gov",
+      "checked": "2026-10-27",
+      "affiliationNote": "Senior Director listed on NCDPI’s public office page; report authorship identified by the author."
+    },
+    {
+      "id": "sarah-bausell",
+      "name": "Sarah Bausell",
+      "institution": "NC State University / Friday Institute",
+      "focus": "Advanced Teaching Roles selection, evaluation, and teacher leadership; coauthor of the summative measurement study.",
+      "url": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2026/02/The-Selection-and-Evaluation-of-Advanced-Teachers-11.11.25-2-2.pdf",
+      "linkLabel": "Report and author affiliation",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation as listed on the summative report title page; confirm current role and availability when making contact."
+    },
+    {
+      "id": "james-birkett",
+      "name": "James Birkett",
+      "institution": "NC State University / Friday Institute",
+      "focus": "Advanced Teaching Roles selection, evaluation, and teacher leadership; coauthor of the summative measurement study.",
+      "url": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2026/02/The-Selection-and-Evaluation-of-Advanced-Teachers-11.11.25-2-2.pdf",
+      "linkLabel": "Report and author affiliation",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation as listed on the summative report title page; confirm current role and availability when making contact."
+    },
+    {
+      "id": "duncan-culbreth",
+      "name": "Duncan Culbreth",
+      "institution": "NC State University / Friday Institute",
+      "focus": "Advanced Teaching Roles selection, evaluation, and teacher leadership; coauthor of the summative measurement study.",
+      "url": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2026/02/The-Selection-and-Evaluation-of-Advanced-Teachers-11.11.25-2-2.pdf",
+      "linkLabel": "Report and author affiliation",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation as listed on the summative report title page; confirm current role and availability when making contact."
+    },
+    {
+      "id": "brayan-diaz",
+      "name": "Brayan Diaz",
+      "institution": "NC State University / Friday Institute",
+      "focus": "Advanced Teaching Roles selection, evaluation, and teacher leadership; coauthor of the summative measurement study.",
+      "url": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2026/02/The-Selection-and-Evaluation-of-Advanced-Teachers-11.11.25-2-2.pdf",
+      "linkLabel": "Report and author affiliation",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation as listed on the summative report title page; confirm current role and availability when making contact."
+    },
+    {
+      "id": "emily-thrasher",
+      "name": "Emily Thrasher",
+      "institution": "NC State University / Friday Institute",
+      "focus": "Advanced Teaching Roles selection, evaluation, and teacher leadership; coauthor of the summative measurement study.",
+      "url": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2026/02/The-Selection-and-Evaluation-of-Advanced-Teachers-11.11.25-2-2.pdf",
+      "linkLabel": "Report and author affiliation",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation as listed on the summative report title page; confirm current role and availability when making contact."
+    },
+    {
+      "id": "robin-anderson",
+      "name": "Robin Anderson",
+      "institution": "NC State University / College of Education",
+      "focus": "Advanced Teaching Roles selection, evaluation, and teacher leadership; coauthor of the summative measurement study.",
+      "url": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2026/02/The-Selection-and-Evaluation-of-Advanced-Teachers-11.11.25-2-2.pdf",
+      "linkLabel": "Report and author affiliation",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation as listed on the summative report title page; confirm current role and availability when making contact."
+    },
+    {
+      "id": "tamara-young",
+      "name": "Tamara Young",
+      "institution": "NC State University / College of Education",
+      "focus": "Advanced Teaching Roles selection, evaluation, and teacher leadership; coauthor of the summative measurement study.",
+      "url": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2026/02/The-Selection-and-Evaluation-of-Advanced-Teachers-11.11.25-2-2.pdf",
+      "linkLabel": "Report and author affiliation",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation as listed on the summative report title page; confirm current role and availability when making contact."
+    },
+    {
+      "id": "kari-colley",
+      "name": "Kari Colley",
+      "institution": "Basis Policy Research",
+      "focus": "Advanced Teaching Roles selection, evaluation, and teacher leadership; coauthor of the summative measurement study.",
+      "url": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2026/02/The-Selection-and-Evaluation-of-Advanced-Teachers-11.11.25-2-2.pdf",
+      "linkLabel": "Report and author affiliation",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation as listed on the summative report title page; confirm current role and availability when making contact."
+    },
+    {
+      "id": "sarah-dyson",
+      "name": "Sarah Dyson",
+      "institution": "Basis Policy Research",
+      "focus": "Advanced Teaching Roles selection, evaluation, and teacher leadership; coauthor of the summative measurement study.",
+      "url": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2026/02/The-Selection-and-Evaluation-of-Advanced-Teachers-11.11.25-2-2.pdf",
+      "linkLabel": "Report and author affiliation",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation as listed on the summative report title page; confirm current role and availability when making contact."
+    },
+    {
+      "id": "caitlin-kearney",
+      "name": "Caitlin Kearney",
+      "institution": "Basis Policy Research",
+      "focus": "Advanced Teaching Roles selection, evaluation, and teacher leadership; coauthor of the summative measurement study.",
+      "url": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2026/02/The-Selection-and-Evaluation-of-Advanced-Teachers-11.11.25-2-2.pdf",
+      "linkLabel": "Report and author affiliation",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation as listed on the summative report title page; confirm current role and availability when making contact."
+    },
+    {
+      "id": "liv-rau",
+      "name": "Liv Rau",
+      "institution": "Basis Policy Research",
+      "focus": "Advanced Teaching Roles selection, evaluation, and teacher leadership; coauthor of the summative measurement study.",
+      "url": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2026/02/The-Selection-and-Evaluation-of-Advanced-Teachers-11.11.25-2-2.pdf",
+      "linkLabel": "Report and author affiliation",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation as listed on the summative report title page; confirm current role and availability when making contact."
+    },
+    {
+      "id": "david-stuit",
+      "name": "David Stuit",
+      "institution": "Basis Policy Research",
+      "focus": "Advanced Teaching Roles selection, evaluation, and teacher leadership; coauthor of the summative measurement study.",
+      "url": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2026/02/The-Selection-and-Evaluation-of-Advanced-Teachers-11.11.25-2-2.pdf",
+      "linkLabel": "Report and author affiliation",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation as listed on the summative report title page; confirm current role and availability when making contact."
     }
   ],
   "syntheses": {
@@ -1425,34 +1674,34 @@
       "checked": "2026-10-26"
     },
     "RA-009": {
-      "headline": "Workplace conditions are connected to retention.",
-      "summary": "An NC survey-and-interview study links organizational conditions to retention; rural project accounts add context. Neither establishes that a specific improvement will cause teachers to stay.",
-      "practice": "Use working-conditions evidence to identify and investigate local priorities.",
-      "gap": "Validate relationships using current measures and outcomes.",
+      "headline": "Working conditions connect to retention and teachers’ plans.",
+      "summary": "Earlier NC research links workplace conditions to observed retention. The 2026 TWC report adds descriptive evidence about intended career plans; rural interviews provide context. These different measures should be interpreted separately.",
+      "practice": "Use survey results with local staffing data and educator feedback to select improvement priorities.",
+      "gap": "Test whether current conditions and reported plans predict subsequent retention.",
       "consistency": "Aligned within indexed evidence",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-010": {
-      "headline": "Support roles can contribute to student outcomes.",
-      "summary": "The teacher-assistant analysis provides NC evidence on one staffing category. It does not establish the effects of every ratio, caseload, credential, or staffing arrangement.",
-      "practice": "Examine responsibilities as well as headcounts.",
-      "gap": "Compare modern staffing models and implementation.",
+      "headline": "Staffing roles and selection measures address different questions.",
+      "summary": "The teacher-assistant study examines a staffing category. The ATR summative report examines teacher selection and measurement: no single selection measure consistently predicted achievement and retention. Its exploratory associations do not establish causal effects of credentials or hiring rules.",
+      "practice": "Examine role responsibilities and use multiple sources of evidence when selecting teacher leaders.",
+      "gap": "Validate selection measures with new cohorts and compare current staffing models.",
       "consistency": "Limited comparison",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-011": {
       "headline": "Professional support shows promise, with uneven outcome evidence.",
-      "summary": "The indexed ATR evaluation and coaching summary address different forms of support. Achievement, retention, and implementation findings vary; a project description without results is also indexed separately.",
-      "practice": "Document how support is delivered and which outcomes it targets.",
-      "gap": "Which coaching and role features explain sustained benefits?",
+      "summary": "The annual ATR evaluation and coaching summary examine support and outcomes. The separate ATR summative study identifies gaps in evaluating teacher leadership and develops ALTER, which still needs pilot testing. These sources offer different evidence; a project description without findings is indexed separately.",
+      "practice": "Document support activities and align evaluation with leadership duties; pilot new instruments before wider use.",
+      "gap": "Which coaching features sustain benefits, and does ALTER produce reliable, fair ratings across settings?",
       "consistency": "Mixed / context-dependent",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-014": {
       "headline": "Effects vary across programs and outcomes.",
@@ -1575,14 +1824,14 @@
       "checked": "2026-10-26"
     },
     "RA-044": {
-      "headline": "Climate evidence spans measured associations and local accounts.",
-      "summary": "Working-conditions research and the community-school pilot provide different views of organizational and relational conditions. Neither establishes a universal climate intervention.",
-      "practice": "Use multiple perspectives when interpreting local climate.",
+      "headline": "Survey findings and local accounts offer different views of climate.",
+      "summary": "Working-conditions research, the 2026 TWC report, and a community-school pilot provide complementary perspectives. Staff perceptions and intentions should be distinguished from measured workforce and student outcomes.",
+      "practice": "Examine local variation and use multiple perspectives when interpreting climate.",
       "gap": "Link student and staff measures to subsequent outcomes.",
       "consistency": "Not assessed",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-045": {
       "headline": "Family engagement evidence in this collection is local and preliminary.",
@@ -1615,14 +1864,14 @@
       "checked": "2026-10-26"
     },
     "RA-052": {
-      "headline": "Useful reporting starts with valid comparisons.",
-      "summary": "The indexed assessment review provides a cross-sector comparability caution. Wider questions about reporting growth, climate, and workforce indicators remain largely unaddressed in this collection.",
-      "practice": "Avoid treating different tests as interchangeable.",
-      "gap": "Develop reporting that preserves relevant differences.",
-      "consistency": "Limited comparison",
+      "headline": "Useful reporting requires clear comparisons and calculation rules.",
+      "summary": "The assessment review addresses cross-sector comparisons. The 2026 TWC report provides a workforce-reporting example, documenting response denominators and aggregation. These sources address distinct reporting needs.",
+      "practice": "Make calculation rules, missing responses, and subgroup coverage visible alongside results.",
+      "gap": "Evaluate which reporting approaches support valid local decisions.",
+      "consistency": "Not assessed",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-055": {
       "headline": "Allocation evidence should connect resources, needs, and outcomes.",
@@ -1646,13 +1895,13 @@
     },
     "RA-057": {
       "headline": "Flexibility is a means whose implementation matters.",
-      "summary": "Restart and ATR findings suggest that outcome patterns depend on the model and conditions. These evaluations do not support a blanket conclusion about operational flexibility.",
-      "practice": "Document staffing and instructional decisions made possible by flexibility.",
-      "gap": "Identify mechanisms and effects across current contexts.",
+      "summary": "Restart and annual ATR evaluation findings vary by model and context. The separate ATR summative study describes variation in teacher-leader selection and evaluation and offers exploratory predictive findings. It does not establish that changing selection rules causes better outcomes.",
+      "practice": "Document staffing decisions and leadership responsibilities, and validate measures before adopting them widely.",
+      "gap": "Test selection and evaluation approaches across new cohorts and implementation contexts.",
       "consistency": "Mixed / context-dependent",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-059": {
       "headline": "Policy tradeoffs include access, resources, and community effects.",

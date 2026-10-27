@@ -71,5 +71,43 @@
     "Affiliations and availability remain source-reported; no researcher confirmation was requested.",
     "All editorial evidence summaries and classifications remain draft."
   ],
-  "deployment": "Local preview only; no public push or deployment."
+  "deployment": "Local preview only; no public push or deployment.",
+  "updates": [
+    {
+      "checked": "2026-10-27",
+      "change": "Added NC-032 Teacher Working Conditions report and Shaun Kellogg researcher profile.",
+      "static_checks": {
+        "html_pages": 143,
+        "internal_references": 4655,
+        "broken_internal_links": 0,
+        "csv_counts_verified": true,
+        "source_dates_verified": true,
+        "whitespace_check": "Passed with CSV CRLF line endings recognized."
+      },
+      "browser_checks": {
+        "author_search_studies": "One match: NC-032",
+        "author_search_researchers": "One match: Shaun Kellogg",
+        "report_page": "Rendered and visually checked; source and question links verified."
+      },
+      "publication": "Local update only; not pushed or published."
+    },
+    {
+      "checked": "2026-10-27",
+      "change": "Added NC-033 ATR selection and evaluation summative report, all 15 coauthor connections, 12 new researcher profiles, and three revised agenda syntheses.",
+      "static_checks": {
+        "html_pages": 156,
+        "internal_references": 5326,
+        "broken_internal_links": 0,
+        "csv_counts_verified": true,
+        "report_authors_verified": 15,
+        "date_basis": "2026 public PDF version; undated title page and older filename disclosed."
+      },
+      "browser_checks": {
+        "report_page": "Rendered and visually checked; screenshot saved.",
+        "keyword_search": "ALTER returns the summative report.",
+        "author_search": "Shaun Kellogg returns both NC-032 and NC-033."
+      },
+      "publication": "Local update only; not pushed or published."
+    }
+  ]
 }

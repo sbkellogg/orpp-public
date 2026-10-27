@@ -592,5 +592,56 @@
       "date_note": "2022 award; undated project description. Final publication status requires confirmation.",
       "checked": "2026-10-26"
     }
+  ],
+  "additions": [
+    {
+      "date": "2026-10-27",
+      "study_id": "NC-032",
+      "requested_by": "Report author",
+      "authorship_basis": "Shaun Kellogg identified himself as the author in the request.",
+      "reviewed_source": "https://www.ednc.org/wp-content/uploads/2026/05/2026-NC-TWC-Report-FINAL_469800a42mnvvjd0z03zslnoypfjpg.pdf",
+      "supplied_source": "https://simbli.eboardsolutions.com/meetings/TempFolder/Meetings/2026%20NC%20TWC%20Report%20-%20FINAL_469800m1nr43x4dzwl0e1ylovpis5g.pdf",
+      "source_note": "The board-hosted request returned an access-block page. The public EdNC copy was read and relevant pages rendered; byte-for-byte equivalence was not verified.",
+      "review_scope": "Executive summary, relevant findings, limitations, Table 1, and Appendix A methods.",
+      "mappings": [
+        "RA-009",
+        "RA-044",
+        "RA-052"
+      ],
+      "researcher_id": "shaun-kellogg",
+      "classification": "Agency report; preliminary descriptive findings; editorial synthesis remains draft."
+    },
+    {
+      "date": "2026-10-27",
+      "study_id": "NC-033",
+      "supplied_source": "https://fi.ncsu.edu/projects/the-selection-and-evaluation-of-advanced-teachers/",
+      "reviewed_source": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2026/02/The-Selection-and-Evaluation-of-Advanced-Teachers-11.11.25-2-2.pdf",
+      "review_scope": "Report title-page authorship; executive summary; methods and limitations; selection, outcome associations, ALTER development and recommendations; relevant pages rendered.",
+      "date_basis": "Undated title page. Public version indexed 2026 from PDF creation/modification metadata and institutional upload path; filename contains 11.11.25.",
+      "mappings": [
+        "RA-010",
+        "RA-011",
+        "RA-057"
+      ],
+      "researcher_ids": [
+        "sarah-bausell",
+        "james-birkett",
+        "duncan-culbreth",
+        "brayan-diaz",
+        "shaun-kellogg",
+        "emily-thrasher",
+        "robin-anderson",
+        "lam-pham",
+        "tamara-young",
+        "kari-colley",
+        "sarah-dyson",
+        "caitlin-kearney",
+        "liv-rau",
+        "matthew-springer",
+        "david-stuit"
+      ],
+      "classification": "Research report; emerging, context-dependent evidence. Predictive associations are not causal; ALTER awaits pilot validation.",
+      "relationship_to_existing_work": "Separate selection-and-measurement study from NC-016 annual ATR impact evaluation; overlapping administrative data are not an independent replication."
+    }
   ]
 }
