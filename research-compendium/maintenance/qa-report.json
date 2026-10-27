@@ -108,6 +108,72 @@
         "author_search": "Shaun Kellogg returns both NC-032 and NC-033."
       },
       "publication": "Local update only; not pushed or published."
+    },
+    {
+      "checked": "2026-10-27",
+      "change": "Program or initiative filter, direct/related connection filter, ten program pages, and program provenance and exports.",
+      "static_checks": {
+        "html_pages": 166,
+        "internal_references": 5682,
+        "broken_internal_links": 0,
+        "programs": 10,
+        "mapped_studies": 11,
+        "program_connections": 13,
+        "program_csv_values_verified": true,
+        "javascript_syntax": "Passed"
+      },
+      "browser_checks": {
+        "ATR": "Two reports, four agenda questions, sixteen researchers.",
+        "CCP": "Two records total; direct-only NC-010 and related-only NC-009.",
+        "Read_to_Achieve": "Related NC-021; direct-only returns an explicit empty state.",
+        "combined_priority": "Priority 1 plus ATR returns zero.",
+        "clear": "Restores all 33 studies and hides connection control.",
+        "reload": "Program selection and Questions view persist in URL.",
+        "layouts": "Desktop and 390px iframe viewport visually checked.",
+        "program_page": "Read to Achieve authority and direct/related evidence sections verified."
+      },
+      "publication": "Local update only; not pushed or published."
+    },
+    {
+      "checked": "2026-10-27",
+      "change": "Deeper program evidence search: ten new records NC-034 through NC-043, published-source updates to NC-009 and NC-010, seventeen new researcher connections, and revised question syntheses.",
+      "static_checks": {
+        "html_pages": 193,
+        "internal_references": 7524,
+        "broken_internal_links": 0,
+        "records": 43,
+        "researchers": 51,
+        "agenda_entries_with_records": 37,
+        "programs": 10,
+        "csv_rows_and_program_connections_verified": true,
+        "whitespace_check": "Passed with CSV CRLF recognized."
+      },
+      "browser_checks": {
+        "all_program_filters": "Counts verified for all ten populated programs.",
+        "Read_to_Achieve": "Three total records; one direct early-policy evaluation and two related LETRS records.",
+        "LETRS": "Two records, including new 2026 journal article.",
+        "ATR": "Three records including amended class-size report.",
+        "CCP": "Five records including new modality, College Transfer, and participation studies.",
+        "new_record": "NC-035 visually reviewed; programs, questions, source, and researcher links rendered."
+      },
+      "source_checks": "Relevant PDF pages rendered and inspected; abstract/executive-summary limitations retained. Study-family/version notes prevent duplicate replication claims.",
+      "publication": "Local update only; not pushed or published."
+    },
+    {
+      "checked": "2026-10-27",
+      "change": "Added separately browsable 2024 ATR annual report as NC-044, linked five existing author profiles, and clarified its evaluation-series relationship to NC-016.",
+      "static_checks": {
+        "html_pages": 194,
+        "internal_references": 7709,
+        "broken_internal_links": 0,
+        "csv_rows_and_program_connections_verified": true,
+        "whitespace_check": "Passed."
+      },
+      "browser_checks": {
+        "ATR_filter": "Four records, including NC-044.",
+        "report_page": "Title, authors, findings, limitations, program connections, and source rendered; screenshot inspected."
+      },
+      "publication": "Local update only; not pushed or published."
     }
   ]
 }

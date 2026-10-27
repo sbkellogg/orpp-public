@@ -1,11 +1,12 @@
 {
-  "studies": 33,
-  "withFindings": 31,
+  "studies": 44,
+  "withFindings": 42,
   "projects": 2,
-  "researchers": 34,
+  "researchers": 51,
   "agendaEntries": 62,
-  "entriesWithRecords": 35,
+  "entriesWithRecords": 37,
   "topics": 17,
+  "programs": 10,
   "priorities": 6,
-  "generatedPages": 156
+  "generatedPages": 194
 }

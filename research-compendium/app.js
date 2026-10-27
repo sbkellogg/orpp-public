@@ -9,8 +9,13 @@
   const studies = new Map(data.studies.map(s => [s.id, s]));
   const researchers = new Map(data.researchers.map(p => [p.id, p]));
   const questions = new Map(data.questions.map(q => [q.id, q]));
+  const programs = new Map(data.programs.map(p => [p.id, p]));
+  const programText = s => (s.programs || []).flatMap(link => {
+    const program = programs.get(link.id);
+    return [program.name, ...program.aliases];
+  });
   const normalize = value => String(value || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase();
-  const studyText = s => [s.id, s.title, s.authors, s.findings, s.implications, s.limitations, s.design, s.setting, ...s.topics, ...s.researchers.map(id => researchers.get(id)?.name || '')].join(' ');
+  const studyText = s => [s.id, s.title, s.authors, s.findings, s.implications, s.limitations, s.design, s.setting, ...s.topics, ...programText(s), ...s.researchers.map(id => researchers.get(id)?.name || '')].join(' ');
   const searchIndexes = {
     questions: new Map(data.questions.map(q => [q.id, normalize([q.id, q.title, q.description, q.synthesis?.summary, ...q.topics, ...q.studyIds.map(id => studyText(studies.get(id)))].join(' '))])),
     studies: new Map(data.studies.map(s => [s.id, normalize(studyText(s))])),
@@ -18,6 +23,20 @@
   };
   let selectedTopics = new Set();
   let visible = [];
+
+  function matchingProgramStudies(record, current) {
+    const ids = current === 'studies' ? [record.id] : record.studyIds;
+    const program = byId('program').value;
+    const connection = byId('connection').value;
+    return ids.filter(id => !program || (studies.get(id).programs || []).some(link => link.id === program && (!connection || link.relationship === connection)));
+  }
+
+  function setConnectionOptions() {
+    const enabled = Boolean(byId('program').value);
+    byId('connectionField').hidden = !enabled;
+    byId('connection').disabled = !enabled;
+    if (!enabled) byId('connection').value = '';
+  }
 
   function view() {
     return isPeople ? 'researchers' : document.querySelector('input[name="view"]:checked').value;
@@ -30,6 +49,7 @@
     byId('status').replaceChildren(new Option(questionView ? 'All coverage' : 'All statuses', ''), ...values.map(v => new Option(v, v)));
     byId('status').value = values.includes(requested) ? requested : '';
     byId('statusLabel').textContent = questionView ? 'Evidence coverage' : 'Publication / project status';
+    byId('questionFilters').hidden = !questionView;
     byId('consistencyField').hidden = !questionView;
     byId('consistency').disabled = !questionView;
     byId('gapsLabel').hidden = !questionView;
@@ -39,6 +59,9 @@
   function readUrl() {
     const p = new URLSearchParams(location.search);
     byId('search').value = p.get('q') || '';
+    byId('program').value = programs.has(p.get('program')) ? p.get('program') : '';
+    byId('connection').value = ['direct', 'related'].includes(p.get('connection')) ? p.get('connection') : '';
+    setConnectionOptions();
     const priority = p.get('priority') || '';
     byId('priority').value = /^[1-6]$/.test(priority) ? priority : '';
     selectedTopics = new Set((p.get('topics') || '').split('|').filter(t => data.topics.includes(t)));
@@ -61,6 +84,8 @@
     if (!isPeople && current === 'questions') p.set('view', 'questions');
     if (byId('search').value.trim()) p.set('q', byId('search').value.trim());
     if (byId('priority').value) p.set('priority', byId('priority').value);
+    if (byId('program').value) p.set('program', byId('program').value);
+    if (byId('program').value && byId('connection').value) p.set('connection', byId('connection').value);
     if (selectedTopics.size) p.set('topics', [...selectedTopics].sort().join('|'));
     if (isPeople) {
       if (byId('institution').value) p.set('institution', byId('institution').value);
@@ -86,6 +111,7 @@
     const consistency = !isPeople && current === 'questions' ? byId('consistency').value : '';
     visible = values.filter(record => {
       if (!terms.every(t => searchIndexes[current].get(record.id).includes(t))) return false;
+      if (byId('program').value && !matchingProgramStudies(record, current).length) return false;
       const priorities = current === 'questions' ? [record.priority] : record.priorities;
       if (priority && !priorities.includes(priority)) return false;
       if (selectedTopics.size && !recordTopics(record, current).some(t => selectedTopics.has(t))) return false;
@@ -124,6 +150,8 @@
     });
     const active = [];
     if (priority) active.push(`Priority ${priority}`);
+    if (byId('program').value) active.push(programs.get(byId('program').value).name);
+    if (byId('connection').value) active.push(byId('connection').value === 'direct' ? 'Direct evidence only' : 'Related evidence only');
     if (selectedTopics.size) active.push([...selectedTopics].join(' or '));
     if (status) active.push(status);
     if (consistency) active.push(consistency);
@@ -132,8 +160,17 @@
     byId('activeSummary').textContent = active.length ? active.join(' · ') : '';
     if (!isPeople) {
       const context = byId('filterContext');
-      context.hidden = !priority;
-      context.textContent = priority ? `Priority ${priority}: ${data.priorities[priority - 1]}. Mappings identify relevance; broad questions may be only partly addressed.` : '';
+      const program = programs.get(byId('program').value);
+      context.hidden = !priority && !program;
+      context.replaceChildren();
+      if (priority) context.append(`Priority ${priority}: ${data.priorities[priority - 1]}. Mappings identify relevance; broad questions may be only partly addressed. `);
+      if (program) {
+        const link = document.createElement('a');
+        link.href = `programs/${program.id}.html`;
+        link.textContent = `About ${program.name} and its evidence connections`;
+        context.append(link);
+        if (current === 'questions') context.append('. Question summaries retain their full scope and may include other programs.');
+      }
     }
     if (updateUrl) writeUrl();
   }
@@ -141,6 +178,8 @@
   function clear() {
     byId('search').value = '';
     byId('priority').value = '';
+    byId('program').value = '';
+    setConnectionOptions();
     selectedTopics.clear();
     if (isPeople) byId('institution').value = '';
     else {
@@ -154,6 +193,8 @@
 
   byId('search').addEventListener('input', () => render());
   byId('priority').addEventListener('change', () => render());
+  byId('program').addEventListener('change', () => { setConnectionOptions(); render(); });
+  byId('connection').addEventListener('change', () => render());
   document.querySelectorAll('[data-topic]').forEach(button => button.addEventListener('click', () => {
     selectedTopics.has(button.dataset.topic) ? selectedTopics.delete(button.dataset.topic) : selectedTopics.add(button.dataset.topic);
     render();
@@ -191,6 +232,13 @@
       headers = ['Researcher ID', 'Name', 'Source-reported institution', 'Focus', 'Public source', 'Public email', 'Related study IDs', 'Affiliation note', 'Source checked'];
       rows = visible.map(p => [p.id, p.name, p.institution, p.focus, p.url, p.email, p.studyIds, p.affiliationNote, p.checked]);
     }
+    headers.push('Program filter', 'Evidence connection filter', 'Matching program study IDs', 'Program connections in linked work');
+    visible.forEach((record, index) => {
+      const ids = matchingProgramStudies(record, current);
+      rows[index].push(programs.get(byId('program').value)?.name || '', byId('connection').value,
+        byId('program').value ? ids : '',
+        ids.flatMap(id => (studies.get(id).programs || []).map(link => `${id}: ${programs.get(link.id).name} (${link.relationship}): ${link.note}`)));
+    });
     const csv = '\uFEFF' + [headers, ...rows].map(row => row.map(csvCell).join(',')).join('\r\n');
     const url = URL.createObjectURL(new Blob([csv], {type: 'text/csv;charset=utf-8'}));
     const link = document.createElement('a');

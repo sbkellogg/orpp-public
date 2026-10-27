@@ -642,6 +642,229 @@
       ],
       "classification": "Research report; emerging, context-dependent evidence. Predictive associations are not causal; ALTER awaits pilot validation.",
       "relationship_to_existing_work": "Separate selection-and-measurement study from NC-016 annual ATR impact evaluation; overlapping administrative data are not an independent replication."
+    },
+    {
+      "date": "2026-10-27",
+      "study_id": "NC-044",
+      "supplied_source": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2024/11/ATR-Evaluation-Report-2024-FINAL.pdf",
+      "reviewed_source": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2024/11/ATR-Evaluation-Report-2024-FINAL.pdf",
+      "review_scope": "Title-page authors; executive summary; school-level methods; evaluation and teacher-level limitations; recommendations. Relevant PDF pages rendered.",
+      "mappings": [
+        "RA-011",
+        "RA-014",
+        "RA-015",
+        "RA-057"
+      ],
+      "relationship_to_existing_work": "Earlier edition in the annual evaluation series represented by NC-016. Added as a separately browsable report at user request; not counted as an independent replication.",
+      "authorship": "Five named authors linked to existing profiles; additional cover-listed contributors remain credited in the original report."
+    }
+  ],
+  "editorial_updates": [
+    {
+      "date": "2026-10-27",
+      "change": "Program and initiative taxonomy introduced with 10 populated program families and 13 connections across 11 records.",
+      "basis": "Existing reviewed study sources plus linked official program, statute, State Board, and NC implementation sources retained in catalog.programs.",
+      "mapping_rules": "Direct evidence examines named program/model, implementation, or participants. Related evidence informs a component or application. Parent mappings are explicit, not inherited. Broad topical similarity is insufficient.",
+      "important_scope_notes": [
+        "NC-021 is direct LETRS evidence and related Read to Achieve evidence.",
+        "NC-009 is direct early-college evidence and related evidence for the later CCP pathway.",
+        "Historic Wake County acceleration studies are not assigned to current statewide automatic-placement policy.",
+        "ESSER III is retained as a federal program implemented in NC; not mapped as Title I."
+      ],
+      "unmapped_records": "No program connection inferred for the other 22 records; broad relevance alone was insufficient."
+    }
+  ],
+  "expansions": [
+    {
+      "date": "2026-10-27",
+      "scope": "Targeted deeper search across the ten populated program and initiative families; NC studies in the established ten-year publication window. Not a systematic review.",
+      "new_study_ids": [
+        "NC-034",
+        "NC-035",
+        "NC-036",
+        "NC-037",
+        "NC-038",
+        "NC-039",
+        "NC-040",
+        "NC-041",
+        "NC-042",
+        "NC-043"
+      ],
+      "updated_study_ids": [
+        "NC-009",
+        "NC-010"
+      ],
+      "program_search_outcomes": {
+        "advanced-teaching-roles": "Added amended 2025 class-size feasibility report. Existing 2026 annual impact and selection studies retained; earlier annual impact reports not counted again.",
+        "read-to-achieve": "Added 2018 early-cohort executive summary; distinguished pre-2021 policy from later literacy reforms.",
+        "letrs": "Added 2026 classroom-observation paper; marked relationship to existing Project READS summary.",
+        "nc-pre-k": "Added 2020 middle-school follow-up of county funding; marked shared data and Smart Start context.",
+        "career-college-promise": "Added delivery-modality, College Transfer outcomes, and participation-barrier studies; upgraded CTE working-paper record to accepted journal source.",
+        "early-colleges": "Added published 2020 article citation and author information to existing lottery-study family. Related later follow-ups logged for further review.",
+        "restart": "Current 2025 journal article already indexed; no additional independent outcome study verified in this search. Administrative summaries and applications not added as impact evidence.",
+        "esser-iii": "Added preliminary CARES coaching findings reported in 2025 NCDPI legislative report. Not a full evaluation of ESSER spending.",
+        "opportunity-scholarship": "Added published 2020 achievement analysis with volunteer-sample, policy-period, and test-comparability limits.",
+        "charter-schools": "Added 2020 behavioral and civic outcomes study using accepted manuscript."
+      },
+      "query_families": [
+        "Program name + NC evaluation/research/report + recent publication years",
+        "Read to Achieve + first-cohort evaluation",
+        "LETRS + Project READS + teacher practice/knowledge",
+        "CCP + College Transfer/CTE + credentials/employment/modality/access",
+        "NC Pre-K + longitudinal middle-school outcomes",
+        "Charter + behavioral outcomes/civic participation",
+        "ESSER + EPIC + CARES coaching",
+        "Restart + EPIC/evaluation",
+        "NCGA agency reports + ATR class size"
+      ],
+      "source_register": [
+        {
+          "study_id": "NC-034",
+          "sources": [
+            {
+              "title": "Research source",
+              "url": "https://fi.ncsu.edu/resource-library/is-read-to-achieve-making-the-grade-an-assessment-of-north-carolinas-elementary-reading-proficiency-initiative/",
+              "basis": "Institutional executive summary",
+              "locator": "Student Outcomes; Reading Camps; Moving Forward"
+            }
+          ],
+          "review_scope": "The institutional executive summary was reviewed, not the full technical report. Findings concern early implementation before the 2021 literacy reforms and do not evaluate LETRS."
+        },
+        {
+          "study_id": "NC-035",
+          "sources": [
+            {
+              "title": "Research source",
+              "url": "https://link.springer.com/article/10.1007/s11145-026-10862-w",
+              "basis": "Full journal article",
+              "locator": "Participants; Observation Sample; Findings; Limitations"
+            }
+          ],
+          "review_scope": "Volunteers and limited lesson samples restrict generalization. There was no pretraining comparison, so the study cannot estimate LETRS effects; the observation tool also needs validation."
+        },
+        {
+          "study_id": "NC-036",
+          "sources": [
+            {
+              "title": "Research source",
+              "url": "https://journals.sagepub.com/doi/10.1177/2332858420912347",
+              "basis": "Full journal article",
+              "locator": "Abstract; Table 5; Discussion"
+            }
+          ],
+          "review_scope": "Nonrandom, nonrepresentative volunteers attended religious private schools. Selection and test familiarity may explain differences; results do not estimate outcomes under today’s expanded eligibility."
+        },
+        {
+          "study_id": "NC-037",
+          "sources": [
+            {
+              "title": "Research source",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10358055/",
+              "basis": "Full author manuscript of published article",
+              "locator": "Abstract; Methods; Results; Limitations"
+            }
+          ],
+          "review_scope": "Observational funding exposure is not individual enrollment or random assignment. Other county changes remain possible explanations; More at Four operated alongside Smart Start."
+        },
+        {
+          "study_id": "NC-038",
+          "sources": [
+            {
+              "title": "Research source",
+              "url": "https://edworkingpapers.com/sites/default/files/ai19-90-v032020.pdf",
+              "basis": "Accepted manuscript of published article",
+              "locator": "Printed pp. 4, 13–18, 32–33"
+            },
+            {
+              "title": "Published article DOI",
+              "url": "https://doi.org/10.1016/j.econedurev.2020.101983",
+              "basis": "Publication identified; accepted manuscript reviewed",
+              "locator": "Economics of Education Review, 76, 101983"
+            }
+          ],
+          "review_scope": "Nonrandom sector choices may leave unmeasured differences. Historical cohorts and linked NC records limit generalization to current schools and people outside the records."
+        },
+        {
+          "study_id": "NC-039",
+          "sources": [
+            {
+              "title": "Research source",
+              "url": "https://edworkingpapers.com/ai26-1523",
+              "basis": "Author abstract",
+              "locator": "July 2026 abstract"
+            }
+          ],
+          "review_scope": "Only the author abstract was reviewed. Comparisons are with nonparticipants, not randomized head-to-head modality assignments; results do not establish the best format for each student."
+        },
+        {
+          "study_id": "NC-040",
+          "sources": [
+            {
+              "title": "Employment and earnings brief",
+              "url": "https://earlycollegeresearch.uncg.edu/wp-content/uploads/2025/07/College-Transfer-Pathway-Employment-and-Earnings-Infographic.pdf",
+              "basis": "Full research infographic",
+              "locator": "Key Findings; outcome table; Important Caveats; sample footnote"
+            },
+            {
+              "title": "Postsecondary outcomes briefs",
+              "url": "https://earlycollegeresearch.uncg.edu/wp-content/uploads/2023/12/College-Transfer_Credential_Infographics_combined112123.pdf",
+              "basis": "Full three-page research infographic series",
+              "locator": "Outcomes; Postsecondary Degree Attainment; study notes"
+            }
+          ],
+          "review_scope": "Briefs give limited technical detail. Nonrandom participation remains a concern. NC unemployment-insurance records omit out-of-state, federal, and self-employment; missing wage records are coded zero."
+        },
+        {
+          "study_id": "NC-041",
+          "sources": [
+            {
+              "title": "Research source",
+              "url": "https://earlycollegeresearch.uncg.edu/wp-content/uploads/2023/09/Why_Students_Participate_CCP_Brief_032923.pdf",
+              "basis": "Full research brief",
+              "locator": "Printed pp. 1–7; methods, findings, implications"
+            }
+          ],
+          "review_scope": "A small purposive qualitative sample explains experiences, not prevalence or causal effects. Interviews reflect 2020 conditions."
+        },
+        {
+          "study_id": "NC-042",
+          "sources": [
+            {
+              "title": "Research source",
+              "url": "https://webservices.ncleg.gov/ViewDocSiteFile/104855",
+              "basis": "Relevant agency report section; underlying full evaluation not reviewed",
+              "locator": "Printed pp. 46–48, CARES pilot"
+            }
+          ],
+          "review_scope": "The report summarizes emerging findings and does not present a full comparison design. Descriptive status changes do not establish coaching effects or effects of ESSER funding overall."
+        },
+        {
+          "study_id": "NC-043",
+          "sources": [
+            {
+              "title": "Research source",
+              "url": "https://webservices.ncleg.gov/ViewDocSiteFile/100766",
+              "basis": "Full amended agency report",
+              "locator": "Printed pp. 2, 5–6; data analysis and next steps"
+            }
+          ],
+          "review_scope": "A very small observational sample and one year of data cannot establish that larger classes are harmless. Recommendations and technology plans are not evidence of implementation or effects."
+        }
+      ],
+      "access_notes": [
+        "RTA older PDF host had an expired certificate. Used current official Friday Institute executive summary without bypassing certificate validation.",
+        "Some publisher pages were restricted; accepted manuscripts and clearly labeled abstracts were used.",
+        "IES intermittently returned maintenance pages; did not infer full findings from unavailable pages.",
+        "NCGA listing linked an Early Literacy entry to a school-mental-health PDF. Verified actual document content and excluded that mismatched file."
+      ],
+      "not_added_or_follow_up": [
+        "Earlier ATR annual impact reports: related evaluation versions.",
+        "NC Pre-K heterogeneity monograph and later working-paper versions: further study-family reconciliation needed before separate inclusion.",
+        "Multi-state ESSER funding study: NC sample applicability and version details need confirmation before indexing.",
+        "Full EPIC CARES summative report: not located in a usable primary source; agency summary explicitly preliminary.",
+        "CCP employment infographics for CTE and CIHS, 2024 early-college spillover paper, and cost-benefit follow-up: additional candidate outputs to reconcile with existing study families.",
+        "Broader statewide initiatives outside the ten populated program filters were not exhaustively searched in this pass."
+      ]
     }
   ]
 }

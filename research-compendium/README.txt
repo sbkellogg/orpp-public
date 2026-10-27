@@ -8,12 +8,13 @@ The site uses static HTML, CSS, and JavaScript and can run on GitHub Pages.
 There is no build-time package install, account system, remote API, or database.
 
 Current collection:
-- 33 study/project records: 31 with findings and 2 project-only records.
-- 34 researcher profiles, using public, source-reported affiliations.
+- 44 study/project records: 42 with findings and 2 project-only records.
+- 51 researcher profiles, using public, source-reported affiliations.
 - Six priorities and all 17 topics from the current agenda.
 - A coverage map for all 62 supporting questions and areas of interest.
 - Search, combined filters, shareable filtered links, and filtered CSV exports.
-- Individual priority, topic, question, study, and researcher pages.
+- Ten program/initiative filters, with direct and related evidence connections.
+- Individual priority, topic, program, question, study, and researcher pages.
 
 The initial collection is intentionally described as a structured starting search,
 not a complete literature review. It includes some abstract-only and preliminary

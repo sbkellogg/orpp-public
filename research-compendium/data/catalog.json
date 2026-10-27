@@ -47,7 +47,8 @@
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
       "hasFindings": true,
-      "versionNote": "Uses the 2025 article rather than the different estimates in the November 2024 working paper."
+      "versionNote": "Uses the 2025 article rather than the different estimates in the November 2024 working paper.",
+      "programs": []
     },
     {
       "id": "NC-002",
@@ -85,7 +86,8 @@
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
       "hasFindings": true,
-      "versionNote": "2025 journal article; earlier version: EdWorkingPaper 23-747."
+      "versionNote": "2025 journal article; earlier version: EdWorkingPaper 23-747.",
+      "programs": []
     },
     {
       "id": "NC-003",
@@ -122,7 +124,8 @@
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
       "hasFindings": true,
-      "versionNote": "First published online February 24, 2025; assigned to a 2026 journal issue."
+      "versionNote": "First published online February 24, 2025; assigned to a 2026 journal issue.",
+      "programs": []
     },
     {
       "id": "NC-004",
@@ -154,7 +157,8 @@
       ],
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
-      "hasFindings": true
+      "hasFindings": true,
+      "programs": []
     },
     {
       "id": "NC-005",
@@ -193,7 +197,8 @@
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
       "hasFindings": true,
-      "versionNote": "Published in Education Finance and Policy 19(2), 252–282 (2024); linked open working paper dates to 2023."
+      "versionNote": "Published in Education Finance and Policy 19(2), 252–282 (2024); linked open working paper dates to 2023.",
+      "programs": []
     },
     {
       "id": "NC-006",
@@ -228,7 +233,8 @@
       ],
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
-      "hasFindings": true
+      "hasFindings": true,
+      "programs": []
     },
     {
       "id": "NC-007",
@@ -259,7 +265,8 @@
       ],
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
-      "hasFindings": true
+      "hasFindings": true,
+      "programs": []
     },
     {
       "id": "NC-008",
@@ -292,16 +299,19 @@
       ],
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
-      "hasFindings": true
+      "hasFindings": true,
+      "programs": []
     },
     {
       "id": "NC-009",
       "title": "What Happens When You Combine High School and College? The Impact of Early Colleges on Postsecondary Performance and Completion",
       "year": 2020,
       "status": "Research report",
-      "authors": "SERVE Center research team",
+      "authors": "Julie A. Edmunds; Fatih Unlu; Jane Furey; Elizabeth Glennie; Nina Arshavsky",
       "researchers": [
-        "julie-edmunds"
+        "julie-edmunds",
+        "fatih-unlu",
+        "nina-arshavsky"
       ],
       "questions": [
         "RA-005",
@@ -323,20 +333,43 @@
           "url": "https://serve.uncg.edu/wp-content/uploads/2020/08/SER20001_PolicyBrief_FINAL.pdf",
           "basis": "Full research brief",
           "locator": "Summary pp. 2–5; study sample and methods"
+        },
+        {
+          "title": "Published journal article",
+          "url": "https://journals.sagepub.com/doi/10.3102/0162373720912249",
+          "basis": "Published abstract and citation; existing policy brief retained",
+          "locator": "Abstract; Educational Evaluation and Policy Analysis 42(2)"
         }
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
       "reviewStatus": "Draft",
-      "hasFindings": true
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "early-colleges",
+          "relationship": "direct",
+          "note": "Examines the early-college model through admission lotteries."
+        },
+        {
+          "id": "career-college-promise",
+          "relationship": "related",
+          "note": "Early colleges are now a CCP pathway; the historical lottery study does not evaluate the full CCP program or its later statewide rules."
+        }
+      ],
+      "versionNote": "The 2020 policy brief and published article (DOI 10.3102/0162373720912249) represent the same lottery-based study family. The brief remains the source for the detailed summary; the journal abstract and citation were verified in this update."
     },
     {
       "id": "NC-010",
       "title": "CTE-Focused Dual Enrollment: Participation and Outcomes",
-      "year": 2022,
-      "status": "Working paper",
-      "authors": "Julie A. Edmunds; Fatih Unlu; Brian Phillips; Bryan C. Hutchins; Christine Mulhern",
+      "year": 2023,
+      "status": "Journal article",
+      "authors": "Julie A. Edmunds; Fatih Unlu; Brian Phillips; Christine Mulhern; Bryan C. Hutchins",
       "researchers": [
-        "julie-edmunds"
+        "julie-edmunds",
+        "fatih-unlu",
+        "brian-phillips",
+        "christine-mulhern",
+        "bryan-hutchins"
       ],
       "questions": [
         "RA-005",
@@ -355,15 +388,35 @@
       "gap": "Which credentials and programs lead to sustained completion and employment?",
       "sources": [
         {
+          "title": "Accepted journal manuscript",
+          "url": "https://earlycollegeresearch.uncg.edu/wp-content/uploads/2024/08/Impact-of-CTE-Dual-Enrollment-Courses__pre-print_8_15_24.pdf",
+          "basis": "Accepted journal manuscript abstract and citation",
+          "locator": "Title page; abstract; accepted October 12, 2023"
+        },
+        {
           "title": "Research source",
           "url": "https://edworkingpapers.com/ai22-692",
           "basis": "Author abstract",
           "locator": "December 2022 abstract"
+        },
+        {
+          "title": "What Works Clearinghouse study review",
+          "url": "https://ies.ed.gov/ncee/WWC/Study/92654",
+          "basis": "External review and citation",
+          "locator": "November 2024 review"
         }
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
       "reviewStatus": "Draft",
-      "hasFindings": true
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "career-college-promise",
+          "relationship": "direct",
+          "note": "Examines participation and outcomes in the CTE dual-enrollment pathway."
+        }
+      ],
+      "versionNote": "Upgraded from the 2022 working paper to the accepted journal version, first cited online in 2023 and assigned to Education Finance and Policy 19(4), 612–633 (2024). DOI 10.1162/edfp_a_00414. These versions are one study family."
     },
     {
       "id": "NC-011",
@@ -401,7 +454,14 @@
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
       "hasFindings": true,
-      "versionNote": "EdWorkingPaper 21-494, revised August 2022."
+      "versionNote": "EdWorkingPaper 21-494, revised August 2022.",
+      "programs": [
+        {
+          "id": "nc-pre-k",
+          "relationship": "direct",
+          "note": "Examines NC Pre-K funding and later student outcomes."
+        }
+      ]
     },
     {
       "id": "NC-012",
@@ -437,7 +497,14 @@
       ],
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
-      "hasFindings": true
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "nc-pre-k",
+          "relationship": "direct",
+          "note": "Examines NC Pre-K participation and kindergarten outcomes."
+        }
+      ]
     },
     {
       "id": "NC-013",
@@ -472,7 +539,8 @@
       ],
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
-      "hasFindings": true
+      "hasFindings": true,
+      "programs": []
     },
     {
       "id": "NC-014",
@@ -507,7 +575,8 @@
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
       "hasFindings": true,
-      "versionNote": "Published June 2017; earlier working paper first circulated in 2015."
+      "versionNote": "Published June 2017; earlier working paper first circulated in 2015.",
+      "programs": []
     },
     {
       "id": "NC-015",
@@ -543,7 +612,8 @@
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
       "hasFindings": true,
-      "versionNote": "2021 brief summarizes a 2019 study; counted as one study family."
+      "versionNote": "2021 brief summarizes a 2019 study; counted as one study family.",
+      "programs": []
     },
     {
       "id": "NC-016",
@@ -579,10 +649,17 @@
           "locator": "Program Impact; Teacher-Level Impacts; Recommendations"
         }
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
       "reviewStatus": "Draft",
       "hasFindings": true,
-      "versionNote": "October 1, 2026 report. Prior annual evaluations are related versions, not independent replications."
+      "versionNote": "October 1, 2026 annual report. The 2024 edition is also indexed as NC-044. These are related reports from the same ongoing evaluation series with overlapping data, not independent replications.",
+      "programs": [
+        {
+          "id": "advanced-teaching-roles",
+          "relationship": "direct",
+          "note": "Evaluates ATR implementation and program outcomes."
+        }
+      ]
     },
     {
       "id": "NC-017",
@@ -615,7 +692,8 @@
       ],
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
-      "hasFindings": true
+      "hasFindings": true,
+      "programs": []
     },
     {
       "id": "NC-018",
@@ -653,7 +731,14 @@
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
       "hasFindings": true,
-      "versionNote": "First online January 2024; June 2025 issue."
+      "versionNote": "First online January 2024; June 2025 issue.",
+      "programs": [
+        {
+          "id": "restart",
+          "relationship": "direct",
+          "note": "Estimates outcomes associated with the NC Restart model."
+        }
+      ]
     },
     {
       "id": "NC-019",
@@ -686,7 +771,14 @@
       ],
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
-      "hasFindings": true
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "esser-iii",
+          "relationship": "direct",
+          "note": "Analyzes NC ESSER III spending plans for PRC 181 and PRC 182."
+        }
+      ]
     },
     {
       "id": "NC-020",
@@ -723,7 +815,14 @@
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
       "hasFindings": true,
-      "versionNote": "Report dated December 2025; hosted on the Collaboratory site in April 2026."
+      "versionNote": "Report dated December 2025; hosted on the Collaboratory site in April 2026.",
+      "programs": [
+        {
+          "id": "opportunity-scholarship",
+          "relationship": "direct",
+          "note": "Reviews student-assessment options for the Opportunity Scholarship Program."
+        }
+      ]
     },
     {
       "id": "NC-021",
@@ -761,7 +860,19 @@
       "reviewStatus": "Draft",
       "hasFindings": true,
       "dateNote": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
-      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2"
+      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2",
+      "programs": [
+        {
+          "id": "letrs",
+          "relationship": "direct",
+          "note": "Examines LETRS professional-learning implementation in NC."
+        },
+        {
+          "id": "read-to-achieve",
+          "relationship": "related",
+          "note": "LETRS supports Read to Achieve implementation; this project summary does not evaluate the entire Read to Achieve policy."
+        }
+      ]
     },
     {
       "id": "NC-022",
@@ -801,7 +912,8 @@
       "reviewStatus": "Draft",
       "hasFindings": true,
       "dateNote": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
-      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2"
+      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2",
+      "programs": []
     },
     {
       "id": "NC-023",
@@ -838,7 +950,8 @@
       "reviewStatus": "Draft",
       "hasFindings": true,
       "dateNote": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
-      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2"
+      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2",
+      "programs": []
     },
     {
       "id": "NC-024",
@@ -874,7 +987,8 @@
       "reviewStatus": "Draft",
       "hasFindings": true,
       "dateNote": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
-      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2"
+      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2",
+      "programs": []
     },
     {
       "id": "NC-025",
@@ -913,7 +1027,8 @@
       "reviewStatus": "Draft",
       "hasFindings": true,
       "dateNote": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
-      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2"
+      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2",
+      "programs": []
     },
     {
       "id": "NC-026",
@@ -949,7 +1064,8 @@
       "reviewStatus": "Draft",
       "hasFindings": true,
       "dateNote": "Undated project summary from the 2022–25 Collaboratory cohort. Publication date and final findings require follow-up.",
-      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2"
+      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2",
+      "programs": []
     },
     {
       "id": "NC-027",
@@ -982,7 +1098,8 @@
       ],
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
-      "hasFindings": true
+      "hasFindings": true,
+      "programs": []
     },
     {
       "id": "NC-028",
@@ -1016,7 +1133,14 @@
       ],
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
-      "hasFindings": true
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "charter-schools",
+          "relationship": "direct",
+          "note": "Examines the NC charter-school sector and student outcomes."
+        }
+      ]
     },
     {
       "id": "NC-029",
@@ -1054,7 +1178,8 @@
       ],
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
-      "hasFindings": true
+      "hasFindings": true,
+      "programs": []
     },
     {
       "id": "NC-030",
@@ -1089,7 +1214,8 @@
       ],
       "checked": "2026-10-26",
       "reviewStatus": "Draft",
-      "hasFindings": false
+      "hasFindings": false,
+      "programs": []
     },
     {
       "id": "NC-031",
@@ -1127,7 +1253,8 @@
       "reviewStatus": "Draft",
       "hasFindings": false,
       "dateNote": "2022 award; undated project description. Final publication status requires confirmation.",
-      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2"
+      "cohortSource": "https://content.govdelivery.com/accounts/NCSBE/bulletins/33216f2",
+      "programs": []
     },
     {
       "id": "NC-032",
@@ -1175,7 +1302,8 @@
       "reviewStatus": "Draft",
       "hasFindings": true,
       "versionNote": "May 2026 report; its findings are explicitly preliminary. This summary uses the EdNC-hosted copy; the author-provided board link is also listed below.",
-      "authorshipNote": "Individual authorship supplied by Shaun Kellogg; the report identifies the Office of Research and Promising Practices as the issuing office."
+      "authorshipNote": "Individual authorship supplied by Shaun Kellogg; the report identifies the Office of Research and Promising Practices as the issuing office.",
+      "programs": []
     },
     {
       "id": "NC-033",
@@ -1233,7 +1361,544 @@
       "checked": "2026-10-27",
       "reviewStatus": "Draft",
       "hasFindings": true,
-      "versionNote": "Reviewed the public PDF posted in February 2026; the title page is undated and the filename includes 11.11.25. This selection-and-measurement study is separate from the annual ATR impact evaluation (NC-016). The studies share program data and should not be counted as independent replications."
+      "versionNote": "Reviewed the public PDF posted in February 2026; the title page is undated and the filename includes 11.11.25. This selection-and-measurement study is separate from the annual ATR impact evaluation (NC-016). The studies share program data and should not be counted as independent replications.",
+      "programs": [
+        {
+          "id": "advanced-teaching-roles",
+          "relationship": "direct",
+          "note": "Examines selection and evaluation of Advanced Teachers, including ALTER development."
+        }
+      ]
+    },
+    {
+      "id": "NC-034",
+      "title": "Is Read to Achieve Making the Grade? An Assessment of North Carolina’s Elementary Reading Proficiency Initiative",
+      "year": 2018,
+      "status": "Evaluation report",
+      "authors": "Stephen R. Porter; D. T. Stallings; Sara Tova Pilzer Weiss (listed authors and contributors)",
+      "researchers": [
+        "stephen-porter",
+        "trip-stallings",
+        "sara-weiss"
+      ],
+      "questions": [
+        "RA-014",
+        "RA-015",
+        "RA-016"
+      ],
+      "topics": [
+        "Literacy",
+        "Instructional improvement"
+      ],
+      "design": "Statewide comparison of initial implementation cohorts",
+      "setting": "Traditional NC public-school students first identified in 2013–14 and 2014–15; reading outcomes one and two years later.",
+      "findings": "The executive summary reports no statistically detectable reading-score advantage for the first two cohorts, including retained students and reading-camp participants. Implementation varied across districts.",
+      "implications": "Study local delivery and earlier literacy supports when interpreting the historical results.",
+      "limitations": "The institutional executive summary was reviewed, not the full technical report. Findings concern early implementation before the 2021 literacy reforms and do not evaluate LETRS.",
+      "gap": "How have outcomes changed under subsequent literacy reforms?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://fi.ncsu.edu/resource-library/is-read-to-achieve-making-the-grade-an-assessment-of-north-carolinas-elementary-reading-proficiency-initiative/",
+          "basis": "Institutional executive summary",
+          "locator": "Student Outcomes; Reading Camps; Moving Forward"
+        }
+      ],
+      "checked": "2026-10-27",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "read-to-achieve",
+          "relationship": "direct",
+          "note": "Evaluates the first cohorts under the original Read to Achieve policy."
+        }
+      ],
+      "versionNote": "2018 evaluation of early program cohorts. The older PDF host could not be retrieved securely; the Friday Institute executive summary supplies the reviewed evidence."
+    },
+    {
+      "id": "NC-035",
+      "title": "Examining the Small-Group Reading Instruction of K–5 Teachers Who Completed Science of Reading-Aligned Professional Development",
+      "year": 2026,
+      "status": "Journal article",
+      "authors": "Alicia A. Stewart; Paola Pilonieta; Erin K. Washburn; Brittany S. Hart",
+      "researchers": [
+        "alicia-stewart",
+        "paola-pilonieta",
+        "erin-washburn",
+        "brittany-hart"
+      ],
+      "questions": [
+        "RA-011",
+        "RA-015"
+      ],
+      "topics": [
+        "Literacy",
+        "Instructional improvement",
+        "Educator workforce"
+      ],
+      "design": "Descriptive classroom-video observation",
+      "setting": "47 volunteer teachers from 33 NC districts; 83 K–5 lesson videos after LETRS completion.",
+      "findings": "Lessons included explicit instruction and modeling, alongside continued practices inconsistent with reading research. Observed differences by grade and reading level were not statistically significant.",
+      "implications": "Pair professional learning with observation, feedback, and support for classroom application.",
+      "limitations": "Volunteers and limited lesson samples restrict generalization. There was no pretraining comparison, so the study cannot estimate LETRS effects; the observation tool also needs validation.",
+      "gap": "Which implementation supports improve instruction and student reading?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://link.springer.com/article/10.1007/s11145-026-10862-w",
+          "basis": "Full journal article",
+          "locator": "Participants; Observation Sample; Findings; Limitations"
+        }
+      ],
+      "checked": "2026-10-27",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "letrs",
+          "relationship": "direct",
+          "note": "Observes instruction among NC teachers who completed LETRS."
+        },
+        {
+          "id": "read-to-achieve",
+          "relationship": "related",
+          "note": "Examines a training component of literacy reform, not the whole Read to Achieve policy."
+        }
+      ],
+      "versionNote": "Part of Project READS NC, also represented by NC-021. These are connected outputs from one research program, not independent replications. Published June 8, 2026."
+    },
+    {
+      "id": "NC-036",
+      "title": "An Analysis of the Effects of North Carolina’s Opportunity Scholarship Program on Student Achievement",
+      "year": 2020,
+      "status": "Journal article",
+      "authors": "Anna J. Egalite; D. T. Stallings; Stephen R. Porter",
+      "researchers": [
+        "anna-egalite",
+        "trip-stallings",
+        "stephen-porter"
+      ],
+      "questions": [
+        "RA-006",
+        "RA-014",
+        "RA-048",
+        "RA-056"
+      ],
+      "topics": [
+        "School choice & charter",
+        "Assessment & accountability"
+      ],
+      "design": "Quasi-experimental comparison with propensity weighting",
+      "setting": "Volunteer public- and private-school students tested in 2017; preferred new-recipient analysis used 245 students.",
+      "findings": "New scholarship recipients had positive mathematics and language estimates, but no detectable reading effect. Positive estimates were concentrated in private schools using the same test family.",
+      "implications": "Check sample coverage and test comparability before applying estimates to statewide policy.",
+      "limitations": "Nonrandom, nonrepresentative volunteers attended religious private schools. Selection and test familiarity may explain differences; results do not estimate outcomes under today’s expanded eligibility.",
+      "gap": "What do representative, comparable assessments show for current participants?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://journals.sagepub.com/doi/10.1177/2332858420912347",
+          "basis": "Full journal article",
+          "locator": "Abstract; Table 5; Discussion"
+        }
+      ],
+      "checked": "2026-10-27",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "opportunity-scholarship",
+          "relationship": "direct",
+          "note": "Estimates achievement differences for early scholarship recipients."
+        }
+      ],
+      "versionNote": "Published March 2020; earlier 2018 evaluation reports are related outputs, not additional independent studies."
+    },
+    {
+      "id": "NC-037",
+      "title": "Long-Term Effects of Early Childhood Programs Through Eighth Grade: Do the Effects Fade Out or Grow?",
+      "year": 2020,
+      "status": "Journal article",
+      "authors": "Yu Bai; Helen F. Ladd; Clara G. Muschkin; Kenneth A. Dodge",
+      "researchers": [
+        "yu-bai",
+        "helen-ladd",
+        "clara-muschkin",
+        "kenneth-dodge"
+      ],
+      "questions": [
+        "RA-002",
+        "RA-014",
+        "RA-016"
+      ],
+      "topics": [
+        "Early learning",
+        "Literacy",
+        "Mathematics"
+      ],
+      "design": "County- and cohort-fixed-effects funding analysis",
+      "setting": "Nearly 900,000 NC middle-school students; county-level Smart Start and More at Four funding exposure.",
+      "findings": "Higher funding exposure was associated with better reading and mathematics outcomes and less special-education placement and grade repetition through middle school. More at Four associations were larger for economically disadvantaged students.",
+      "implications": "Consider sustained outcomes and the surrounding early-childhood system when reviewing pre-K investment.",
+      "limitations": "Observational funding exposure is not individual enrollment or random assignment. Other county changes remain possible explanations; More at Four operated alongside Smart Start.",
+      "gap": "Do benefits persist in recent cohorts and later schooling?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10358055/",
+          "basis": "Full author manuscript of published article",
+          "locator": "Abstract; Methods; Results; Limitations"
+        }
+      ],
+      "checked": "2026-10-27",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "nc-pre-k",
+          "relationship": "direct",
+          "note": "Studies More at Four, the predecessor name of NC Pre-K, alongside Smart Start."
+        }
+      ],
+      "versionNote": "Published in 2020; the manuscript was deposited in PMC in 2023. Related NC Pre-K funding analyses can share cohorts and are not independent replications."
+    },
+    {
+      "id": "NC-038",
+      "title": "Social Returns to Private Choice? Effects of Charter Schools on Behavioral Outcomes, Arrests, and Civic Participation",
+      "year": 2020,
+      "status": "Journal article",
+      "authors": "Andrew McEachin; Douglas Lee Lauen; Sarah Crittenden Fuller; Rachel M. Perera",
+      "researchers": [
+        "andrew-mceachin",
+        "douglas-lauen",
+        "sarah-fuller",
+        "rachel-perera"
+      ],
+      "questions": [
+        "RA-006",
+        "RA-041",
+        "RA-042",
+        "RA-056"
+      ],
+      "topics": [
+        "School choice & charter",
+        "Attendance",
+        "Safety & well-being"
+      ],
+      "design": "Observational comparison with inverse-probability weighting",
+      "setting": "NC ninth-grade cohorts entering high school in 2004–05 through 2011–12; linked adult records.",
+      "findings": "Students entering charter schools from traditional public schools had favorable absence, suspension, conviction, and voting estimates. Results were less consistent for students already in the charter sector.",
+      "implications": "Distinguish entry decisions and outcomes beyond test scores when examining school choice.",
+      "limitations": "Nonrandom sector choices may leave unmeasured differences. Historical cohorts and linked NC records limit generalization to current schools and people outside the records.",
+      "gap": "Do patterns persist for recent entrants and different school models?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://edworkingpapers.com/sites/default/files/ai19-90-v032020.pdf",
+          "basis": "Accepted manuscript of published article",
+          "locator": "Printed pp. 4, 13–18, 32–33"
+        },
+        {
+          "title": "Published article DOI",
+          "url": "https://doi.org/10.1016/j.econedurev.2020.101983",
+          "basis": "Publication identified; accepted manuscript reviewed",
+          "locator": "Economics of Education Review, 76, 101983"
+        }
+      ],
+      "checked": "2026-10-27",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "charter-schools",
+          "relationship": "direct",
+          "note": "Examines NC secondary charter-school attendance and later outcomes."
+        }
+      ],
+      "versionNote": "March 2020 accepted manuscript, forthcoming in Economics of Education Review; working-paper and journal versions are one study family."
+    },
+    {
+      "id": "NC-039",
+      "title": "The Role of Course Delivery Modality in Dual Enrollment",
+      "year": 2026,
+      "status": "Working paper",
+      "authors": "Julie A. Edmunds; Brian Phillips; Christine Mulhern; Nina Arshavsky; Bryan C. Hutchins",
+      "researchers": [
+        "julie-edmunds",
+        "brian-phillips",
+        "christine-mulhern",
+        "nina-arshavsky",
+        "bryan-hutchins"
+      ],
+      "questions": [
+        "RA-004",
+        "RA-005",
+        "RA-028",
+        "RA-038"
+      ],
+      "topics": [
+        "Postsecondary & CTE",
+        "Instructional improvement"
+      ],
+      "design": "Propensity-weighted outcomes analysis with qualitative evidence",
+      "setting": "Statewide NC academic and CTE dual enrollment delivered online, on college campuses, or at high-school/other locations.",
+      "findings": "All three delivery groups had favorable postsecondary enrollment and credential estimates versus nonparticipants. Course pass rates differed; online CTE had the lowest pass rates.",
+      "implications": "Consider course completion supports alongside access when selecting delivery formats.",
+      "limitations": "Only the author abstract was reviewed. Comparisons are with nonparticipants, not randomized head-to-head modality assignments; results do not establish the best format for each student.",
+      "gap": "Which delivery supports improve success for students facing access barriers?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://edworkingpapers.com/ai26-1523",
+          "basis": "Author abstract",
+          "locator": "July 2026 abstract"
+        }
+      ],
+      "checked": "2026-10-27",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "career-college-promise",
+          "relationship": "direct",
+          "note": "Examines delivery formats within NC dual enrollment."
+        }
+      ],
+      "versionNote": "EdWorkingPaper 26-1523, July 2026. Shares the CCP evaluation partnership with other indexed pathway studies; it is a distinct delivery analysis, not an independent program replication."
+    },
+    {
+      "id": "NC-040",
+      "title": "Career and College Promise College Transfer Pathway: Postsecondary Attainment and Employment Outcomes",
+      "year": 2025,
+      "status": "Research brief",
+      "authors": "CCP Evaluation Partnership (UNC Greensboro, RAND, and NC agency partners)",
+      "researchers": [
+        "julie-edmunds"
+      ],
+      "questions": [
+        "RA-004",
+        "RA-005",
+        "RA-038",
+        "RA-056"
+      ],
+      "topics": [
+        "Postsecondary & CTE"
+      ],
+      "design": "Statistically adjusted participant–nonparticipant comparisons",
+      "setting": "Postsecondary brief: NC high-school cohorts from 2012–19. Earnings brief: about 232,000 students entering grade 11 in 2012–14.",
+      "findings": "The briefs report favorable college-enrollment and credential outcomes. A later employment brief reports higher recorded annual and cumulative wages for College Transfer participants.",
+      "implications": "Follow both education and employment outcomes when examining pathway benefits.",
+      "limitations": "Briefs give limited technical detail. Nonrandom participation remains a concern. NC unemployment-insurance records omit out-of-state, federal, and self-employment; missing wage records are coded zero.",
+      "gap": "How sensitive are results to unobserved selection and missing employment sectors?",
+      "sources": [
+        {
+          "title": "Employment and earnings brief",
+          "url": "https://earlycollegeresearch.uncg.edu/wp-content/uploads/2025/07/College-Transfer-Pathway-Employment-and-Earnings-Infographic.pdf",
+          "basis": "Full research infographic",
+          "locator": "Key Findings; outcome table; Important Caveats; sample footnote"
+        },
+        {
+          "title": "Postsecondary outcomes briefs",
+          "url": "https://earlycollegeresearch.uncg.edu/wp-content/uploads/2023/12/College-Transfer_Credential_Infographics_combined112123.pdf",
+          "basis": "Full three-page research infographic series",
+          "locator": "Outcomes; Postsecondary Degree Attainment; study notes"
+        }
+      ],
+      "checked": "2026-10-27",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "career-college-promise",
+          "relationship": "direct",
+          "note": "Studies the College Transfer pathway, distinct from the CTE pathway."
+        }
+      ],
+      "versionNote": "Related briefs grouped into one pathway record. Postsecondary briefs posted in 2023; employment brief posted in July 2025. PDFs are undated; 2025 indexes the later public release. Julie Edmunds is linked as the verified evaluation PI, not as a claimed sole author."
+    },
+    {
+      "id": "NC-041",
+      "title": "Why Do Students Participate (or Not) in Dual Enrollment?",
+      "year": 2023,
+      "status": "Research brief",
+      "authors": "Bryan C. Hutchins; Nina Arshavsky; Julie Edmunds; Laura Rosof",
+      "researchers": [
+        "bryan-hutchins",
+        "nina-arshavsky",
+        "julie-edmunds",
+        "laura-rosof"
+      ],
+      "questions": [
+        "RA-004",
+        "RA-015",
+        "RA-038",
+        "RA-056"
+      ],
+      "topics": [
+        "Postsecondary & CTE"
+      ],
+      "design": "Qualitative interviews and student focus groups",
+      "setting": "2020 visits to four NC high schools; 27 staff and 63 students, including eligible nonparticipants.",
+      "findings": "Participants valued savings, challenge, and career exploration. Awareness, advising, remaining costs, transportation, scheduling, and course availability could limit participation.",
+      "implications": "Address practical access barriers alongside tuition and eligibility.",
+      "limitations": "A small purposive qualitative sample explains experiences, not prevalence or causal effects. Interviews reflect 2020 conditions.",
+      "gap": "Which changes remove barriers for eligible nonparticipants?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://earlycollegeresearch.uncg.edu/wp-content/uploads/2023/09/Why_Students_Participate_CCP_Brief_032923.pdf",
+          "basis": "Full research brief",
+          "locator": "Printed pp. 1–7; methods, findings, implications"
+        }
+      ],
+      "checked": "2026-10-27",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "career-college-promise",
+          "relationship": "direct",
+          "note": "Examines participation in College Transfer and CTE dual enrollment."
+        }
+      ],
+      "versionNote": "2023 brief within the CCP evaluation partnership; qualitative findings are distinct from, but connected to, its outcome studies."
+    },
+    {
+      "id": "NC-042",
+      "title": "CARES Intensive Intervention Coaching Pilot: Findings in NCDPI’s 2025 Low-Performing Schools Report",
+      "year": 2025,
+      "status": "Preliminary findings",
+      "authors": "North Carolina Department of Public Instruction; summarizing EPIC evaluation findings",
+      "researchers": [],
+      "questions": [
+        "RA-011",
+        "RA-014",
+        "RA-015",
+        "RA-046"
+      ],
+      "topics": [
+        "Instructional improvement",
+        "Educator workforce"
+      ],
+      "design": "Agency summary of emerging evaluation findings",
+      "setting": "ESSER-funded NC intensive coaching pilot launched in 2021 and concluded in September 2024.",
+      "findings": "Educators reported stronger instructional and leadership routines. School exits from low-performing status were unstable across years and driven largely by growth-status changes.",
+      "implications": "Plan for sustained coaching and examine outcome trajectories beyond a single accountability designation.",
+      "limitations": "The report summarizes emerging findings and does not present a full comparison design. Descriptive status changes do not establish coaching effects or effects of ESSER funding overall.",
+      "gap": "Are gains sustained after intensive coaching ends?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://webservices.ncleg.gov/ViewDocSiteFile/104855",
+          "basis": "Relevant agency report section; underlying full evaluation not reviewed",
+          "locator": "Printed pp. 46–48, CARES pilot"
+        }
+      ],
+      "checked": "2026-10-27",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "esser-iii",
+          "relationship": "direct",
+          "note": "Examines one ESSER-funded intervention, not the effects of all relief spending."
+        }
+      ],
+      "versionNote": "The 2025 report describes findings as preliminary and anticipates fuller results. This is an agency synthesis of an evaluation, not an independent replication. Search follow-up for the full EPIC report remains open."
+    },
+    {
+      "id": "NC-043",
+      "title": "Advanced Teaching Roles Class Size Report",
+      "year": 2025,
+      "status": "Agency report",
+      "authors": "North Carolina Department of Public Instruction",
+      "researchers": [],
+      "questions": [
+        "RA-010",
+        "RA-057",
+        "RA-058"
+      ],
+      "topics": [
+        "Educator workforce",
+        "Working Conditions",
+        "Data systems"
+      ],
+      "design": "Descriptive staffing-data and measurement-feasibility analysis",
+      "setting": "District ATR rosters aligned with NC student-information-system class-size records.",
+      "findings": "The report proposes team-level student-to-teacher ratios that account for leadership release time. A small, one-year Classroom Excellence analysis found no clear class-size relationship with teacher growth scores.",
+      "implications": "Capture team membership and release time when describing staffing arrangements.",
+      "limitations": "A very small observational sample and one year of data cannot establish that larger classes are harmless. Recommendations and technology plans are not evidence of implementation or effects.",
+      "gap": "How do team ratios and coaching time relate to outcomes over multiple years?",
+      "sources": [
+        {
+          "title": "Research source",
+          "url": "https://webservices.ncleg.gov/ViewDocSiteFile/100766",
+          "basis": "Full amended agency report",
+          "locator": "Printed pp. 2, 5–6; data analysis and next steps"
+        }
+      ],
+      "checked": "2026-10-27",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "advanced-teaching-roles",
+          "relationship": "direct",
+          "note": "Examines ATR staffing measurement and class-size flexibility."
+        }
+      ],
+      "versionNote": "Report amended May 16, 2025. Its summaries of earlier annual ATR impacts are reused evidence; the distinct contribution here is class-size measurement and feasibility."
+    },
+    {
+      "id": "NC-044",
+      "title": "2024 Advanced Teaching Roles Annual Evaluation Report",
+      "year": 2024,
+      "status": "Evaluation report",
+      "authors": "Sarah Bausell; Shaun Kellogg; Emily Thrasher; Lam Pham; Tamara Young",
+      "researchers": [
+        "sarah-bausell",
+        "shaun-kellogg",
+        "emily-thrasher",
+        "lam-pham",
+        "tamara-young"
+      ],
+      "questions": [
+        "RA-011",
+        "RA-014",
+        "RA-015",
+        "RA-057"
+      ],
+      "topics": [
+        "Educator workforce",
+        "Working Conditions",
+        "Instructional improvement"
+      ],
+      "design": "Mixed methods; matched staggered difference-in-differences and district case studies",
+      "setting": "NC ATR programs: 2023–24 implementation across 17 PSUs, Wilson and Pitt case studies, and impact analysis through 2022–23.",
+      "findings": "School-level estimates were positive and significant in mathematics, while overall ELA, science, and teacher-turnover differences were not significant. Gains were stronger in earlier implementation cohorts. District case studies identified role clarity and release-time challenges.",
+      "implications": "Clarify responsibilities and protect time for coaching while tracking outcomes over several implementation years.",
+      "limitations": "School comparisons are nonrandomized and average across varied models. Teacher-level results use one year and a small PSU sample and are explicitly non-causal. Voluntary surveys and two district case studies limit generalization.",
+      "gap": "Which coaching arrangements explain sustained gains and variation across districts?",
+      "sources": [
+        {
+          "title": "Full 2024 annual evaluation report (PDF)",
+          "url": "https://fi.ncsu.edu/wp-content/uploads/sites/533/2024/11/ATR-Evaluation-Report-2024-FINAL.pdf",
+          "basis": "Report executive summary, methods, limitations, and recommendations reviewed",
+          "locator": "Printed pp. 4–7, 18–24, 77–79"
+        }
+      ],
+      "checked": "2026-10-27",
+      "reviewStatus": "Draft",
+      "hasFindings": true,
+      "programs": [
+        {
+          "id": "advanced-teaching-roles",
+          "relationship": "direct",
+          "note": "Evaluates ATR implementation and school- and teacher-level outcomes in the 2024 reporting cycle."
+        }
+      ],
+      "versionNote": "November 2024 annual report, added as a separate edition for access to its period-specific findings. It belongs to the same ongoing evaluation series as NC-016 (2026), with overlapping schools and administrative data; these reports are not independent replications."
     }
   ],
   "researchers": [
@@ -1610,18 +2275,205 @@
       "email": null,
       "checked": "2026-10-27",
       "affiliationNote": "Affiliation as listed on the summative report title page; confirm current role and availability when making contact."
+    },
+    {
+      "id": "stephen-porter",
+      "name": "Stephen R. Porter",
+      "institution": "NC State University",
+      "focus": "Read to Achieve and Opportunity Scholarship evaluation.",
+      "url": "https://journals.sagepub.com/doi/10.1177/2332858420912347",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "trip-stallings",
+      "name": "D. T. (Trip) Stallings",
+      "institution": "NC State University",
+      "focus": "Read to Achieve and Opportunity Scholarship evaluation.",
+      "url": "https://journals.sagepub.com/doi/10.1177/2332858420912347",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "sara-weiss",
+      "name": "Sara Tova Pilzer Weiss",
+      "institution": "NC State University / Friday Institute",
+      "focus": "Read to Achieve evaluation; listed report contributor.",
+      "url": "https://fi.ncsu.edu/resource-library/is-read-to-achieve-making-the-grade-an-assessment-of-north-carolinas-elementary-reading-proficiency-initiative/",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "alicia-stewart",
+      "name": "Alicia A. Stewart",
+      "institution": "UNC Charlotte",
+      "focus": "Literacy instruction, professional learning, and classroom observation.",
+      "url": "https://link.springer.com/article/10.1007/s11145-026-10862-w",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "erin-washburn",
+      "name": "Erin K. Washburn",
+      "institution": "UNC Charlotte",
+      "focus": "Literacy instruction and professional learning.",
+      "url": "https://link.springer.com/article/10.1007/s11145-026-10862-w",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "brittany-hart",
+      "name": "Brittany S. Hart",
+      "institution": "UNC Charlotte",
+      "focus": "Literacy instruction and classroom observation.",
+      "url": "https://link.springer.com/article/10.1007/s11145-026-10862-w",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "yu-bai",
+      "name": "Yu Bai",
+      "institution": "Duke University",
+      "focus": "Longitudinal early-childhood program evaluation.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10358055/",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "clara-muschkin",
+      "name": "Clara G. Muschkin",
+      "institution": "Duke University",
+      "focus": "Early-childhood policy and longitudinal education outcomes.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10358055/",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "kenneth-dodge",
+      "name": "Kenneth A. Dodge",
+      "institution": "Duke University",
+      "focus": "Early-childhood development and program evaluation.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10358055/",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "andrew-mceachin",
+      "name": "Andrew McEachin",
+      "institution": "RAND Corporation",
+      "focus": "School choice and student behavioral and later-life outcomes.",
+      "url": "https://edworkingpapers.com/sites/default/files/ai19-90-v032020.pdf",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "rachel-perera",
+      "name": "Rachel M. Perera",
+      "institution": "RAND Corporation",
+      "focus": "School choice and student behavioral and civic outcomes.",
+      "url": "https://edworkingpapers.com/sites/default/files/ai19-90-v032020.pdf",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "brian-phillips",
+      "name": "Brian Phillips",
+      "institution": "RAND Corporation",
+      "focus": "Dual-enrollment participation, delivery, and outcomes.",
+      "url": "https://earlycollegeresearch.uncg.edu/wp-content/uploads/2024/08/Impact-of-CTE-Dual-Enrollment-Courses__pre-print_8_15_24.pdf",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "christine-mulhern",
+      "name": "Christine Mulhern",
+      "institution": "RAND Corporation",
+      "focus": "Dual enrollment and postsecondary pathways.",
+      "url": "https://earlycollegeresearch.uncg.edu/wp-content/uploads/2024/08/Impact-of-CTE-Dual-Enrollment-Courses__pre-print_8_15_24.pdf",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "nina-arshavsky",
+      "name": "Nina Arshavsky",
+      "institution": "UNC Greensboro / Early College Research Center",
+      "focus": "Early colleges and dual-enrollment implementation.",
+      "url": "https://earlycollegeresearch.uncg.edu/wp-content/uploads/2023/09/Why_Students_Participate_CCP_Brief_032923.pdf",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "bryan-hutchins",
+      "name": "Bryan C. Hutchins",
+      "institution": "UNC Greensboro / Early College Research Center",
+      "focus": "Dual-enrollment participation and access.",
+      "url": "https://earlycollegeresearch.uncg.edu/wp-content/uploads/2024/08/Impact-of-CTE-Dual-Enrollment-Courses__pre-print_8_15_24.pdf",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "laura-rosof",
+      "name": "Laura Rosof",
+      "institution": "UNC Greensboro / Early College Research Center",
+      "focus": "Dual-enrollment participation and access; report coauthor.",
+      "url": "https://earlycollegeresearch.uncg.edu/wp-content/uploads/2023/09/Why_Students_Participate_CCP_Brief_032923.pdf",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
+    },
+    {
+      "id": "fatih-unlu",
+      "name": "Fatih Unlu",
+      "institution": "Amazon (article reports prior RAND work)",
+      "focus": "Early-college and dual-enrollment evaluation.",
+      "url": "https://earlycollegeresearch.uncg.edu/wp-content/uploads/2024/08/Impact-of-CTE-Dual-Enrollment-Courses__pre-print_8_15_24.pdf",
+      "linkLabel": "Public research source",
+      "email": null,
+      "checked": "2026-10-27",
+      "affiliationNote": "Affiliation or institutional research connection reported in the linked work; it may be historical. Confirm current role and availability when making contact."
     }
   ],
   "syntheses": {
     "RA-002": {
-      "headline": "Early learning benefits depend on the outcome and later environment.",
-      "summary": "NC pre-K studies examine different exposures and follow-up periods. They support looking beyond a single readiness score; results differ across developmental domains and subsequent school contexts.",
-      "practice": "Connect early-learning and elementary-school information.",
-      "gap": "Current cohorts and transitions need further study.",
+      "headline": "Early-learning findings depend on exposure and later context.",
+      "summary": "NC Pre-K studies use both participant and county-funding designs. The added middle-school follow-up reports sustained favorable funding associations; kindergarten findings remain more conditional. Shared cohorts and funding data limit independence across papers.",
+      "practice": "Track several outcomes and distinguish funding exposure from enrollment.",
+      "gap": "Test recent cohorts and later outcomes.",
       "consistency": "Mixed / context-dependent",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-003": {
       "headline": "Systematic placement can open later mathematics pathways.",
@@ -1634,34 +2486,34 @@
       "checked": "2026-10-26"
     },
     "RA-004": {
-      "headline": "Access and success require attention at several stages.",
-      "summary": "The indexed work separates eligibility, nomination, participation, and persistence. Findings differ between elementary acceleration and CTE dual enrollment.",
-      "practice": "Check who is identified, who enrolls, and who remains engaged.",
-      "gap": "Comparable statewide evidence across advanced-learning pathways is still needed.",
+      "headline": "Eligibility alone does not ensure access.",
+      "summary": "CCP research adds delivery and participation evidence: advising, remaining costs, schedules, and transportation shape opportunities. These qualitative findings complement, rather than establish, effects of changing access rules.",
+      "practice": "Review practical participation barriers as well as eligibility.",
+      "gap": "Which changes reach eligible nonparticipants?",
       "consistency": "Mixed / context-dependent",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-005": {
-      "headline": "Early-college and CTE pathways offer distinct evidence.",
-      "summary": "Early-college lottery evidence supports credential attainment. CTE dual-enrollment work reports favorable associations. These designs and models should not be treated as interchangeable.",
-      "practice": "Match the decision to the pathway and outcome studied.",
-      "gap": "Longer-term completion, workforce outcomes, and recent cohorts require more evidence.",
+      "headline": "Pathway benefits vary by model and outcome.",
+      "summary": "Early-college lottery evidence supports credential attainment. CCP analyses add favorable education and recorded-earnings associations, with selection and employment-data limits. They do not establish that one pathway or delivery format is best.",
+      "practice": "Match decisions to the pathway, population, and outcome studied.",
+      "gap": "Extend follow-up and improve coverage of employment outside NC wage records.",
       "consistency": "Mixed / context-dependent",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-006": {
-      "headline": "Historical sector averages need careful updating.",
-      "summary": "The indexed charter-sector study documents earlier enrollment segmentation and effectiveness. Its older data limit what it can say about current school choices.",
-      "practice": "Interpret sector averages alongside access and school variation.",
-      "gap": "Update outcomes and mobility using recent NC cohorts.",
+      "headline": "School-sector results differ across outcomes and entry decisions.",
+      "summary": "Charter research adds behavioral and civic outcomes for historical ninth-grade entrants. The early Opportunity Scholarship study reports positive estimates with strong volunteer-sample and test-comparability limits. Neither establishes current sector-wide superiority.",
+      "practice": "Examine access, entry decisions, and variation within sectors.",
+      "gap": "Update representative outcomes for current eligibility and school contexts.",
       "consistency": "Limited comparison",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-008": {
       "headline": "Statewide indicators and rural accounts answer different workforce questions.",
@@ -1684,44 +2536,44 @@
       "checked": "2026-10-27"
     },
     "RA-010": {
-      "headline": "Staffing roles and selection measures address different questions.",
-      "summary": "The teacher-assistant study examines a staffing category. The ATR summative report examines teacher selection and measurement: no single selection measure consistently predicted achievement and retention. Its exploratory associations do not establish causal effects of credentials or hiring rules.",
-      "practice": "Examine role responsibilities and use multiple sources of evidence when selecting teacher leaders.",
-      "gap": "Validate selection measures with new cohorts and compare current staffing models.",
+      "headline": "Staffing measures need to reflect team responsibilities.",
+      "summary": "Teacher-assistant and ATR studies address different staffing arrangements. The ATR class-size report proposes team ratios that include release time, but its small one-year analysis cannot establish class-size effects.",
+      "practice": "Record team roles, caseloads, and release time alongside headcounts.",
+      "gap": "Validate staffing measures and examine outcomes across years.",
       "consistency": "Limited comparison",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
       "checked": "2026-10-27"
     },
     "RA-011": {
-      "headline": "Professional support shows promise, with uneven outcome evidence.",
-      "summary": "The annual ATR evaluation and coaching summary examine support and outcomes. The separate ATR summative study identifies gaps in evaluating teacher leadership and develops ALTER, which still needs pilot testing. These sources offer different evidence; a project description without findings is indexed separately.",
-      "practice": "Document support activities and align evaluation with leadership duties; pilot new instruments before wider use.",
-      "gap": "Which coaching features sustain benefits, and does ALTER produce reliable, fair ratings across settings?",
+      "headline": "Professional learning needs support for classroom application.",
+      "summary": "ATR and coaching sources examine different forms of support. New LETRS observations describe instructional strengths and remaining problems after training, without estimating training effects. ALTER still needs pilot validation; CARES findings remain preliminary.",
+      "practice": "Use feedback and observation alongside training and role-based evaluation.",
+      "gap": "Which supports change practice and sustain student and workforce benefits?",
       "consistency": "Mixed / context-dependent",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
       "checked": "2026-10-27"
     },
     "RA-014": {
-      "headline": "Effects vary across programs and outcomes.",
-      "summary": "The initial collection includes evaluations of ATR and Restart. These are separate models with different outcome patterns, not a head-to-head comparison of investment choices.",
-      "practice": "Specify the outcome and local conditions before applying findings.",
-      "gap": "Add comparable cost and implementation evidence.",
+      "headline": "Program results depend on the version and outcome evaluated.",
+      "summary": "The collection now includes early Read to Achieve and Opportunity Scholarship evaluations, early-childhood funding research, and ATR and Restart studies. Their populations, policy periods, and designs differ; agency summaries are not independent impact replications.",
+      "practice": "Match the evidence to the policy version and intended outcome.",
+      "gap": "Add comparable implementation and cost evidence.",
       "consistency": "Mixed / context-dependent",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-015": {
-      "headline": "Implementation evidence helps explain what to examine next.",
-      "summary": "Preliminary LETRS and tutoring records identify delivery and support issues. They should guide questions for local implementation, while stronger outcome evaluation continues.",
-      "practice": "Track time, staffing, participation, and instructional use.",
-      "gap": "Link implementation measures to credible outcome estimates.",
+      "headline": "Implementation studies identify barriers that outcome averages can miss.",
+      "summary": "LETRS observations, CCP interviews, and preliminary coaching reports describe how support and access work in practice. Such evidence helps define improvement questions but does not establish that a proposed change causes better outcomes. ATR annual case studies add district-specific evidence about roles and coaching time.",
+      "practice": "Track participation, instructional use, staffing, and ongoing support.",
+      "gap": "Link implementation measures to credible outcome comparisons.",
       "consistency": "Not assessed",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-016": {
       "headline": "Average results can conceal differences across students and settings.",
@@ -1784,34 +2636,34 @@
       "checked": "2026-10-26"
     },
     "RA-038": {
-      "headline": "Pathway evidence should distinguish school models from course participation.",
-      "summary": "Early colleges and CTE dual enrollment each offer relevant NC evidence, with different designs and student experiences.",
-      "practice": "Consider both access and the supports surrounding coursework.",
-      "gap": "Track credentials and transitions beyond initial enrollment.",
+      "headline": "Pathway models, course delivery, and access barriers are distinct.",
+      "summary": "Early-college and CCP evidence spans credentials, employment, modality, and participation experiences. Related outputs from the same evaluation partnership should not be counted as independent replications.",
+      "practice": "Review the supports surrounding coursework alongside access and completion.",
+      "gap": "Follow recent students across education and employment settings.",
       "consistency": "Mixed / context-dependent",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-041": {
       "headline": "Attendance matters, and its causes and remedies differ.",
-      "summary": "Several NC studies document persistent absence and its relationship to learning. Rural healthcare and community-policy studies examine particular pathways; they do not establish one universal attendance intervention.",
+      "summary": "NC studies document persistent absence, learning associations, and particular healthcare or policy pathways. A historical charter-entry study adds favorable attendance estimates for that choice context; it does not establish a universal attendance intervention.",
       "practice": "Combine longitudinal monitoring with investigation of local barriers.",
       "gap": "Evaluate which supports work for persistent absence in different settings.",
       "consistency": "Aligned within indexed evidence",
       "maturity": "Substantial",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-042": {
       "headline": "Discipline decisions can change without worsening average outcomes.",
-      "summary": "The early-grade reform and statewide disparity studies address different questions about exclusion. One evaluates a local policy; the other examines differences in disciplinary decisions.",
+      "summary": "Early-grade reform and disparity studies address exclusion and fairness. A separate historical charter-entry study adds behavioral outcomes, but does not identify which discipline practices explain its estimates.",
       "practice": "Monitor both outcomes and fairness when reviewing discipline.",
       "gap": "Replication, older grades, and implementation supports need attention.",
-      "consistency": "Aligned within indexed evidence",
+      "consistency": "Mixed / context-dependent",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-043": {
       "headline": "Student-service access can support engagement.",
@@ -1845,23 +2697,23 @@
     },
     "RA-046": {
       "headline": "Recovery needs extend beyond test performance.",
-      "summary": "The indexed attendance and engagement work points to persistent barriers; tutoring offers a preliminary local intervention example. These sources cover selected pandemic-recovery questions.",
+      "summary": "Attendance and engagement studies document persistent barriers; tutoring and preliminary CARES findings add specific intervention examples. Agency-reported coaching findings do not establish the overall effects of pandemic relief.",
       "practice": "Coordinate engagement and instructional responses.",
       "gap": "Evidence on disaster recovery and long-term resilience needs expansion.",
       "consistency": "Mixed / context-dependent",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-048": {
-      "headline": "Assessment selection requires explicit tradeoffs.",
-      "summary": "The Opportunity Scholarship assessment review addresses comparability, burden, and alignment. Its conclusions do not establish the best screening or assessment approach for every NC use.",
-      "practice": "State the intended interpretation before choosing a measure.",
-      "gap": "Evaluate alignment and feasibility for each proposed use.",
+      "headline": "Comparable measurement is central to credible comparisons.",
+      "summary": "The Opportunity Scholarship assessment review is complemented by a historical achievement study whose estimates depend partly on the test family used by participating schools. That study does not identify one universally best assessment.",
+      "practice": "Specify the interpretation and check assessment alignment.",
+      "gap": "How can representative comparisons use feasible, comparable measures?",
       "consistency": "Limited comparison",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-052": {
       "headline": "Useful reporting requires clear comparisons and calculation rules.",
@@ -1885,19 +2737,19 @@
     },
     "RA-056": {
       "headline": "Access policies can shape who enters an opportunity.",
-      "summary": "Indexed mathematics and charter-sector work highlights different entry and participation processes. Findings are specific to the policy and period studied.",
+      "summary": "Mathematics, school-choice, and CCP work address different entry processes. New CCP interviews describe practical access barriers; the historical voucher analysis has a selective sample and does not establish outcomes under current eligibility rules.",
       "practice": "Review eligibility rules alongside enrollment composition.",
       "gap": "Update policy effects using recent cohorts.",
       "consistency": "Mixed / context-dependent",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
-      "checked": "2026-10-26"
+      "checked": "2026-10-27"
     },
     "RA-057": {
-      "headline": "Flexibility is a means whose implementation matters.",
-      "summary": "Restart and annual ATR evaluation findings vary by model and context. The separate ATR summative study describes variation in teacher-leader selection and evaluation and offers exploratory predictive findings. It does not establish that changing selection rules causes better outcomes.",
-      "practice": "Document staffing decisions and leadership responsibilities, and validate measures before adopting them widely.",
-      "gap": "Test selection and evaluation approaches across new cohorts and implementation contexts.",
+      "headline": "Operational flexibility requires clear roles and measurement.",
+      "summary": "ATR and Restart studies address specific models. The separate ATR staffing report explains team ratios and data needs; it does not establish that larger classes are harmless or that a ratio rule improves outcomes.",
+      "practice": "Document staffing decisions, release time, and actual implementation.",
+      "gap": "Test current role and staffing approaches with stronger longitudinal evidence.",
       "consistency": "Mixed / context-dependent",
       "maturity": "Emerging",
       "reviewStatus": "Draft",
@@ -1962,6 +2814,160 @@
       "maturity": "Project only",
       "reviewStatus": "Draft",
       "checked": "2026-10-26"
+    },
+    "RA-028": {
+      "headline": "Delivery formats offer opportunities with different support needs.",
+      "summary": "The NC dual-enrollment modality abstract reports favorable postsecondary outcomes across formats versus nonparticipation, while pass rates differ. It is not a randomized comparison of online and in-person provision.",
+      "practice": "Pair delivery choices with course-success supports.",
+      "gap": "Which supports improve success within each format?",
+      "checked": "2026-10-27",
+      "reviewStatus": "Draft",
+      "maturity": "Emerging",
+      "consistency": "Not assessed"
+    },
+    "RA-058": {
+      "headline": "Staffing rules require usable linked information.",
+      "summary": "The ATR class-size report identifies the need to link teacher leaders, supported teachers, students, and release time for team-level reporting. It offers a feasibility approach, not a tested estimate of reduced burden.",
+      "practice": "Check what can be recorded and maintained before changing reporting rules.",
+      "gap": "How much administrative effort does the new approach require?",
+      "checked": "2026-10-27",
+      "reviewStatus": "Draft",
+      "maturity": "Emerging",
+      "consistency": "Not assessed"
     }
-  }
+  },
+  "programs": [
+    {
+      "id": "advanced-teaching-roles",
+      "name": "Advanced Teaching Roles",
+      "aliases": [
+        "ATR",
+        "Teacher Compensation Models and Advanced Teaching Roles"
+      ],
+      "authorityType": "State legislation",
+      "authorityNote": "State-authorized teacher leadership and compensation program.",
+      "authorityUrl": "https://www.dpi.nc.gov/educators/recruitment-support/advanced-teaching-roles",
+      "parentId": null,
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "read-to-achieve",
+      "name": "Read to Achieve",
+      "aliases": [
+        "RtA",
+        "Excellent Public Schools Act"
+      ],
+      "authorityType": "State legislation",
+      "authorityNote": "North Carolina Read to Achieve Program, Chapter 115C, Article 8, Part 1A.",
+      "authorityUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByChapter/Chapter_115C.html",
+      "parentId": null,
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "letrs",
+      "name": "LETRS",
+      "aliases": [
+        "Language Essentials for Teachers of Reading and Spelling"
+      ],
+      "authorityType": "State-supported implementation",
+      "authorityNote": "Statewide literacy professional learning connected to Read to Achieve implementation; DPI documents legislative support for the training.",
+      "authorityUrl": "https://www.dpi.nc.gov/media/12497/download?attachment=",
+      "parentId": "read-to-achieve",
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "nc-pre-k",
+      "name": "NC Pre-K",
+      "aliases": [
+        "North Carolina Prekindergarten",
+        "More at Four"
+      ],
+      "authorityType": "State legislation",
+      "authorityNote": "State prekindergarten program governed by session laws and DHHS program requirements.",
+      "authorityUrl": "https://ncchildcare.ncdhhs.gov/Portals/0/documents/pdf/2/2023-2024_NC_Pre-K_Program_Requirements_and_Guidance-FINAL-July_2023-4.pdf?ver=YUjHzMdcZjj_SGADg2xHGA%3D%3D",
+      "parentId": null,
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "career-college-promise",
+      "name": "Career and College Promise",
+      "aliases": [
+        "CCP",
+        "CTE dual enrollment"
+      ],
+      "authorityType": "State legislation / State Board policy",
+      "authorityNote": "State dual-enrollment program; State Board policy and higher-education partners govern its pathways.",
+      "authorityUrl": "https://www.dpi.nc.gov/documents/advancedlearning/cihs/ccp-course-code-guidance-0/open",
+      "parentId": null,
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "early-colleges",
+      "name": "Early colleges / Cooperative Innovative High Schools",
+      "aliases": [
+        "CIHS",
+        "Cooperative Innovative High Schools",
+        "early college"
+      ],
+      "authorityType": "State legislation",
+      "authorityNote": "Cooperative Innovative High Schools are authorized under G.S. 115C-238.50 and following; the model is also a Career and College Promise pathway.",
+      "authorityUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByChapter/Chapter_115C.html",
+      "parentId": "career-college-promise",
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "restart",
+      "name": "Restart",
+      "aliases": [
+        "Restart schools",
+        "Flexible School Restart Program"
+      ],
+      "authorityType": "State legislation / State Board policy",
+      "authorityNote": "School reform model under G.S. 115C-105.37B and State Board policy DSTR-040.",
+      "authorityUrl": "https://www.dpi.nc.gov/districts-schools/districts-schools-support/office-school-improvement/school-reform-models/restart-schools",
+      "parentId": null,
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "esser-iii",
+      "name": "ESSER III / ARP ESSER",
+      "aliases": [
+        "Elementary and Secondary School Emergency Relief",
+        "PRC 181",
+        "PRC 182",
+        "American Rescue Plan"
+      ],
+      "authorityType": "Federal legislation / NC implementation",
+      "authorityNote": "Federal pandemic-relief funding implemented through NC allocations and spending plans.",
+      "authorityUrl": "https://www.dpi.nc.gov/documents/program-monitoring/arp-esser-state-plan8312021/download?attachment=",
+      "parentId": null,
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "opportunity-scholarship",
+      "name": "Opportunity Scholarship",
+      "aliases": [
+        "Opportunity Scholarships",
+        "Opportunity Scholarship Program"
+      ],
+      "authorityType": "State legislation",
+      "authorityNote": "Scholarship program governed by G.S. 115C-562.1 and following; NCSEAA maintains program statutes and rules.",
+      "authorityUrl": "https://www.ncseaa.edu/psr/k12-programs/",
+      "parentId": null,
+      "checked": "2026-10-27"
+    },
+    {
+      "id": "charter-schools",
+      "name": "Charter schools",
+      "aliases": [
+        "NC charter schools",
+        "charter school sector"
+      ],
+      "authorityType": "State legislation",
+      "authorityNote": "Public-school governance model authorized under Chapter 115C, Article 14A.",
+      "authorityUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByChapter/Chapter_115C.html",
+      "parentId": null,
+      "checked": "2026-10-27"
+    }
+  ]
 }

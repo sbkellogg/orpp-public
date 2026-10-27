@@ -89,3 +89,23 @@ Suggested ongoing cadence (not scheduled):
 - Recheck all public links and researcher affiliations at least annually.
 - Expand coverage using maintenance/backlog.csv and record the search outcome.
 - Keep a dated editorial record when a synthesis or classification changes.
+
+7. Maintain program and initiative connections
+
+The programs array in data/catalog.json holds stable IDs, display names, search
+aliases, authority type/note/source URL, optional parentId, and checked date.
+Include named programs, school models, and statewide initiatives with relevant
+indexed work; a legislative or State Board basis is recorded, not required.
+Keep parent/component names distinct. Add only programs with a mapped record.
+
+Each study has programs: [{"id": "program-id", "relationship": "direct" or
+"related", "note": "Why this study informs the program"}]. Direct evidence
+examines the named program/model, implementation, or participants; related
+evidence informs a component or application. Neither label rates quality or
+causality. Broad topic similarity is not enough. Do not automatically copy a
+component's direct mapping to its parent (for example LETRS / Read to Achieve).
+
+The build validates connections and generates program pages and CSV connection
+notes. Search includes program names and aliases. Program and connection filters
+work in Studies, Questions, and Researchers; question summaries keep their full
+scope. Filtered exports include matching study IDs so that scope is explicit.

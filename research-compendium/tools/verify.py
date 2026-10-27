@@ -51,7 +51,15 @@ for name, count in [('studies.csv',len(catalog['studies'])),('researchers.csv',l
     with (ROOT/'data'/name).open(encoding='utf-8-sig',newline='') as f:
         rows=list(csv.DictReader(f))
     assert len(rows)==count, f'Incorrect CSV row count: {name}'
+    if name == 'studies.csv':
+        by_id = {row['Study ID']: row for row in rows}
+        programs = {p['id']: p for p in catalog.get('programs', [])}
+        for study in catalog['studies']:
+            expected = '; '.join(f'{programs[p["id"]]["name"]} ({p["relationship"]}): {p["note"]}' for p in study.get('programs', []))
+            assert by_id[study['id']]['Program connections'] == expected, f'CSV program mismatch: {study["id"]}'
 assert summary['withFindings']==sum(s['hasFindings'] for s in catalog['studies'])
 assert summary['projects']==sum(not s['hasFindings'] for s in catalog['studies'])
 assert all((ROOT/f'studies/{s["id"]}.html').exists() for s in catalog['studies'])
+assert summary['programs'] == len(catalog.get('programs', []))
+assert all((ROOT/f'programs/{p["id"]}.html').exists() for p in catalog.get('programs', []))
 print(json.dumps({'htmlPagesChecked':len(pages),'internalReferencesChecked':checked,'missingLinks':0,'csvRowsVerified':True,'statuses':dict(Counter(s['status'] for s in catalog['studies']))},indent=2))

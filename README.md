@@ -24,7 +24,7 @@ Public repository for charts, data, reports, and web tools from the NCDPI Office
 | Folder | Description |
 |---|---|
 | [ncdpi-research-agenda](ncdpi-research-agenda/) | NCDPI research and policy priorities directory: searchable agenda, office directory, agenda development background, structured source data, and a crosswalk for editing in Excel |
-| [research-compendium](research-compendium/) | Draft NC Education Research Compendium: question syntheses, study records, researcher directory, coverage map, and filtered CSV exports. Companion to the research agenda; marked as a working draft pending content and accessibility review |
+| [research-compendium](research-compendium/) | NC Education Research Compendium (working collection; [live site](https://sbkellogg.github.io/orpp-public/research-compendium/)): 44 study and project records, 51 researcher profiles, 10 program and initiative filters, a coverage map for all 62 agenda questions, and filtered CSV exports. Companion to the research agenda; pending owner content and accessibility review |
 
 ## Using the outputs
 

@@ -48,7 +48,15 @@ a{color:#075a80;text-underline-offset:3px}
 .filter-grid{grid-template-columns:minmax(250px,1.8fr) minmax(190px,1.2fr) minmax(160px,.9fr);gap:16px}
 .field input,.field select{font-size:13px;line-height:1.4;min-height:44px}
 .field label{font-size:11px}
-.secondary-filters{display:flex;align-items:end;gap:22px;margin-top:18px}
+.secondary-filters{display:flex;align-items:end;gap:22px;margin-top:18px;flex-wrap:wrap}
+.program-filters .field{max-width:440px}
+.program-tags{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:12px}
+.program-tags:empty{display:none}
+.program-tag{font-size:11px;font-weight:650;color:#006779}
+.program-tag span{font-weight:400}
+.program-connections{padding-left:20px}
+.program-connections li{margin-bottom:18px}
+.program-connections p{margin-top:7px}
 .secondary-filters .field{max-width:300px;flex:1}
 .checkbox{display:flex;align-items:center;gap:8px;font-size:12px;color:#45617d;padding-bottom:10px;flex:1.3;cursor:pointer}
 .checkbox input{accent-color:#007d86;width:17px;height:17px;flex:none}
