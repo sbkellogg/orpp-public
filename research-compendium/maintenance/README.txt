@@ -107,5 +107,5 @@ component's direct mapping to its parent (for example LETRS / Read to Achieve).
 
 The build validates connections and generates program pages and CSV connection
 notes. Search includes program names and aliases. Program and connection filters
-work in Studies, Questions, and Researchers; question summaries keep their full
+work in Studies, Questions & Findings, and Researchers; question summaries keep their full
 scope. Filtered exports include matching study IDs so that scope is explicit.
