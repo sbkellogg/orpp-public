@@ -3,7 +3,8 @@
     "generated": "October 24, 2026",
     "source": "NCDPI Cross-Office Research Agenda (updated October 2026)",
     "disclaimer": "Office-to-topic associations are suggested for review, not approved assignments or commitments. Leadership names reflect publicly available sources checked October 2026.",
-    "total": 111
+    "total": 112,
+    "updated": "November 10, 2026"
   },
   "topics": [
     "Literacy",
@@ -103,9 +104,10 @@
     },
     "CHARTER": {
       "name": "Office of Charter Schools",
-      "leader": "Ashley Baquero",
+      "leader": "Ashley Logue",
       "role": "Director",
-      "url": "https://www.dpi.nc.gov/students-families/alternative-choices/charter-schools/office-charter-schools-directory"
+      "url": "https://www.dpi.nc.gov/students-families/alternative-choices/charter-schools/office-charter-schools-directory",
+      "email": "ashley.logue@dpi.nc.gov"
     },
     "NUTR": {
       "name": "Office of School Nutrition",
@@ -748,6 +750,65 @@
       ]
     },
     {
+      "id": "RA-112",
+      "priority": 3,
+      "priority_name": "Effectiveness, Implementation, and Return on Investment",
+      "kind": "Supporting Question",
+      "title": "AI adoption and guidance",
+      "description": "How are North Carolina districts and schools adopting generative AI for teaching, learning, and operations (local policies, approved tools, common use cases), how closely do local practices align with NCDPI’s AI Guidelines, and what conditions (leadership, culture, professional learning, infrastructure, funding) distinguish districts with responsible, sustained implementation?",
+      "section": "Section F (AI lead contribution)",
+      "source_paragraph": null,
+      "source_note": "Contributed by Meredith Hill, NCDPI AI lead, October 25, 2026.",
+      "source_reference": "Section F, question 21",
+      "topics": [
+        "AI & technology",
+        "Instructional improvement",
+        "Educator workforce",
+        "School finance"
+      ],
+      "offices": [
+        "DIGITAL",
+        "OTL",
+        "ORPP"
+      ],
+      "links": [
+        {
+          "title": "NCDPI’s AI Guidelines",
+          "url": "https://go.ncdpi.gov/AI_Guidelines"
+        }
+      ]
+    },
+    {
+      "id": "RA-113",
+      "priority": 3,
+      "priority_name": "Effectiveness, Implementation, and Return on Investment",
+      "kind": "Supporting Question",
+      "title": "AI and learning outcomes",
+      "description": "Where AI tools are used for instruction, tutoring, feedback, or teacher planning, what changes are associated with their use in student learning, teacher time and workload, and equity of access? How do these differ by student group (e.g., economically disadvantaged students, multilingual learners, students with disabilities), prior achievement, teacher experience, school type, and community context (rural/urban, home connectivity)?",
+      "section": "Section F (AI lead contribution)",
+      "source_paragraph": null,
+      "source_note": "Contributed by Meredith Hill, NCDPI AI lead, October 25, 2026.",
+      "source_reference": "Section F, question 22",
+      "topics": [
+        "AI & technology",
+        "Instructional improvement",
+        "Working Conditions",
+        "Student supports"
+      ],
+      "offices": [
+        "DIGITAL",
+        "OTL",
+        "ORPP",
+        "EC"
+      ],
+      "links": [
+        {
+          "title": "NCDPI’s AI Guidelines",
+          "url": "https://go.ncdpi.gov/AI_Guidelines"
+        }
+      ]
+    },
+    {
       "id": "RA-021",
       "priority": 3,
       "priority_name": "Effectiveness, Implementation, and Return on Investment",
@@ -791,61 +852,6 @@
         {
           "title": "Federal Programs",
           "url": "https://www.dpi.nc.gov/districts-schools/federal-program-monitoring"
-        }
-      ]
-    },
-    {
-      "id": "RA-023",
-      "priority": 3,
-      "priority_name": "Effectiveness, Implementation, and Return on Investment",
-      "kind": "Area of Interest",
-      "title": "Early Literacy Specialists",
-      "description": "Identify credible measures and feasible evaluation approaches to understand how Early Literacy Specialists contribute to student learning, teacher practice, and school capacity.",
-      "section": "",
-      "source_paragraph": 30,
-      "topics": [
-        "Literacy"
-      ],
-      "offices": [
-        "OEL",
-        "ORPP"
-      ],
-      "links": [
-        {
-          "title": "Office of Early Learning",
-          "url": "https://www.dpi.nc.gov/districts-schools/classroom-resources/office-early-learning-oel"
-        }
-      ]
-    },
-    {
-      "id": "RA-024",
-      "priority": 3,
-      "priority_name": "Effectiveness, Implementation, and Return on Investment",
-      "kind": "Area of Interest",
-      "title": "FINCH kindergarten readiness implementation",
-      "description": "Examine FINCH’s usability and feasibility for Read to Achieve purposes, and how its use could affect kindergarten assessment decisions and growth measurement.",
-      "section": "",
-      "source_paragraph": 31,
-      "topics": [
-        "Early learning",
-        "Instructional improvement"
-      ],
-      "offices": [
-        "OEL",
-        "DATA"
-      ],
-      "links": [
-        {
-          "title": "FINCH assessment overview",
-          "url": "https://teachingstrategies.com/product/game-based-assessment-solution/"
-        },
-        {
-          "title": "NCDPI early learning assessment resources",
-          "url": "https://www.dpi.nc.gov/districts-schools/classroom-resources/office-early-learning/preschool"
-        },
-        {
-          "title": "Office of Early Learning",
-          "url": "https://www.dpi.nc.gov/districts-schools/classroom-resources/office-early-learning-oel"
         }
       ]
     },
@@ -1813,6 +1819,31 @@
         {
           "title": "2026 Appropriations Act",
           "url": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-41.html"
+        }
+      ]
+    },
+    {
+      "id": "RA-114",
+      "priority": 6,
+      "priority_name": "Policy Design, Resource Allocation, and Governance",
+      "kind": "Supporting Question",
+      "title": "Birth-to-5 alignment",
+      "description": "Where are Birth-to-5 laws, program requirements, and standards aligned or misaligned, and what gaps create the most burden for local programs?",
+      "section": "B) Early childhood, early literacy, and Read to Achieve aligned longitudinal pathways",
+      "source_paragraph": null,
+      "source_note": "Retained as an open research question following early learning office feedback.",
+      "source_reference": "Office feedback, question 9",
+      "topics": [
+        "Early learning"
+      ],
+      "offices": [
+        "OEL",
+        "ORPP"
+      ],
+      "links": [
+        {
+          "title": "Office of Early Learning",
+          "url": "https://www.dpi.nc.gov/districts-schools/classroom-resources/office-early-learning-oel"
         }
       ]
     },
